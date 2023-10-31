@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target rviz_click_to_2d[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ubuntu/capstone_ws/devel/.private/localization_data_pub/lib/localization_data_pub/rviz_click_to_2d[0m
+[100%] Built target rviz_click_to_2d

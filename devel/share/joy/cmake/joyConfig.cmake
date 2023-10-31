@@ -1,0 +1,1 @@
+/home/ubuntu/capstone_ws/devel/.private/joy/share/joy/cmake/joyConfig.cmake

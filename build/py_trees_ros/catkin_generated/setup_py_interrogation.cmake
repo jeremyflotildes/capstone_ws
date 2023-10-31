@@ -1,0 +1,7 @@
+set(py_trees_ros_SETUP_PY_SETUP_MODULE "setuptools")
+set(py_trees_ros_SETUP_PY_VERSION "0.6.1")
+set(py_trees_ros_SETUP_PY_SCRIPTS "scripts/py-trees-blackboard-watcher;scripts/py-trees-tree-watcher")
+set(py_trees_ros_SETUP_PY_PACKAGES "py_trees_ros")
+set(py_trees_ros_SETUP_PY_PACKAGE_DIRS "py_trees_ros")
+set(py_trees_ros_SETUP_PY_MODULES "")
+set(py_trees_ros_SETUP_PY_MODULE_DIRS "")

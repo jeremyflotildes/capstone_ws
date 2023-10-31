@@ -1,0 +1,1 @@
+/home/ubuntu/capstone_ws/devel/.private/hector_marker_drawing/lib/pkgconfig/hector_marker_drawing.pc

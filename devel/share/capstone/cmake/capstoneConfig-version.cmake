@@ -1,0 +1,1 @@
+/home/ubuntu/capstone_ws/devel/.private/capstone/share/capstone/cmake/capstoneConfig-version.cmake

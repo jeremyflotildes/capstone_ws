@@ -1,0 +1,7 @@
+Symlinking /home/ubuntu/capstone_ws/devel/share/map_server/cmake/map_serverConfig-version.cmake
+Symlinking /home/ubuntu/capstone_ws/devel/share/map_server/cmake/map_serverConfig.cmake
+Symlinking /home/ubuntu/capstone_ws/devel/lib/libmap_server_image_loader.so
+Symlinking /home/ubuntu/capstone_ws/devel/lib/map_server/rtest
+Symlinking /home/ubuntu/capstone_ws/devel/lib/map_server/map_saver
+Symlinking /home/ubuntu/capstone_ws/devel/lib/map_server/map_server
+Symlinking /home/ubuntu/capstone_ws/devel/lib/pkgconfig/map_server.pc

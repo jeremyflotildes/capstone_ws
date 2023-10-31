@@ -1,0 +1,3 @@
+<launch>
+	<node name="mpu6050" pkg="capstone" type="mpu_6050_node.py" output="screen"/>
+</launch>

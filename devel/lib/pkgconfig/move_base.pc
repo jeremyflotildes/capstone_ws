@@ -1,0 +1,1 @@
+/home/ubuntu/capstone_ws/devel/.private/move_base/lib/pkgconfig/move_base.pc

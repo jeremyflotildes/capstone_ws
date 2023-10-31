@@ -1,0 +1,13 @@
+Symlinking /home/ubuntu/capstone_ws/devel/include/razor_imu_9dof/imuConfig.h
+Symlinking /home/ubuntu/capstone_ws/devel/share/razor_imu_9dof/docs/imuConfig.dox
+Symlinking /home/ubuntu/capstone_ws/devel/share/razor_imu_9dof/docs/imuConfig.wikidoc
+Symlinking /home/ubuntu/capstone_ws/devel/share/razor_imu_9dof/docs/imuConfig-usage.dox
+Symlinking /home/ubuntu/capstone_ws/devel/share/razor_imu_9dof/cmake/razor_imu_9dofConfig.cmake
+Symlinking /home/ubuntu/capstone_ws/devel/share/razor_imu_9dof/cmake/razor_imu_9dofConfig-version.cmake
+Symlinking /home/ubuntu/capstone_ws/devel/share/razor_imu_9dof/nodes/imu_node.py
+Symlinking /home/ubuntu/capstone_ws/devel/share/razor_imu_9dof/nodes/cmake.lock
+Symlinking /home/ubuntu/capstone_ws/devel/share/razor_imu_9dof/nodes/display_3D_visualization.py
+Symlinking /home/ubuntu/capstone_ws/devel/lib/pkgconfig/razor_imu_9dof.pc
+Symlinking /home/ubuntu/capstone_ws/devel/lib/python3/dist-packages/razor_imu_9dof/__init__.py
+Symlinking /home/ubuntu/capstone_ws/devel/lib/python3/dist-packages/razor_imu_9dof/cfg/__init__.py
+Symlinking /home/ubuntu/capstone_ws/devel/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py

@@ -1,0 +1,4 @@
+Symlinking /home/ubuntu/capstone_ws/devel/share/capstone/cmake/capstoneConfig-version.cmake
+Symlinking /home/ubuntu/capstone_ws/devel/share/capstone/cmake/capstoneConfig.cmake
+Symlinking /home/ubuntu/capstone_ws/devel/lib/capstone/joy_to_cmd_vel
+Symlinking /home/ubuntu/capstone_ws/devel/lib/pkgconfig/capstone.pc

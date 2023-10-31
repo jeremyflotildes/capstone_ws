@@ -1,0 +1,6 @@
+Symlinking /home/ubuntu/capstone_ws/devel/share/hector_geotiff/cmake/hector_geotiffConfig-version.cmake
+Symlinking /home/ubuntu/capstone_ws/devel/share/hector_geotiff/cmake/hector_geotiffConfig.cmake
+Symlinking /home/ubuntu/capstone_ws/devel/lib/libgeotiff_writer.so
+Symlinking /home/ubuntu/capstone_ws/devel/lib/hector_geotiff/geotiff_node
+Symlinking /home/ubuntu/capstone_ws/devel/lib/hector_geotiff/geotiff_saver
+Symlinking /home/ubuntu/capstone_ws/devel/lib/pkgconfig/hector_geotiff.pc

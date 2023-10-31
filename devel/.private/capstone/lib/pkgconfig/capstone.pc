@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/capstone_ws/devel/.private/capstone
+
+Name: capstone
+Description: Description of capstone
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
