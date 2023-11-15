@@ -129,7 +129,17 @@ if __name__ == '__main__':
     """
     Entry point for the demo script.
     """
+    
     rospy.init_node("mbf_bt_demo")
+
+    """
+    Wait for Move Base Flex's move_base action (the last to be started) getting available
+    """
+    mb_ac = actionlib.SimpleActionClient("/move_base_flex/move_base", mbf_msgs.MoveBaseAction)
+    available = mb_ac.wait_for_server(rospy.Duration(30))
+    if not available:
+        rospy.logwarn("Move Base Flex not available after 30 seconds")
+
     root = create_root()
     behaviour_tree = py_trees_ros.trees.BehaviourTree(root)
     rospy.on_shutdown(functools.partial(shutdown, behaviour_tree))

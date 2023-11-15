@@ -13,6 +13,20 @@
 	<node pkg="capstone"  type="mc_roboclaw.py" name="motor_controller" />
 
 
+  <!-- Move Base Flex -->
+<node pkg="mbf_costmap_nav" type="mbf_costmap_nav" respawn="false" name="move_base_flex" output="screen">
+    <param name="tf_timeout" value="1.5"/>
+    <param name="planner_max_retries" value="3"/>
+
+   <rosparam file="$(find capstone)/include/move_base_flex.yaml" command="load"/>
+
+    <rosparam file="$(find capstone)/include/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find capstone)/include/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find capstone)/include/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find capstone)/include/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find capstone)/include/base_local_planner_params.yaml" command="load" />
+  </node>
+
 		<!-- Run the LIDAR --> 
 		
 	<node name="rplidarNode" pkg="rplidar_ros" type="rplidarNode" output="screen">
@@ -134,29 +148,8 @@
 	  
 
 		<!-- MOVEMENT -->
-		
-  <!-- Move Base Flex -->
-<node pkg="mbf_costmap_nav" type="mbf_costmap_nav" respawn="false" name="move_base_flex" output="screen">
-    <param name="tf_timeout" value="1.5"/>
-    <param name="planner_max_retries" value="3"/>
 
-   <!-- <rosparam file="$(find your_nav_pkg)/config/planners.yaml" command="load" />
-    <rosparam file="$(find your_nav_pkg)/config/controllers.yaml" command="load" />
-    <rosparam file="$(find your_nav_pkg)/config/recovery_behaviors.yaml" command="load" /> -->
-
-    <rosparam file="$(find capstone)/include/costmap_common_params.yaml" command="load" ns="global_costmap" />
-    <rosparam file="$(find capstone)/include/costmap_common_params.yaml" command="load" ns="local_costmap" />
-    <rosparam file="$(find capstone)/include/local_costmap_params.yaml" command="load" />
-    <rosparam file="$(find capstone)/include/global_costmap_params.yaml" command="load" />
-    <rosparam file="$(find capstone)/include/base_local_planner_params.yaml" command="load" />
-  </node>
-
-   <node pkg="capstone" type="move_base_flex_bt.py" respawn="false" name="behavior_tree" output="screen">
-    <rosparam file="$(find capstone)/include/costmap_common_params.yaml" command="load" ns="global_costmap" /> 
-    <rosparam file="$(find capstone)/include/costmap_common_params.yaml" command="load" ns="local_costmap" />
-    <rosparam file="$(find capstone)/include/local_costmap_params.yaml" command="load" />
-    <rosparam file="$(find capstone)/include/global_costmap_params.yaml" command="load" /> 
-    <rosparam file="$(find capstone)/include/base_local_planner_params.yaml" command="load" />
+   <node pkg="capstone" type="move_base_flex_return_to_start.py" respawn="false" name="behavior_tree" output="screen">
   </node>
 
 
