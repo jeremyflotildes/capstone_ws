@@ -8,38 +8,40 @@ import tf
 
 # waits for a user-defined goal and returns it.
 def goal_subscriber():
+    goal_pose = geometry_msgs.PoseStamped()
     goal_pose = rospy.wait_for_message("move_base_simple/goal", geometry_msgs.PoseStamped, timeout = None)
+    goal_pose.header.frame_id = "map"
+    goal_pose.header.stamp = rospy.Time.now()
     rospy.loginfo("Received goal @ (%1.3f, %1.3f)", goal_pose.pose.position.x, goal_pose.pose.position.y)
     return goal_pose
 
 #waits for the initial position of the robot and returns it.
 def initial_pos_subscriber():
     rospy.loginfo("Listening for robot's initial transform...!")
-    # create tf listener
-    listener = tf.TransformListener()
-    # set the node to run 1 time per second (1 hz)
-    rate = rospy.Rate(1.0)
-    # loop forever until roscore or this node is down
-    valid_pose = False
-    while valid_pose == False:
-        try:
-            # listen to transform
-            (trans, rot) = listener.lookupTransform('/map', '/base_link', rospy.Time(0))
-            # print the transform
-            rospy.loginfo("Current position @ (%1.3f, %1.3f, %1.3f, %1.3f, %1.3f, %1.3f)", trans[0], trans[1], trans[2], rot[0], rot[1], rot[2])
-            starting_pose = geometry_msgs.PoseStamped()
-            starting_pose.pose.position.x = trans[0] 
-            starting_pose.pose.position.y = trans[1]
-            starting_pose.pose.position.z = trans[2]
-            starting_pose.pose.orientation.x = rot[0]
-            starting_pose.pose.orientation.y = rot[1]
-            starting_pose.pose.orientation.z = rot[2]
-            valid_pose = True
-        except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
-            continue
-        # sleep to control the node frequency
-        rate.sleep()
-        return starting_pose
+    starting_pose_co = geometry_msgs.PoseWithCovarianceStamped()
+    starting_pose_co = rospy.wait_for_message("/amcl_pose", geometry_msgs.PoseWithCovarianceStamped, timeout=None)
+    rospy.loginfo("Initial Position @ (%1.3f, %1.3f)", starting_pose_co.pose.pose.position.x, starting_pose_co.pose.pose.position.y)
+
+    # convert pose to PoseStamped, mbf doesn't like PoseWithCovarianceStamped
+    starting_pose = geometry_msgs.PoseStamped()
+    starting_pose.header.frame_id = "map"
+    starting_pose.header.stamp = rospy.Time.now()
+    starting_pose.pose.position.x = starting_pose_co.pose.pose.position.x
+    starting_pose.pose.position.y = starting_pose_co.pose.pose.position.y
+    starting_pose.pose.position.z = starting_pose_co.pose.pose.position.z
+    starting_pose.pose.orientation.x = starting_pose_co.pose.pose.orientation.x
+    starting_pose.pose.orientation.y = starting_pose_co.pose.pose.orientation.y
+    starting_pose.pose.orientation.z = starting_pose_co.pose.pose.orientation.z
+    starting_pose.pose.orientation.w = starting_pose_co.pose.pose.orientation.w
+    
+    return starting_pose
+
+def ninety_deg(goal_pose):
+    quaternion = tf.transformations.quaternion_from_euler(0, 0, -90)
+    goal_pose.pose.orientation.x = quaternion[0]
+    goal_pose.pose.orientation.y = quaternion[1]
+    goal_pose.pose.orientation.z = quaternion[2]
+    goal_pose.pose.orientation.w = quaternion[3]
     
 
 def create_pose(x, y, z, xx, yy, zz, ww):
@@ -79,21 +81,28 @@ def get_plan(pose):
 
 
 def goal_and_back(goal_pose):
-        rospy.loginfo("Attempting to reach (%1.3f, %1.3f)", goal_pose.pose.position.x, goal_pose.pose.position.y)
-        
+
+        rospy.loginfo("Creating plan...")
         get_path_result = get_plan(goal_pose)
         if get_path_result.outcome != mbf_msgs.MoveBaseResult.SUCCESS:
-            rospy.loginfo("Unable to complete plan: %s", result.message)
+            rospy.loginfo("Unable to complete plan: %s", get_path_result.message)
             success = False
             return success
+        rospy.loginfo("done.")
 
+        rospy.loginfo("Creating path goal...")
         path_goal = create_path_goal(get_path_result.path, True, 0.5, 3.14/18.0)
+        rospy.loginfo("done.")
 
+        rospy.loginfo("Executing path...")
         exe_path_result = exe_path(path_goal)
         if exe_path_result.outcome != mbf_msgs.MoveBaseResult.SUCCESS:
-            rospy.loginfo("Unable to complete exe: %s", result.message)
+            rospy.loginfo("Unable to complete exe: %s", exe_path_result.message)
             success = False
             return success
+        rospy.loginfo("done.")
+        
+        success = True
 
 
 if __name__ == '__main__':
@@ -111,8 +120,8 @@ if __name__ == '__main__':
     goal_pose = goal_subscriber()
     starting_pose = initial_pos_subscriber()
 
-    success = goal_and_back(goal_pose)
-    if success != False:
-        goal_and_back(starting_pose)
+    goal_and_back(goal_pose)
+    ninety_deg(goal_pose)
+    goal_and_back(goal_pose)
 
     rospy.on_shutdown(lambda: mbf_ep_ac.cancel_all_goals())

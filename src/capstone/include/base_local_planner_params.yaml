@@ -1,7 +1,7 @@
 TrajectoryPlannerROS:
   meter_scoring: true
-  max_vel_x: 0.2
-  min_vel_x: 0.05
+  max_vel_x: 0.1
+  min_vel_x: 0.025
   max_rotational_vel: 0.5
   min_in_place_rotational_vel: 0.1
   min_in_place_vel_theta: 0.01
