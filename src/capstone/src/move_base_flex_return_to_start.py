@@ -37,11 +37,64 @@ def initial_pos_subscriber():
     return starting_pose
 
 def ninety_deg(goal_pose):
+    # https://stackoverflow.com/questions/70960130/given-a-position-and-rotation-how-can-i-find-a-point-that-extends-x-distance-fr
+    # rotate current orientation 90 degrees
     quaternion = tf.transformations.quaternion_from_euler(0, 0, -90)
+    distance = 2
+
+    quaternionX = goal_pose.pose.orientation.x * quaternion[0]
+    quaternionY = goal_pose.pose.orientation.y * quaternion[1]
+    quaternionZ = goal_pose.pose.orientation.z * quaternion[2]
+    quaternionW = goal_pose.pose.orientation.w * quaternion[3]
+
+    goal_pose.pose.orientation.normalize
+
+    initX = goal_pose.pose.position.x
+    initY = goal_pose.pose.position.y
+    initZ = goal_pose.pose.position.z
+
+    x = 1
+    y = 1
+    z = 0
+
+    ix =   quaternionW * x + quaternionY * z - quaternionZ * y
+    iy =   quaternionW * y + quaternionZ * x - quaternionX * z
+    iz =   quaternionW * z + quaternionX * y - quaternionY * x
+    iw = - quaternionX * x - quaternionY * y - quaternionZ * z
+
+    x = ix * quaternionW + iw * - quaternionX + iy * - quaternionZ - iz * - quaternionY
+    y = iy * quaternionW + iw * - quaternionY + iz * - quaternionX - ix * - quaternionZ
+    z = iz * quaternionW + iw * - quaternionZ + ix * - quaternionY - iy * - quaternionX
+
+    x = x * distance + initX
+    y = y * distance + initY
+    z = z * distance + initZ
+
+    goal_pose.pose.orientation.x = quaternionX
+    goal_pose.pose.orientation.y = quaternionY
+    goal_pose.pose.orientation.z = quaternionZ
+    goal_pose.pose.orientation.w = quaternionW
+
+    goal_pose.pose.position.x = x
+    goal_pose.pose.position.y = y
+    goal_pose.pose.position.z = z
+
+    return goal_pose
+
+
+
+    
+
+    """
+
+    quaternion = tf.transformations.quaternion_from_euler(0, 0, -90)
+
     goal_pose.pose.orientation.x = quaternion[0]
     goal_pose.pose.orientation.y = quaternion[1]
     goal_pose.pose.orientation.z = quaternion[2]
     goal_pose.pose.orientation.w = quaternion[3]
+
+    """
     
 
 def create_pose(x, y, z, xx, yy, zz, ww):
@@ -107,6 +160,8 @@ def goal_and_back(goal_pose):
 
 if __name__ == '__main__':
     rospy.init_node('get_goal', anonymous = True)
+    pub = rospy.Publisher('/secondPoint', geometry_msgs.PoseStamped, queue_size=10)
+    rate = rospy.Rate(10) 
 
     # move_base_flex exe path client
     mbf_ep_ac = actionlib.SimpleActionClient("move_base_flex/exe_path", mbf_msgs.ExePathAction)
@@ -121,7 +176,8 @@ if __name__ == '__main__':
     starting_pose = initial_pos_subscriber()
 
     goal_and_back(goal_pose)
-    ninety_deg(goal_pose)
+    goal_pose = ninety_deg(goal_pose)
+    pub.publish(goal_pose)
     goal_and_back(goal_pose)
 
     rospy.on_shutdown(lambda: mbf_ep_ac.cancel_all_goals())
