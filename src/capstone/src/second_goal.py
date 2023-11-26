@@ -8,7 +8,7 @@ import tf
 from tf.transformations import *
 
 
-# waits for a user-defined goal and returns it.
+# --- waits for a user-defined goal and returns it. ---
 def goal_subscriber():
     goal_pose = geometry_msgs.PoseStamped()
     goal_pose = rospy.wait_for_message("move_base_simple/goal", geometry_msgs.PoseStamped, timeout = None)
@@ -19,10 +19,14 @@ def goal_subscriber():
 
 def second_goal(goal_pose):
     # https://stackoverflow.com/questions/70960130/given-a-position-and-rotation-how-can-i-find-a-point-that-extends-x-distance-fr
-    # rotate current orientation 90 degrees
+
+    # --- quaternion mulitplier 90 degrees (pi/2) ---
     quaternion_rot = tf.transformations.quaternion_from_euler(0, 0, 1.5707)
+
+    # --- the distance away of the new point from initial point ---
     distance = 1
 
+    # --- create quaternion from initial point's orientation ---
     initQuaternionX = goal_pose.pose.orientation.x
     initQuaternionY = goal_pose.pose.orientation.y 
     initQuaternionZ = goal_pose.pose.orientation.z  
@@ -30,14 +34,17 @@ def second_goal(goal_pose):
 
     init_quaternion = [initQuaternionX, initQuaternionY, initQuaternionZ, initQuaternionW]
 
+    # --- multiply initial quaternion by a 90 degree quaternion to rotate it 90 degrees ---
     q_new = quaternion_multiply(init_quaternion, quaternion_rot)
 
+    # --- save initial point's coordinates ---
     initX = goal_pose.pose.position.x
     initY = goal_pose.pose.position.y
     initZ = goal_pose.pose.position.z
 
+    # --- calculate the new point ---
     x = 0
-    y = -2
+    y = -1
     z = 0
 
     ix =   q_new[3] * x + q_new[1] * z - q_new[2] * y
@@ -53,36 +60,33 @@ def second_goal(goal_pose):
     y = y * distance + initY
     z = z * distance + initZ
 
+    # --- pass new pose orientation data to the goal to be published ---
     goal_pose.pose.orientation.x = q_new[0]
     goal_pose.pose.orientation.y = q_new[1]
     goal_pose.pose.orientation.z = q_new[2]
     goal_pose.pose.orientation.w = q_new[3]
 
+     # --- pass new pose position data to the goal to be published ---
     goal_pose.pose.position.x = x
     goal_pose.pose.position.y = y
     goal_pose.pose.position.z = z
 
+    # --- while node is running, publish the new pose so it is visible on rviz ---
     while not rospy.is_shutdown():
-        rospy.loginfo(goal_pose)
+       # rospy.loginfo(goal_pose)
         pub.publish(goal_pose)
         rate.sleep()
 
-    """
-
-    quaternion = tf.transformations.quaternion_from_euler(0, 0, -90)
-
-    goal_pose.pose.orientation.x = quaternion[0]
-    goal_pose.pose.orientation.y = quaternion[1]
-    goal_pose.pose.orientation.z = quaternion[2]
-    goal_pose.pose.orientation.w = quaternion[3]
-
-    """
-
 if __name__ == '__main__':
     rospy.init_node('second_goal', anonymous = True)
-    pub = rospy.Publisher('/secondPoint', geometry_msgs.PoseStamped, queue_size=10)
+    pub = rospy.Publisher('/move_base_simple/goal', geometry_msgs.PoseStamped, queue_size=10)
     rate = rospy.Rate(10)
 
     rospy.loginfo("Starting second_goal.py!")
+    # --- wait for the user-defined goal ---
     goal_pose = goal_subscriber()
+
+    rospy.sleep(60)
+
+    # --- pass the user-defined goal to second_goal() to calculate the second goal ---
     second_goal(goal_pose)

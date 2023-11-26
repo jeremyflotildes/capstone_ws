@@ -12,7 +12,7 @@ recovery_behaviors:
   - name: clear_costmap_recovery
     type: clear_costmap_recovery/ClearCostmapRecovery
 
-controller_frequency: 5.0
+controller_frequency: 3.0
 controller_patience: 3.0
 
 planner_frequency: 1.0
