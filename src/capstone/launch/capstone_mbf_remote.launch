@@ -16,7 +16,7 @@
 
 		<!-- Run the map server --> 
 
- <node name="map_server" pkg="map_server" type="map_server" args="/home/ubuntu/testball.yaml"/>
+ <node name="map_server" pkg="map_server" type="map_server" args="/home/ubuntu/full_map_edited.yaml"/>
 
 
 		<!-- Add base to laser position transform. -->
@@ -124,8 +124,8 @@
 
 		<!-- MOVEMENT -->
 
-	 <node pkg="capstone" type="move_base_flex_bt.py" respawn="false" name="behavior_tree" output="screen">
-  </node>
+	 <!--<node pkg="capstone" type="move_base_flex_bt.py" respawn="false" name="behavior_tree" output="screen">
+  </node>-->
 
      <node pkg="capstone" type="second_goal.py" respawn="false" name="second_goal" output="screen">
   </node>
