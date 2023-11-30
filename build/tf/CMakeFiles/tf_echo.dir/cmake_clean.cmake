@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_echo"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_echo.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_echo"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_echo.pdb"
   "CMakeFiles/tf_echo.dir/src/tf_echo.cpp.o"
 )
 

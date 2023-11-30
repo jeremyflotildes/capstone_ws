@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/hector_geotiff_plugins/lib/pkgconfig/hector_geotiff_plugins.pc
+/home/jeremy/capstone_ws/devel/.private/hector_geotiff_plugins/lib/pkgconfig/hector_geotiff_plugins.pc

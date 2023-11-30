@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/liblayers.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/liblayers.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so"
   "CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o"
   "CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o"
   "CMakeFiles/layers.dir/plugins/static_layer.cpp.o"

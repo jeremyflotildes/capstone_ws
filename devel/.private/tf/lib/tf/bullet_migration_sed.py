@@ -3,7 +3,7 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/scripts/bullet_migration_sed.py'
+python_script = '/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/scripts/bullet_migration_sed.py'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include/eigen3;/usr/sh
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-leigen_conversions;-lorocos-kdl".split(';') if "-leigen_conversions;-lorocos-kdl" != "" else []
 PROJECT_NAME = "eigen_conversions"
-PROJECT_SPACE_DIR = "/home/ubuntu/capstone_ws/install"
+PROJECT_SPACE_DIR = "/home/jeremy/capstone_ws/install"
 PROJECT_VERSION = "1.13.2"

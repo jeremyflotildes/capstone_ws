@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/ubuntu/capstone_ws/src/navigation/navfn/srv/MakeNavPlan.srv;/home/ubuntu/capstone_ws/src/navigation/navfn/srv/SetCostmap.srv"
+services_str = "/home/jeremy/capstone_ws/src/navigation/navfn/srv/MakeNavPlan.srv;/home/jeremy/capstone_ws/src/navigation/navfn/srv/SetCostmap.srv"
 pkg_name = "navfn"
 dependencies_str = "geometry_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

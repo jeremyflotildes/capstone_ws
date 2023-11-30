@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/static_tests"
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/static_tests.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/static_tests"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/static_tests.pdb"
   "CMakeFiles/static_tests.dir/test/static_tests.cpp.o"
 )
 

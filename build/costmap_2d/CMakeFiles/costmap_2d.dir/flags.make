@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"costmap_2d\" -Dcostmap_2d_EXPORTS
 
-CXX_INCLUDES = -I/home/ubuntu/capstone_ws/devel/.private/costmap_2d/include -I/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include -I/home/ubuntu/capstone_ws/devel/.private/tf/include -I/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include -I/home/ubuntu/capstone_ws/src/navigation/voxel_grid/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/ubuntu/capstone_ws/src/navigation/costmap_2d/test 
+CXX_INCLUDES = -I/home/jeremy/capstone_ws/devel/.private/costmap_2d/include -I/home/jeremy/capstone_ws/src/navigation/costmap_2d/include -I/home/jeremy/capstone_ws/src/navigation/voxel_grid/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/jeremy/capstone_ws/src/navigation/costmap_2d/test 
 

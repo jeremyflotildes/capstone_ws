@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/nav_core/lib/pkgconfig/nav_core.pc
+/home/jeremy/capstone_ws/devel/.private/nav_core/lib/pkgconfig/nav_core.pc

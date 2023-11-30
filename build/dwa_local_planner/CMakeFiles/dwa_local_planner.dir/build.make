@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/dwa_local_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/dwa_local_planner
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/dwa_local_planner
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dwa_local_planner.dir/depend.make
@@ -58,30 +58,30 @@ include CMakeFiles/dwa_local_planner.dir/progress.make
 include CMakeFiles/dwa_local_planner.dir/flags.make
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o: CMakeFiles/dwa_local_planner.dir/flags.make
-CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o: /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/dwa_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp
+CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o: /home/jeremy/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/dwa_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o -c /home/jeremy/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp > CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp > CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.i
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner.cpp -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.s
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o: CMakeFiles/dwa_local_planner.dir/flags.make
-CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o: /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/dwa_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp
+CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o: /home/jeremy/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/dwa_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o -c /home/jeremy/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp > CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp > CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.i
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.s
 
 # Object files for target dwa_local_planner
 dwa_local_planner_OBJECTS = \
@@ -91,54 +91,54 @@ dwa_local_planner_OBJECTS = \
 # External object files for target dwa_local_planner
 dwa_local_planner_EXTERNAL_OBJECTS =
 
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: CMakeFiles/dwa_local_planner.dir/build.make
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libtrajectory_planner_ros.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/libcostmap_2d.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/liblaser_geometry.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/tf/lib/libtf.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libPocoFoundation.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libdl.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libroslib.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librospack.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libpython3.8.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/liborocos-kdl.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/liborocos-kdl.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libactionlib.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libroscpp.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libpthread.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librosconsole.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libtf2.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librostime.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: CMakeFiles/dwa_local_planner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/capstone_ws/build/dwa_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so"
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: CMakeFiles/dwa_local_planner.dir/build.make
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libtrajectory_planner_ros.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/libcostmap_2d.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/liblaser_geometry.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/jeremy/capstone_ws/devel/.private/tf/lib/libtf.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /home/jeremy/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libroslib.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librospack.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/liborocos-kdl.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/liborocos-kdl.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libactionlib.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libroscpp.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librosconsole.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libtf2.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/librostime.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so: CMakeFiles/dwa_local_planner.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeremy/capstone_ws/build/dwa_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dwa_local_planner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/dwa_local_planner.dir/build: /home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so
+CMakeFiles/dwa_local_planner.dir/build: /home/jeremy/capstone_ws/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so
 
 .PHONY : CMakeFiles/dwa_local_planner.dir/build
 
@@ -147,6 +147,6 @@ CMakeFiles/dwa_local_planner.dir/clean:
 .PHONY : CMakeFiles/dwa_local_planner.dir/clean
 
 CMakeFiles/dwa_local_planner.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/dwa_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner /home/ubuntu/capstone_ws/src/navigation/dwa_local_planner /home/ubuntu/capstone_ws/build/dwa_local_planner /home/ubuntu/capstone_ws/build/dwa_local_planner /home/ubuntu/capstone_ws/build/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/dwa_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/dwa_local_planner /home/jeremy/capstone_ws/src/navigation/dwa_local_planner /home/jeremy/capstone_ws/build/dwa_local_planner /home/jeremy/capstone_ws/build/dwa_local_planner /home/jeremy/capstone_ws/build/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dwa_local_planner.dir/depend
 

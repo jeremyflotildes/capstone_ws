@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Deigen_conversions_EXPORTS
 
-CXX_INCLUDES = -I/home/ubuntu/capstone_ws/src/hector_slam/geometry/eigen_conversions/include -I/opt/ros/noetic/include -isystem /usr/include/eigen3 
+CXX_INCLUDES = -I/home/jeremy/capstone_ws/src/hector_slam/geometry/eigen_conversions/include -I/opt/ros/noetic/include -isystem /usr/include/eigen3 
 

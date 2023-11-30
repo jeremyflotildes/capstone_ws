@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/ubuntu/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp
+Change Dir: /home/jeremy/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a8de5/fast && /usr/bin/make -f CMakeFiles/cmTC_a8de5.dir/build.make CMakeFiles/cmTC_a8de5.dir/build
-make[1]: Entering directory '/home/ubuntu/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a8de5.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a8de5.dir/src.c.o   -c /home/ubuntu/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_a8de5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8de5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_a8de5.dir/src.c.o  -o cmTC_a8de5 
-/usr/bin/ld: CMakeFiles/cmTC_a8de5.dir/src.c.o: in function `main':
-src.c:(.text+0x48): undefined reference to `pthread_create'
-/usr/bin/ld: src.c:(.text+0x50): undefined reference to `pthread_detach'
-/usr/bin/ld: src.c:(.text+0x5c): undefined reference to `pthread_join'
+Run Build Command(s):/usr/bin/make cmTC_55b54/fast && /usr/bin/make -f CMakeFiles/cmTC_55b54.dir/build.make CMakeFiles/cmTC_55b54.dir/build
+make[1]: Entering directory '/home/jeremy/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55b54.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_55b54.dir/src.c.o   -c /home/jeremy/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_55b54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55b54.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_55b54.dir/src.c.o  -o cmTC_55b54 
+/usr/bin/ld: CMakeFiles/cmTC_55b54.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a8de5.dir/build.make:87: cmTC_a8de5] Error 1
-make[1]: Leaving directory '/home/ubuntu/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_a8de5/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_55b54.dir/build.make:87: cmTC_55b54] Error 1
+make[1]: Leaving directory '/home/jeremy/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_55b54/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ubuntu/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp
+Change Dir: /home/jeremy/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_874d2/fast && /usr/bin/make -f CMakeFiles/cmTC_874d2.dir/build.make CMakeFiles/cmTC_874d2.dir/build
-make[1]: Entering directory '/home/ubuntu/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_874d2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_874d2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_874d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_874d2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_874d2.dir/CheckFunctionExists.c.o  -o cmTC_874d2  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_6857b/fast && /usr/bin/make -f CMakeFiles/cmTC_6857b.dir/build.make CMakeFiles/cmTC_6857b.dir/build
+make[1]: Entering directory '/home/jeremy/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6857b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6857b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6857b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6857b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6857b.dir/CheckFunctionExists.c.o  -o cmTC_6857b  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_874d2.dir/build.make:87: cmTC_874d2] Error 1
-make[1]: Leaving directory '/home/ubuntu/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_874d2/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_6857b.dir/build.make:87: cmTC_6857b] Error 1
+make[1]: Leaving directory '/home/jeremy/capstone_ws/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6857b/fast] Error 2
 
 
 

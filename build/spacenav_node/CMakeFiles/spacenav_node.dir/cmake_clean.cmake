@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node"
-  "/home/ubuntu/capstone_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node"
+  "/home/jeremy/capstone_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node.pdb"
   "CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o"
 )
 

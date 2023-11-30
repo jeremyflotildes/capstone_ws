@@ -1,4 +1,4 @@
-Symlinking /home/ubuntu/capstone_ws/devel/share/kdl_conversions/cmake/kdl_conversionsConfig.cmake
-Symlinking /home/ubuntu/capstone_ws/devel/share/kdl_conversions/cmake/kdl_conversionsConfig-version.cmake
-Symlinking /home/ubuntu/capstone_ws/devel/lib/libkdl_conversions.so
-Symlinking /home/ubuntu/capstone_ws/devel/lib/pkgconfig/kdl_conversions.pc
+Symlinking /home/jeremy/capstone_ws/devel/lib/libkdl_conversions.so
+Symlinking /home/jeremy/capstone_ws/devel/lib/pkgconfig/kdl_conversions.pc
+Symlinking /home/jeremy/capstone_ws/devel/share/kdl_conversions/cmake/kdl_conversionsConfig-version.cmake
+Symlinking /home/jeremy/capstone_ws/devel/share/kdl_conversions/cmake/kdl_conversionsConfig.cmake

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/map_server/lib/map_server/map_saver"
-  "/home/ubuntu/capstone_ws/devel/.private/map_server/lib/map_server/map_saver.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/map_server/lib/map_server/map_saver"
+  "/home/jeremy/capstone_ws/devel/.private/map_server/lib/map_server/map_saver.pdb"
   "CMakeFiles/map_server-map_saver.dir/src/map_saver.cpp.o"
 )
 

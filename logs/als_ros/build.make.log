@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target mcl[0m
+[ 11%] Built target mrf_failure_detector
+[ 22%] Built target evaluator
+[ 33%] Built target scan2pc
+[ 44%] Built target classifier_dataset_generator
+[ 66%] Built target sm
+[ 66%] Built target gl_pose_sampler
+[ 77%] Built target slamer
+[ 83%] [32mBuilding CXX object CMakeFiles/mcl.dir/src/mcl.cpp.o[0m
+[ 94%] Built target mae_classifier_learning
+[100%] [32m[1mLinking CXX executable /home/jeremy/capstone_ws/devel/.private/als_ros/lib/als_ros/mcl[0m
+[100%] Built target mcl

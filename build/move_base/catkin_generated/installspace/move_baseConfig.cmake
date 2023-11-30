@@ -67,14 +67,14 @@ set(move_base_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(move_base_SOURCE_PREFIX /home/ubuntu/capstone_ws/src/navigation/move_base)
-  set(move_base_DEVEL_PREFIX /home/ubuntu/capstone_ws/devel/.private/move_base)
+  set(move_base_SOURCE_PREFIX /home/jeremy/capstone_ws/src/navigation/move_base)
+  set(move_base_DEVEL_PREFIX /home/jeremy/capstone_ws/devel/.private/move_base)
   set(move_base_INSTALL_PREFIX "")
   set(move_base_PREFIX ${move_base_DEVEL_PREFIX})
 else()
   set(move_base_SOURCE_PREFIX "")
   set(move_base_DEVEL_PREFIX "")
-  set(move_base_INSTALL_PREFIX /home/ubuntu/capstone_ws/install)
+  set(move_base_INSTALL_PREFIX /home/jeremy/capstone_ws/install)
   set(move_base_PREFIX ${move_base_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu/capstone_ws/install/lib;/home/ubuntu/capstone_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/jeremy/capstone_ws/install/lib;/home/jeremy/capstone_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

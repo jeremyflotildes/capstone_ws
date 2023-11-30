@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_saver"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_saver.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_saver"
+  "/home/jeremy/capstone_ws/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_saver.pdb"
   "CMakeFiles/geotiff_saver.dir/src/geotiff_saver.cpp.o"
 )
 

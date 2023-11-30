@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/global_planner/include/global_planner/GlobalPlannerConfig.h
+/home/jeremy/capstone_ws/devel/.private/global_planner/include/global_planner/GlobalPlannerConfig.h

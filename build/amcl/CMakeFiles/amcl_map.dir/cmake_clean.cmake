@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/amcl/lib/libamcl_map.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/amcl/lib/libamcl_map.so"
+  "/home/jeremy/capstone_ws/devel/.private/amcl/lib/libamcl_map.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/amcl/lib/libamcl_map.so"
   "CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o"
   "CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o"
   "CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o"

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/manifest.l"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/manifest.l"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l"
   "CMakeFiles/hector_nav_msgs_generate_messages_eus"
 )
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/eigen_conversions/include/eigen_conversions/eigen_kdl.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/eigen_conversions/include/eigen_conversions/eigen_kdl.h
 Eigen/Core
 -
 Eigen/Geometry
@@ -14,7 +14,7 @@ Eigen/Geometry
 kdl/frames.hpp
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/eigen_conversions/include/eigen_conversions/eigen_msg.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/eigen_conversions/include/eigen_conversions/eigen_msg.h
 std_msgs/Float64MultiArray.h
 -
 geometry_msgs/Point.h
@@ -36,11 +36,11 @@ Eigen/Core
 Eigen/Geometry
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/eigen_conversions/src/eigen_kdl.cpp
+/home/jeremy/capstone_ws/src/hector_slam/geometry/eigen_conversions/src/eigen_kdl.cpp
 eigen_conversions/eigen_kdl.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/eigen_conversions/src/eigen_msg.cpp
+/home/jeremy/capstone_ws/src/hector_slam/geometry/eigen_conversions/src/eigen_msg.cpp
 eigen_conversions/eigen_msg.h
 -
 

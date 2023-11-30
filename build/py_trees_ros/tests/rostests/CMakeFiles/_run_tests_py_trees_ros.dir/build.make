@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/py_trees_ros
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/py_trees_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/py_trees_ros
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/py_trees_ros
 
 # Utility rule file for _run_tests_py_trees_ros.
 
@@ -63,10 +63,10 @@ tests/rostests/CMakeFiles/_run_tests_py_trees_ros.dir/build: _run_tests_py_trees
 .PHONY : tests/rostests/CMakeFiles/_run_tests_py_trees_ros.dir/build
 
 tests/rostests/CMakeFiles/_run_tests_py_trees_ros.dir/clean:
-	cd /home/ubuntu/capstone_ws/build/py_trees_ros/tests/rostests && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_py_trees_ros.dir/cmake_clean.cmake
+	cd /home/jeremy/capstone_ws/build/py_trees_ros/tests/rostests && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_py_trees_ros.dir/cmake_clean.cmake
 .PHONY : tests/rostests/CMakeFiles/_run_tests_py_trees_ros.dir/clean
 
 tests/rostests/CMakeFiles/_run_tests_py_trees_ros.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/py_trees_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/py_trees_ros /home/ubuntu/capstone_ws/src/py_trees_ros/tests/rostests /home/ubuntu/capstone_ws/build/py_trees_ros /home/ubuntu/capstone_ws/build/py_trees_ros/tests/rostests /home/ubuntu/capstone_ws/build/py_trees_ros/tests/rostests/CMakeFiles/_run_tests_py_trees_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/py_trees_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/py_trees_ros /home/jeremy/capstone_ws/src/py_trees_ros/tests/rostests /home/jeremy/capstone_ws/build/py_trees_ros /home/jeremy/capstone_ws/build/py_trees_ros/tests/rostests /home/jeremy/capstone_ws/build/py_trees_ros/tests/rostests/CMakeFiles/_run_tests_py_trees_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/rostests/CMakeFiles/_run_tests_py_trees_ros.dir/depend
 

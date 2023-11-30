@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu/capstone_ws/devel/.private/move_slow_and_clear:$CMAKE_PREFIX_PATH"
-export PWD='/home/ubuntu/capstone_ws/build/move_slow_and_clear'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/capstone_ws/devel/.private/move_slow_and_clear/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ubuntu/capstone_ws/src/navigation/move_slow_and_clear:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/jeremy/capstone_ws/devel/.private/move_slow_and_clear:$CMAKE_PREFIX_PATH"
+export PWD='/home/jeremy/capstone_ws/build/move_slow_and_clear'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jeremy/capstone_ws/devel/.private/move_slow_and_clear/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/jeremy/capstone_ws/src/navigation/move_slow_and_clear:$ROS_PACKAGE_PATH"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/ros_mpu6050_node
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/ros_mpu6050_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/ros_mpu6050_node
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/ros_mpu6050_node
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/ros_mpu6050_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/ros_mpu6050_node /home/ubuntu/capstone_ws/src/ros_mpu6050_node /home/ubuntu/capstone_ws/build/ros_mpu6050_node /home/ubuntu/capstone_ws/build/ros_mpu6050_node /home/ubuntu/capstone_ws/build/ros_mpu6050_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/ros_mpu6050_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/ros_mpu6050_node /home/jeremy/capstone_ws/src/ros_mpu6050_node /home/jeremy/capstone_ws/build/ros_mpu6050_node /home/jeremy/capstone_ws/build/ros_mpu6050_node /home/jeremy/capstone_ws/build/ros_mpu6050_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/navfn
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/navfn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/navfn
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/navfn
 
 # Utility rule file for run_tests_navfn.
 
@@ -63,10 +63,10 @@ test/CMakeFiles/run_tests_navfn.dir/build: run_tests_navfn
 .PHONY : test/CMakeFiles/run_tests_navfn.dir/build
 
 test/CMakeFiles/run_tests_navfn.dir/clean:
-	cd /home/ubuntu/capstone_ws/build/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_navfn.dir/cmake_clean.cmake
+	cd /home/jeremy/capstone_ws/build/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_navfn.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_tests_navfn.dir/clean
 
 test/CMakeFiles/run_tests_navfn.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/navfn /home/ubuntu/capstone_ws/src/navigation/navfn/test /home/ubuntu/capstone_ws/build/navfn /home/ubuntu/capstone_ws/build/navfn/test /home/ubuntu/capstone_ws/build/navfn/test/CMakeFiles/run_tests_navfn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/navfn /home/jeremy/capstone_ws/src/navigation/navfn/test /home/jeremy/capstone_ws/build/navfn /home/jeremy/capstone_ws/build/navfn/test /home/jeremy/capstone_ws/build/navfn/test/CMakeFiles/run_tests_navfn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_tests_navfn.dir/depend
 

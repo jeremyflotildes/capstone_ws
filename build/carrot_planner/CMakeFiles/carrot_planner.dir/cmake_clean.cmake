@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/carrot_planner/lib/libcarrot_planner.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/carrot_planner/lib/libcarrot_planner.so"
+  "/home/jeremy/capstone_ws/devel/.private/carrot_planner/lib/libcarrot_planner.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/carrot_planner/lib/libcarrot_planner.so"
   "CMakeFiles/carrot_planner.dir/src/carrot_planner.cpp.o"
 )
 

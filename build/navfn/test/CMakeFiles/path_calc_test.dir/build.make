@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/navfn
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/navfn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/navfn
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/navfn
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/path_calc_test.dir/depend.make
@@ -58,30 +58,30 @@ include test/CMakeFiles/path_calc_test.dir/progress.make
 include test/CMakeFiles/path_calc_test.dir/flags.make
 
 test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o: test/CMakeFiles/path_calc_test.dir/flags.make
-test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o: /home/ubuntu/capstone_ws/src/navigation/navfn/test/path_calc_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o"
-	cd /home/ubuntu/capstone_ws/build/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/navfn/test/path_calc_test.cpp
+test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o: /home/jeremy/capstone_ws/src/navigation/navfn/test/path_calc_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o"
+	cd /home/jeremy/capstone_ws/build/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o -c /home/jeremy/capstone_ws/src/navigation/navfn/test/path_calc_test.cpp
 
 test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i"
-	cd /home/ubuntu/capstone_ws/build/navfn/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/navfn/test/path_calc_test.cpp > CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i
+	cd /home/jeremy/capstone_ws/build/navfn/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/navfn/test/path_calc_test.cpp > CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i
 
 test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s"
-	cd /home/ubuntu/capstone_ws/build/navfn/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/navfn/test/path_calc_test.cpp -o CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s
+	cd /home/jeremy/capstone_ws/build/navfn/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/navfn/test/path_calc_test.cpp -o CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s
 
 test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o: test/CMakeFiles/path_calc_test.dir/flags.make
-test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o: /home/ubuntu/capstone_ws/src/navigation/navfn/src/read_pgm_costmap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o"
-	cd /home/ubuntu/capstone_ws/build/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/navfn/src/read_pgm_costmap.cpp
+test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o: /home/jeremy/capstone_ws/src/navigation/navfn/src/read_pgm_costmap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o"
+	cd /home/jeremy/capstone_ws/build/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o -c /home/jeremy/capstone_ws/src/navigation/navfn/src/read_pgm_costmap.cpp
 
 test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i"
-	cd /home/ubuntu/capstone_ws/build/navfn/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/navfn/src/read_pgm_costmap.cpp > CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i
+	cd /home/jeremy/capstone_ws/build/navfn/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/navfn/src/read_pgm_costmap.cpp > CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i
 
 test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s"
-	cd /home/ubuntu/capstone_ws/build/navfn/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/navfn/src/read_pgm_costmap.cpp -o CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s
+	cd /home/jeremy/capstone_ws/build/navfn/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/navfn/src/read_pgm_costmap.cpp -o CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s
 
 # Object files for target path_calc_test
 path_calc_test_OBJECTS = \
@@ -91,60 +91,60 @@ path_calc_test_OBJECTS = \
 # External object files for target path_calc_test
 path_calc_test_EXTERNAL_OBJECTS =
 
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: test/CMakeFiles/path_calc_test.dir/build.make
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: gtest/lib/libgtest.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/ubuntu/capstone_ws/devel/.private/navfn/lib/libnavfn.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/libcostmap_2d.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/liblaser_geometry.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/ubuntu/capstone_ws/devel/.private/tf/lib/libtf.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/ubuntu/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libclass_loader.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libPocoFoundation.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libdl.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libroslib.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librospack.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libpython3.8.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libactionlib.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libroscpp.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libpthread.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librosconsole.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libtf2.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librostime.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libcpp_common.so
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: test/CMakeFiles/path_calc_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/capstone_ws/build/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test"
-	cd /home/ubuntu/capstone_ws/build/navfn/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/path_calc_test.dir/link.txt --verbose=$(VERBOSE)
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: test/CMakeFiles/path_calc_test.dir/build.make
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: gtest/lib/libgtest.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/jeremy/capstone_ws/devel/.private/navfn/lib/libnavfn.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/libcostmap_2d.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/liblaser_geometry.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/jeremy/capstone_ws/devel/.private/tf/lib/libtf.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /home/jeremy/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libclass_loader.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libroslib.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librospack.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libtf2_ros.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libactionlib.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libmessage_filters.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libroscpp.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librosconsole.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libtf2.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/librostime.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /opt/ros/noetic/lib/libcpp_common.so
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test: test/CMakeFiles/path_calc_test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeremy/capstone_ws/build/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test"
+	cd /home/jeremy/capstone_ws/build/navfn/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/path_calc_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-test/CMakeFiles/path_calc_test.dir/build: /home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test
+test/CMakeFiles/path_calc_test.dir/build: /home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test
 
 .PHONY : test/CMakeFiles/path_calc_test.dir/build
 
 test/CMakeFiles/path_calc_test.dir/clean:
-	cd /home/ubuntu/capstone_ws/build/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/path_calc_test.dir/cmake_clean.cmake
+	cd /home/jeremy/capstone_ws/build/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/path_calc_test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/path_calc_test.dir/clean
 
 test/CMakeFiles/path_calc_test.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/navfn /home/ubuntu/capstone_ws/src/navigation/navfn/test /home/ubuntu/capstone_ws/build/navfn /home/ubuntu/capstone_ws/build/navfn/test /home/ubuntu/capstone_ws/build/navfn/test/CMakeFiles/path_calc_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/navfn /home/jeremy/capstone_ws/src/navigation/navfn/test /home/jeremy/capstone_ws/build/navfn /home/jeremy/capstone_ws/build/navfn/test /home/jeremy/capstone_ws/build/navfn/test/CMakeFiles/path_calc_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/path_calc_test.dir/depend
 

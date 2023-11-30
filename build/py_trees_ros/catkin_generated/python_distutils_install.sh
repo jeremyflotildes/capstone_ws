@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/ubuntu/capstone_ws/src/py_trees_ros"
+echo_and_run cd "/home/jeremy/capstone_ws/src/py_trees_ros"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/ubuntu/capstone_ws/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/jeremy/capstone_ws/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/ubuntu/capstone_ws/install/lib/python3/dist-packages:/home/ubuntu/capstone_ws/build/py_trees_ros/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/ubuntu/capstone_ws/build/py_trees_ros" \
+    PYTHONPATH="/home/jeremy/capstone_ws/install/lib/python3/dist-packages:/home/jeremy/capstone_ws/build/py_trees_ros/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/jeremy/capstone_ws/build/py_trees_ros" \
     "/usr/bin/python3" \
-    "/home/ubuntu/capstone_ws/src/py_trees_ros/setup.py" \
-    egg_info --egg-base /home/ubuntu/capstone_ws/build/py_trees_ros \
-    build --build-base "/home/ubuntu/capstone_ws/build/py_trees_ros" \
+    "/home/jeremy/capstone_ws/src/py_trees_ros/setup.py" \
+    egg_info --egg-base /home/jeremy/capstone_ws/build/py_trees_ros \
+    build --build-base "/home/jeremy/capstone_ws/build/py_trees_ros" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/ubuntu/capstone_ws/install" --install-scripts="/home/ubuntu/capstone_ws/install/bin"
+    --install-layout=deb --prefix="/home/jeremy/capstone_ws/install" --install-scripts="/home/jeremy/capstone_ws/install/bin"

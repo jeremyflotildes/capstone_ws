@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/hector_slam/hector_mapping
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/hector_slam/hector_mapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/hector_mapping
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/hector_mapping
 
 # Utility rule file for actionlib_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/actionlib_generate_messages_eus.dir/clean
 
 CMakeFiles/actionlib_generate_messages_eus.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/hector_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/hector_slam/hector_mapping /home/ubuntu/capstone_ws/src/hector_slam/hector_mapping /home/ubuntu/capstone_ws/build/hector_mapping /home/ubuntu/capstone_ws/build/hector_mapping /home/ubuntu/capstone_ws/build/hector_mapping/CMakeFiles/actionlib_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/hector_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/hector_slam/hector_mapping /home/jeremy/capstone_ws/src/hector_slam/hector_mapping /home/jeremy/capstone_ws/build/hector_mapping /home/jeremy/capstone_ws/build/hector_mapping /home/jeremy/capstone_ws/build/hector_mapping/CMakeFiles/actionlib_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_generate_messages_eus.dir/depend
 

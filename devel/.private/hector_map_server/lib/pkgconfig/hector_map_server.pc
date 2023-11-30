@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/devel/.private/hector_map_server
+prefix=/home/jeremy/capstone_ws/devel/.private/hector_map_server
 
 Name: hector_map_server
 Description: Description of hector_map_server

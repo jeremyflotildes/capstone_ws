@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/obstacle_tests"
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/obstacle_tests.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/obstacle_tests"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/obstacle_tests.pdb"
   "CMakeFiles/obstacle_tests.dir/test/obstacle_tests.cpp.o"
 )
 

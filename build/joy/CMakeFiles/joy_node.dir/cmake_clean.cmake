@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/joy/lib/joy/joy_node"
-  "/home/ubuntu/capstone_ws/devel/.private/joy/lib/joy/joy_node.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/joy/lib/joy/joy_node"
+  "/home/jeremy/capstone_ws/devel/.private/joy/lib/joy/joy_node.pdb"
   "CMakeFiles/joy_node.dir/src/joy_node.cpp.o"
 )
 

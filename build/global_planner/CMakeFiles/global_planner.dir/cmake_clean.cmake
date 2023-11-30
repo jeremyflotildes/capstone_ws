@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/global_planner/lib/libglobal_planner.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/global_planner/lib/libglobal_planner.so"
+  "/home/jeremy/capstone_ws/devel/.private/global_planner/lib/libglobal_planner.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/global_planner/lib/libglobal_planner.so"
   "CMakeFiles/global_planner.dir/src/astar.cpp.o"
   "CMakeFiles/global_planner.dir/src/dijkstra.cpp.o"
   "CMakeFiles/global_planner.dir/src/gradient_path.cpp.o"

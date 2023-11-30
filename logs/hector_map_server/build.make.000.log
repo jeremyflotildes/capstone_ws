@@ -120,5 +120,5 @@
 [  0%] Built target sensor_msgs_generate_messages_nodejs
 [35m[1mScanning dependencies of target hector_map_server[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/hector_map_server.dir/src/hector_map_server.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/ubuntu/capstone_ws/devel/.private/hector_map_server/lib/hector_map_server/hector_map_server[0m
+[100%] [32m[1mLinking CXX executable /home/jeremy/capstone_ws/devel/.private/hector_map_server/lib/hector_map_server/hector_map_server[0m
 [100%] Built target hector_map_server

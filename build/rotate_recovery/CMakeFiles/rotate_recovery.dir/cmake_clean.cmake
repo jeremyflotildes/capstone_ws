@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/rotate_recovery/lib/librotate_recovery.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/rotate_recovery/lib/librotate_recovery.so"
+  "/home/jeremy/capstone_ws/devel/.private/rotate_recovery/lib/librotate_recovery.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/rotate_recovery/lib/librotate_recovery.so"
   "CMakeFiles/rotate_recovery.dir/src/rotate_recovery.cpp.o"
 )
 

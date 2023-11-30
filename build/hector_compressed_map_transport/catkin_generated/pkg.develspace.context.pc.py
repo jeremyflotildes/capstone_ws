@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;nav_msgs;sensor_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "hector_compressed_map_transport"
-PROJECT_SPACE_DIR = "/home/ubuntu/capstone_ws/devel/.private/hector_compressed_map_transport"
+PROJECT_SPACE_DIR = "/home/jeremy/capstone_ws/devel/.private/hector_compressed_map_transport"
 PROJECT_VERSION = "0.5.2"

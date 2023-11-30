@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/capstone_ws/src/hector_slam/geometry/kdl_conversions/src/kdl_msg.cpp" "/home/ubuntu/capstone_ws/build/kdl_conversions/CMakeFiles/kdl_conversions.dir/src/kdl_msg.cpp.o"
+  "/home/jeremy/capstone_ws/src/hector_slam/geometry/kdl_conversions/src/kdl_msg.cpp" "/home/jeremy/capstone_ws/build/kdl_conversions/CMakeFiles/kdl_conversions.dir/src/kdl_msg.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ubuntu/capstone_ws/src/hector_slam/geometry/kdl_conversions/include"
+  "/home/jeremy/capstone_ws/src/hector_slam/geometry/kdl_conversions/include"
   "/opt/ros/noetic/include"
   "/usr/include/eigen3"
   )

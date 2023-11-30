@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/install
+prefix=/home/jeremy/capstone_ws/install
 
 Name: ros_mpu6050_node
 Description: Description of ros_mpu6050_node

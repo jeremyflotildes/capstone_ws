@@ -16,7 +16,7 @@
 
 		<!-- Run the map server --> 
 
- <node name="map_server" pkg="map_server" type="map_server" args="/home/ubuntu/full_map_edited.yaml"/>
+ <node name="map_server" pkg="map_server" type="map_server" args="$(find capstone)/full_map_edited.yaml"/>
 
 
 		<!-- Add base to laser position transform. -->
@@ -85,14 +85,14 @@
 		
 	<node pkg="amcl" type="amcl" name="amcl">
 		<param name="tf_broadcast" value="true" />
-		<param name="base_frame_id" value="base_link" />
-		<param name="global_frame_id" value="map" />
-		<param name="odom_frame_id" value="scanmatch_odom" />
+		<param name="base_frame_id" value="/base_link" />
+		<param name="global_frame_id" value="/map" />
+		<param name="odom_frame_id" value="/scanmatch_odom" />
 		<param name="use_map_topic" value="false" />
 
 	    <remap from="scan" to="scan" />
 	    <param name="odom_model_type" value="diff" />
-	    <param name="transform_tolerance" value="2.5" />
+	    <param name="transform_tolerance" value="0.5" />
 	    <param name="gui_publish_rate" value="-1.0"/>
 	    <param name="laser_max_beams" value="2000"/>
 	    <param name="laser_max_range" value="29.5"/>
@@ -124,8 +124,8 @@
 
 		<!-- MOVEMENT -->
 
-	 <!--<node pkg="capstone" type="move_base_flex_bt.py" respawn="false" name="behavior_tree" output="screen">
-  </node>-->
+	 <node pkg="capstone" type="move_base_flex_return_to_start.py" respawn="false" name="behavior_tree" output="screen">
+  </node>
 
      <node pkg="capstone" type="second_goal.py" respawn="false" name="second_goal" output="screen">
   </node>
@@ -141,7 +141,7 @@
 
 		<!-- RVIZ -->
 		
-	<node 	name="rviz" pkg="rviz" type="rviz"  args="-d /home/ubuntu/catkin_ws/src/capstone/rviz/capstone_move.rviz" />
+	<node 	name="rviz" pkg="rviz" type="rviz"  args="-d $(find capstone)/rviz/capstone_move.rviz" />
 	  
 	  
 </launch>

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/amcl/lib/libamcl_sensors.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/amcl/lib/libamcl_sensors.so"
+  "/home/jeremy/capstone_ws/devel/.private/amcl/lib/libamcl_sensors.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/amcl/lib/libamcl_sensors.so"
   "CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_laser.cpp.o"
   "CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_odom.cpp.o"
   "CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_sensor.cpp.o"

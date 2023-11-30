@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/share/roseus/ros/base_local_planner/manifest.l"
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/share/roseus/ros/base_local_planner/msg/Position2DInt.l"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/share/roseus/ros/base_local_planner/manifest.l"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/share/roseus/ros/base_local_planner/msg/Position2DInt.l"
   "CMakeFiles/base_local_planner_generate_messages_eus"
 )
 

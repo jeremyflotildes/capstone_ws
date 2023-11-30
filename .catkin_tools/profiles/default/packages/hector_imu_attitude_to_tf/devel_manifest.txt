@@ -1,6 +1,6 @@
 hector_slam/hector_imu_attitude_to_tf
-/home/ubuntu/capstone_ws/devel/.private/hector_imu_attitude_to_tf/cmake.lock /home/ubuntu/capstone_ws/devel/./cmake.lock
-/home/ubuntu/capstone_ws/devel/.private/hector_imu_attitude_to_tf/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig.cmake /home/ubuntu/capstone_ws/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig.cmake
-/home/ubuntu/capstone_ws/devel/.private/hector_imu_attitude_to_tf/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake /home/ubuntu/capstone_ws/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake
-/home/ubuntu/capstone_ws/devel/.private/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node /home/ubuntu/capstone_ws/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node
-/home/ubuntu/capstone_ws/devel/.private/hector_imu_attitude_to_tf/lib/pkgconfig/hector_imu_attitude_to_tf.pc /home/ubuntu/capstone_ws/devel/lib/pkgconfig/hector_imu_attitude_to_tf.pc
+/home/jeremy/capstone_ws/devel/.private/hector_imu_attitude_to_tf/cmake.lock /home/jeremy/capstone_ws/devel/./cmake.lock
+/home/jeremy/capstone_ws/devel/.private/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node /home/jeremy/capstone_ws/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node
+/home/jeremy/capstone_ws/devel/.private/hector_imu_attitude_to_tf/lib/pkgconfig/hector_imu_attitude_to_tf.pc /home/jeremy/capstone_ws/devel/lib/pkgconfig/hector_imu_attitude_to_tf.pc
+/home/jeremy/capstone_ws/devel/.private/hector_imu_attitude_to_tf/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake /home/jeremy/capstone_ws/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake
+/home/jeremy/capstone_ws/devel/.private/hector_imu_attitude_to_tf/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig.cmake /home/jeremy/capstone_ws/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig.cmake

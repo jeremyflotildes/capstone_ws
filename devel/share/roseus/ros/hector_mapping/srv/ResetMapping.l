@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/hector_mapping/share/roseus/ros/hector_mapping/srv/ResetMapping.l
+/home/jeremy/capstone_ws/devel/.private/hector_mapping/share/roseus/ros/hector_mapping/srv/ResetMapping.l

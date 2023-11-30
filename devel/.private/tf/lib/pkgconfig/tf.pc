@@ -1,8 +1,8 @@
-prefix=/home/ubuntu/capstone_ws/devel/.private/tf
+prefix=/home/jeremy/capstone_ws/devel/.private/tf
 
 Name: tf
 Description: Description of tf
 Version: 1.13.2
-Cflags: -I/home/ubuntu/capstone_ws/devel/.private/tf/include -I/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include
+Cflags: -I/home/jeremy/capstone_ws/devel/.private/tf/include -I/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include
 Libs: -L${prefix}/lib -ltf
 Requires: geometry_msgs message_filters message_runtime roscpp sensor_msgs std_msgs tf2_ros rosconsole

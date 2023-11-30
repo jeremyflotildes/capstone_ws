@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/clear_costmap_recovery
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/clear_costmap_recovery
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/clear_costmap_recovery
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/clear_costmap_recovery
 
 # Utility rule file for dynamic_reconfigure_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
 
 CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/clear_costmap_recovery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/clear_costmap_recovery /home/ubuntu/capstone_ws/src/navigation/clear_costmap_recovery /home/ubuntu/capstone_ws/build/clear_costmap_recovery /home/ubuntu/capstone_ws/build/clear_costmap_recovery /home/ubuntu/capstone_ws/build/clear_costmap_recovery/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/clear_costmap_recovery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/clear_costmap_recovery /home/jeremy/capstone_ws/src/navigation/clear_costmap_recovery /home/jeremy/capstone_ws/build/clear_costmap_recovery /home/jeremy/capstone_ws/build/clear_costmap_recovery /home/jeremy/capstone_ws/build/clear_costmap_recovery/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/lib/libnavfn.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/lib/libnavfn.so"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/lib/libnavfn.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/lib/libnavfn.so"
   "CMakeFiles/navfn.dir/src/navfn.cpp.o"
   "CMakeFiles/navfn.dir/src/navfn_ros.cpp.o"
 )

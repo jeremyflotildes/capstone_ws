@@ -1,4 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+# IF RUNNING THIS ON ROBOT -- CHANGE python3 TO python
+# IF RUNNING FROM REMOTE -- NEED python3
+# difference in python distributions on the two systems?
 
 import actionlib
 import rospy
@@ -73,20 +76,23 @@ def second_goal(goal_pose):
 
     # --- while node is running, publish the new pose so it is visible on rviz ---
     while not rospy.is_shutdown():
-       # rospy.loginfo(goal_pose)
+        # rospy.loginfo(goal_pose)
         pub.publish(goal_pose)
         rate.sleep()
 
+    # if not runnign ..._return_to_start, want the while loop commented out!
+
 if __name__ == '__main__':
     rospy.init_node('second_goal', anonymous = True)
-    pub = rospy.Publisher('/move_base_simple/goal', geometry_msgs.PoseStamped, queue_size=10)
+    pub = rospy.Publisher('/secondPoint', geometry_msgs.PoseStamped, queue_size=10)
+    # publish to /secondPoint (FOR __RETURN_TO_START) or /move_base_simple/goal (FOR BEHAVIOR TREE)
     rate = rospy.Rate(10)
 
     rospy.loginfo("Starting second_goal.py!")
     # --- wait for the user-defined goal ---
     goal_pose = goal_subscriber()
 
-    rospy.sleep(60)
+    rospy.sleep(5)
 
     # --- pass the user-defined goal to second_goal() to calculate the second goal ---
     second_goal(goal_pose)

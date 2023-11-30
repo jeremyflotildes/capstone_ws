@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so"
+  "/home/jeremy/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so"
   "CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o"
 )
 

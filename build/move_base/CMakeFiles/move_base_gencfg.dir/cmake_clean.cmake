@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/move_base/include/move_base/MoveBaseConfig.h"
-  "/home/ubuntu/capstone_ws/devel/.private/move_base/lib/python3/dist-packages/move_base/cfg/MoveBaseConfig.py"
-  "/home/ubuntu/capstone_ws/devel/.private/move_base/share/move_base/docs/MoveBaseConfig-usage.dox"
-  "/home/ubuntu/capstone_ws/devel/.private/move_base/share/move_base/docs/MoveBaseConfig.dox"
-  "/home/ubuntu/capstone_ws/devel/.private/move_base/share/move_base/docs/MoveBaseConfig.wikidoc"
+  "/home/jeremy/capstone_ws/devel/.private/move_base/include/move_base/MoveBaseConfig.h"
+  "/home/jeremy/capstone_ws/devel/.private/move_base/lib/python3/dist-packages/move_base/cfg/MoveBaseConfig.py"
+  "/home/jeremy/capstone_ws/devel/.private/move_base/share/move_base/docs/MoveBaseConfig-usage.dox"
+  "/home/jeremy/capstone_ws/devel/.private/move_base/share/move_base/docs/MoveBaseConfig.dox"
+  "/home/jeremy/capstone_ws/devel/.private/move_base/share/move_base/docs/MoveBaseConfig.wikidoc"
   "CMakeFiles/move_base_gencfg"
 )
 

@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake
+/home/jeremy/capstone_ws/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake

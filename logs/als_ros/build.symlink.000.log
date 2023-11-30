@@ -1,0 +1,12 @@
+Symlinking /home/jeremy/capstone_ws/devel/lib/als_ros/classifier_dataset_generator
+Symlinking /home/jeremy/capstone_ws/devel/lib/als_ros/evaluator
+Symlinking /home/jeremy/capstone_ws/devel/lib/als_ros/gl_pose_sampler
+Symlinking /home/jeremy/capstone_ws/devel/lib/als_ros/mae_classifier_learning
+Symlinking /home/jeremy/capstone_ws/devel/lib/als_ros/mcl
+Symlinking /home/jeremy/capstone_ws/devel/lib/als_ros/mrf_failure_detector
+Symlinking /home/jeremy/capstone_ws/devel/lib/als_ros/scan2pc
+Symlinking /home/jeremy/capstone_ws/devel/lib/als_ros/slamer
+Symlinking /home/jeremy/capstone_ws/devel/lib/als_ros/sm
+Symlinking /home/jeremy/capstone_ws/devel/lib/pkgconfig/als_ros.pc
+Symlinking /home/jeremy/capstone_ws/devel/share/als_ros/cmake/als_rosConfig-version.cmake
+Symlinking /home/jeremy/capstone_ws/devel/share/als_ros/cmake/als_rosConfig.cmake

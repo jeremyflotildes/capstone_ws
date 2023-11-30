@@ -43,89 +43,89 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/hector_nav_msgs
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/hector_nav_msgs
 
 # Utility rule file for hector_nav_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include CMakeFiles/hector_nav_msgs_generate_messages_py.dir/progress.make
 
-CMakeFiles/hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py
-CMakeFiles/hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py
-CMakeFiles/hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py
-CMakeFiles/hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py
-CMakeFiles/hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py
-CMakeFiles/hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py
+CMakeFiles/hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py
+CMakeFiles/hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py
+CMakeFiles/hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py
+CMakeFiles/hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py
+CMakeFiles/hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py
+CMakeFiles/hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py
 
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV hector_nav_msgs/GetDistanceToObstacle"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV hector_nav_msgs/GetDistanceToObstacle"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV hector_nav_msgs/GetRecoveryInfo"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV hector_nav_msgs/GetRecoveryInfo"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV hector_nav_msgs/GetRobotTrajectory"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV hector_nav_msgs/GetRobotTrajectory"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV hector_nav_msgs/GetSearchPosition"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV hector_nav_msgs/GetSearchPosition"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV hector_nav_msgs/GetNormal"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV hector_nav_msgs/GetNormal"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python srv __init__.py for hector_nav_msgs"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv --initpy
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python srv __init__.py for hector_nav_msgs"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv --initpy
 
 hector_nav_msgs_generate_messages_py: CMakeFiles/hector_nav_msgs_generate_messages_py
-hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py
-hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py
-hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py
-hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py
-hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py
-hector_nav_msgs_generate_messages_py: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py
+hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py
+hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py
+hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py
+hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py
+hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py
+hector_nav_msgs_generate_messages_py: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py
 hector_nav_msgs_generate_messages_py: CMakeFiles/hector_nav_msgs_generate_messages_py.dir/build.make
 
 .PHONY : hector_nav_msgs_generate_messages_py
@@ -140,6 +140,6 @@ CMakeFiles/hector_nav_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/hector_nav_msgs_generate_messages_py.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs /home/ubuntu/capstone_ws/build/hector_nav_msgs /home/ubuntu/capstone_ws/build/hector_nav_msgs /home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs /home/jeremy/capstone_ws/build/hector_nav_msgs /home/jeremy/capstone_ws/build/hector_nav_msgs /home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_py.dir/depend
 

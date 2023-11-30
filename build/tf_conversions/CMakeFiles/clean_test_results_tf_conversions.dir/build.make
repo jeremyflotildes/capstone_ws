@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/hector_slam/geometry/tf_conversions
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/hector_slam/geometry/tf_conversions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/tf_conversions
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/tf_conversions
 
 # Utility rule file for clean_test_results_tf_conversions.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/tf_conversions
 include CMakeFiles/clean_test_results_tf_conversions.dir/progress.make
 
 CMakeFiles/clean_test_results_tf_conversions:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ubuntu/capstone_ws/build/tf_conversions/test_results/tf_conversions
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/jeremy/capstone_ws/build/tf_conversions/test_results/tf_conversions
 
 clean_test_results_tf_conversions: CMakeFiles/clean_test_results_tf_conversions
 clean_test_results_tf_conversions: CMakeFiles/clean_test_results_tf_conversions.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_tf_conversions.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_tf_conversions.dir/clean
 
 CMakeFiles/clean_test_results_tf_conversions.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/tf_conversions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/hector_slam/geometry/tf_conversions /home/ubuntu/capstone_ws/src/hector_slam/geometry/tf_conversions /home/ubuntu/capstone_ws/build/tf_conversions /home/ubuntu/capstone_ws/build/tf_conversions /home/ubuntu/capstone_ws/build/tf_conversions/CMakeFiles/clean_test_results_tf_conversions.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/tf_conversions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/hector_slam/geometry/tf_conversions /home/jeremy/capstone_ws/src/hector_slam/geometry/tf_conversions /home/jeremy/capstone_ws/build/tf_conversions /home/jeremy/capstone_ws/build/tf_conversions /home/jeremy/capstone_ws/build/tf_conversions/CMakeFiles/clean_test_results_tf_conversions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_tf_conversions.dir/depend
 

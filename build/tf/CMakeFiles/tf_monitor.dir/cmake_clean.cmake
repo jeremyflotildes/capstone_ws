@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_monitor"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_monitor.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_monitor"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_monitor.pdb"
   "CMakeFiles/tf_monitor.dir/src/tf_monitor.cpp.o"
 )
 

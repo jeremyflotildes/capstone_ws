@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake

@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/spacenav_node/share/spacenav_node/cmake/spacenav_nodeConfig.cmake
+/home/jeremy/capstone_ws/devel/.private/spacenav_node/share/spacenav_node/cmake/spacenav_nodeConfig.cmake

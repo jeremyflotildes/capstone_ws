@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/kdl_conversions/lib/libkdl_conversions.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/kdl_conversions/lib/libkdl_conversions.so"
+  "/home/jeremy/capstone_ws/devel/.private/kdl_conversions/lib/libkdl_conversions.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/kdl_conversions/lib/libkdl_conversions.so"
   "CMakeFiles/kdl_conversions.dir/src/kdl_msg.cpp.o"
 )
 

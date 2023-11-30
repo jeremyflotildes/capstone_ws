@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_map_server/lib/hector_map_server/hector_map_server"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_map_server/lib/hector_map_server/hector_map_server.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/hector_map_server/lib/hector_map_server/hector_map_server"
+  "/home/jeremy/capstone_ws/devel/.private/hector_map_server/lib/hector_map_server/hector_map_server.pdb"
   "CMakeFiles/hector_map_server.dir/src/hector_map_server.cpp.o"
 )
 

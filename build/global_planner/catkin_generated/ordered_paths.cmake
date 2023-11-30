@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib;/home/ubuntu/capstone_ws/devel/.private/tf/lib;/home/ubuntu/capstone_ws/devel/.private/voxel_grid/lib;/home/ubuntu/capstone_ws/devel/.private/navfn/lib;/opt/ros/noetic/lib")
+set(ORDERED_PATHS "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib;/home/jeremy/capstone_ws/devel/.private/tf/lib;/home/jeremy/capstone_ws/devel/.private/voxel_grid/lib;/home/jeremy/capstone_ws/devel/.private/navfn/lib;/opt/ros/noetic/lib")

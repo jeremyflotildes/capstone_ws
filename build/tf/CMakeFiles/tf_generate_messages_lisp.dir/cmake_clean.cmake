@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/tf/share/common-lisp/ros/tf/msg/tfMessage.lisp"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/share/common-lisp/ros/tf/srv/FrameGraph.lisp"
+  "/home/jeremy/capstone_ws/devel/.private/tf/share/common-lisp/ros/tf/msg/tfMessage.lisp"
+  "/home/jeremy/capstone_ws/devel/.private/tf/share/common-lisp/ros/tf/srv/FrameGraph.lisp"
   "CMakeFiles/tf_generate_messages_lisp"
 )
 

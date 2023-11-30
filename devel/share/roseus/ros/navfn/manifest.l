@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/navfn/share/roseus/ros/navfn/manifest.l
+/home/jeremy/capstone_ws/devel/.private/navfn/share/roseus/ros/navfn/manifest.l

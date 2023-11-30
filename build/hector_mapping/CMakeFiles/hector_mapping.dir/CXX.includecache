@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/HectorDebugInfo.h
+/home/jeremy/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/HectorDebugInfo.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 hector_mapping/HectorIterData.h
 -
 
-/home/ubuntu/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/HectorIterData.h
+/home/jeremy/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/HectorIterData.h
 string
 -
 vector
@@ -40,7 +40,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ubuntu/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/ResetMapping.h
+/home/jeremy/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/ResetMapping.h
 ros/service_traits.h
 -
 hector_mapping/ResetMappingRequest.h
@@ -48,7 +48,7 @@ hector_mapping/ResetMappingRequest.h
 hector_mapping/ResetMappingResponse.h
 -
 
-/home/ubuntu/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/ResetMappingRequest.h
+/home/jeremy/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/ResetMappingRequest.h
 string
 -
 vector
@@ -66,7 +66,7 @@ ros/message_operations.h
 geometry_msgs/Pose.h
 -
 
-/home/ubuntu/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/ResetMappingResponse.h
+/home/jeremy/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/ResetMappingResponse.h
 string
 -
 vector
@@ -82,7 +82,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ubuntu/capstone_ws/devel/.private/tf/include/tf/FrameGraph.h
+/home/jeremy/capstone_ws/devel/.private/tf/include/tf/FrameGraph.h
 ros/service_traits.h
 -
 tf/FrameGraphRequest.h
@@ -90,7 +90,7 @@ tf/FrameGraphRequest.h
 tf/FrameGraphResponse.h
 -
 
-/home/ubuntu/capstone_ws/devel/.private/tf/include/tf/FrameGraphRequest.h
+/home/jeremy/capstone_ws/devel/.private/tf/include/tf/FrameGraphRequest.h
 string
 -
 vector
@@ -106,7 +106,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ubuntu/capstone_ws/devel/.private/tf/include/tf/FrameGraphResponse.h
+/home/jeremy/capstone_ws/devel/.private/tf/include/tf/FrameGraphResponse.h
 string
 -
 vector
@@ -122,7 +122,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ubuntu/capstone_ws/devel/.private/tf/include/tf/tfMessage.h
+/home/jeremy/capstone_ws/devel/.private/tf/include/tf/tfMessage.h
 string
 -
 vector
@@ -140,33 +140,33 @@ ros/message_operations.h
 geometry_msgs/TransformStamped.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Matrix3x3.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Matrix3x3.h
 Vector3.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Vector3.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Vector3.h
 Quaternion.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Quaternion.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Quaternion.h
 ros/macros.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/MinMax.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/MinMax.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/QuadWord.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/QuadWord.h
 Scalar.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Scalar.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Scalar.h
 MinMax.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/MinMax.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/MinMax.h
 altivec.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Quaternion.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Quaternion.h
 Vector3.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Vector3.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Vector3.h
 QuadWord.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/QuadWord.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/QuadWord.h
 ros/macros.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Scalar.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Scalar.h
 math.h
 -
 stdlib.h
@@ -188,23 +188,23 @@ assert.h
 assert.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Transform.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Transform.h
 Matrix3x3.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Matrix3x3.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Matrix3x3.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Vector3.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Vector3.h
 Scalar.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Scalar.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Scalar.h
 MinMax.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/MinMax.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/MinMax.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/exceptions.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/exceptions.h
 stdexcept
 -
 tf2/exceptions.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/message_filter.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/message_filter.h
 ros/ros.h
 -
 tf/transform_listener.h
@@ -236,7 +236,7 @@ message_filters/connection.h
 message_filters/simple_filter.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf.h
 iostream
 -
 iomanip
@@ -254,279 +254,279 @@ memory
 tf/exceptions.h
 -
 tf/time_cache.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/time_cache.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/time_cache.h
 boost/unordered_map.hpp
 -
 boost/signals2.hpp
 -
 geometry_msgs/TwistStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/TwistStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/TwistStamped.h
 tf2_ros/buffer.h
 -
 ros/macros.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/time_cache.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/time_cache.h
 set
 -
 boost/thread/mutex.hpp
 -
 tf/transform_datatypes.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/transform_datatypes.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/transform_datatypes.h
 tf/exceptions.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/exceptions.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/exceptions.h
 tf/LinearMath/Transform.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/LinearMath/Transform.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/LinearMath/Transform.h
 sstream
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/transform_broadcaster.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/transform_broadcaster.h
 tf/tf.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/tf.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/tf.h
 tf/tfMessage.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/tfMessage.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/tfMessage.h
 tf2_ros/transform_broadcaster.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/transform_datatypes.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/transform_datatypes.h
 string
 -
 geometry_msgs/PointStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/PointStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/PointStamped.h
 geometry_msgs/Vector3Stamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/Vector3Stamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/Vector3Stamped.h
 geometry_msgs/QuaternionStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/QuaternionStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/QuaternionStamped.h
 geometry_msgs/TransformStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/TransformStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/TransformStamped.h
 geometry_msgs/PoseStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/PoseStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/PoseStamped.h
 tf/LinearMath/Transform.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/LinearMath/Transform.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/LinearMath/Transform.h
 ros/time.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/time.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/time.h
 ros/console.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/console.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/console.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/transform_listener.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/transform_listener.h
 sensor_msgs/PointCloud.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/sensor_msgs/PointCloud.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/sensor_msgs/PointCloud.h
 std_msgs/Empty.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/std_msgs/Empty.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/std_msgs/Empty.h
 tf/tfMessage.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/tfMessage.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/tfMessage.h
 tf/tf.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/tf.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/tf.h
 ros/ros.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/ros.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/ros.h
 ros/callback_queue.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/callback_queue.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/callback_queue.h
 ros/macros.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/macros.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/macros.h
 tf/FrameGraph.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/FrameGraph.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/FrameGraph.h
 boost/thread.hpp
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/boost/thread.hpp
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/boost/thread.hpp
 tf2_ros/transform_listener.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
 OccGridMapBase.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapBase.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapBase.h
 GridMapLogOdds.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapLogOdds.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapLogOdds.h
 GridMapReflectanceCount.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapReflectanceCount.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapReflectanceCount.h
 GridMapSimpleCount.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapSimpleCount.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapSimpleCount.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapBase.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapBase.h
 Eigen/Geometry
 -
 Eigen/LU
 -
 MapDimensionProperties.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/MapDimensionProperties.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/MapDimensionProperties.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheArray.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheArray.h
 Eigen/Core
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapLogOdds.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapLogOdds.h
 cmath
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapReflectanceCount.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapReflectanceCount.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapSimpleCount.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapSimpleCount.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/MapDimensionProperties.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/MapDimensionProperties.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapBase.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapBase.h
 GridMapBase.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapBase.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapBase.h
 ../scan/DataPointContainer.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 ../util/UtilFunctions.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 Eigen/Geometry
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtil.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtil.h
 cmath
 -
 ../scan/DataPointContainer.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 ../util/UtilFunctions.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
 OccGridMapUtil.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtil.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtil.h
 GridMapCacheHash.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheHash.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheHash.h
 GridMapCacheArray.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheArray.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheArray.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
 Eigen/Geometry
 -
 ../scan/DataPointContainer.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 ../util/UtilFunctions.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 ../util/DrawInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
 ../util/HectorDebugInfoInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 vector
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/HectorSlamProcessor.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/HectorSlamProcessor.h
 ../map/GridMap.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
 ../map/OccGridMapUtilConfig.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
 ../matcher/ScanMatcher.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
 ../scan/DataPointContainer.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 ../util/UtilFunctions.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 ../util/DrawInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
 ../util/HectorDebugInfoInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
 ../util/MapLockerInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
 MapRepresentationInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
 MapRepMultiMap.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepMultiMap.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepMultiMap.h
 float.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapProcContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapProcContainer.h
 ../map/GridMap.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
 ../map/OccGridMapUtilConfig.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
 ../matcher/ScanMatcher.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
 ../util/MapLockerInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepMultiMap.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepMultiMap.h
 MapRepresentationInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
 MapProcContainer.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapProcContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapProcContainer.h
 ../map/GridMap.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
 ../map/OccGridMapUtilConfig.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
 ../matcher/ScanMatcher.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
 ../util/DrawInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
 ../util/HectorDebugInfoInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 cmath
 -
 tf/LinearMath/Transform.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorDebugInfoProvider.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorDebugInfoProvider.h
 util/HectorDebugInfoInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/util/HectorDebugInfoInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/util/HectorDebugInfoInterface.h
 util/UtilFunctions.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/util/UtilFunctions.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/util/UtilFunctions.h
 ros/ros.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/ros/ros.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/ros/ros.h
 hector_mapping/HectorDebugInfo.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/hector_mapping/HectorDebugInfo.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/hector_mapping/HectorDebugInfo.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorDrawings.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorDrawings.h
 util/DrawInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/util/DrawInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/util/DrawInterface.h
 util/UtilFunctions.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/util/UtilFunctions.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/util/UtilFunctions.h
 ros/ros.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/ros/ros.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/ros/ros.h
 visualization_msgs/MarkerArray.h
 -
 Eigen/Dense
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorMapMutex.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorMapMutex.h
 util/MapLockerInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/util/MapLockerInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/util/MapLockerInterface.h
 boost/thread/mutex.hpp
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.cpp
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.cpp
 HectorMappingRos.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
 map/GridMap.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/map/GridMap.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/map/GridMap.h
 geometry_msgs/PoseWithCovarianceStamped.h
 -
 nav_msgs/Odometry.h
 -
 sensor_msgs/PointCloud2.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/sensor_msgs/PointCloud2.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/sensor_msgs/PointCloud2.h
 HectorDrawings.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorDrawings.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorDrawings.h
 HectorDebugInfoProvider.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorDebugInfoProvider.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorDebugInfoProvider.h
 HectorMapMutex.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorMapMutex.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorMapMutex.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
 ros/ros.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/ros/ros.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/ros/ros.h
 tf/transform_listener.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/tf/transform_listener.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/tf/transform_listener.h
 tf/transform_broadcaster.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/tf/transform_broadcaster.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/tf/transform_broadcaster.h
 tf/message_filter.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/tf/message_filter.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/tf/message_filter.h
 message_filters/subscriber.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/message_filters/subscriber.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/message_filters/subscriber.h
 sensor_msgs/LaserScan.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/sensor_msgs/LaserScan.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/sensor_msgs/LaserScan.h
 std_msgs/String.h
 -
 hector_mapping/ResetMapping.h
@@ -536,25 +536,25 @@ std_srvs/SetBool.h
 std_srvs/Trigger.h
 -
 laser_geometry/laser_geometry.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/laser_geometry/laser_geometry.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/laser_geometry/laser_geometry.h
 nav_msgs/GetMap.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/nav_msgs/GetMap.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/nav_msgs/GetMap.h
 slam_main/HectorSlamProcessor.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/slam_main/HectorSlamProcessor.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/slam_main/HectorSlamProcessor.h
 scan/DataPointContainer.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/scan/DataPointContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/scan/DataPointContainer.h
 util/MapLockerInterface.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/util/MapLockerInterface.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/util/MapLockerInterface.h
 boost/thread.hpp
 -
 PoseInfoContainer.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.cpp
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.cpp
 PoseInfoContainer.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
 tf/transform_datatypes.h
 -
 geometry_msgs/PoseStamped.h
@@ -564,11 +564,11 @@ geometry_msgs/PoseWithCovarianceStamped.h
 Eigen/Core
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/main.cpp
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/main.cpp
 ros/ros.h
 -
 HectorMappingRos.h
-/home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
+/home/jeremy/capstone_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"hector_geotiff_plugins\" -Dhector_geotiff_plugins_EXPORTS
 
-CXX_INCLUDES = -I/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include -I/home/ubuntu/capstone_ws/src/hector_slam/hector_map_tools/include -I/home/ubuntu/capstone_ws/src/hector_slam/hector_geotiff/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/aarch64-linux-gnu/qt5 -I/usr/include/aarch64-linux-gnu/qt5/QtWidgets -I/usr/include/aarch64-linux-gnu/qt5/QtGui -I/usr/include/aarch64-linux-gnu/qt5/QtCore -I/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ 
+CXX_INCLUDES = -I/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include -I/home/jeremy/capstone_ws/src/hector_slam/hector_map_tools/include -I/home/jeremy/capstone_ws/src/hector_slam/hector_geotiff/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ 
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/python3/dist-packages/base_local_planner/msg/_Position2DInt.py"
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/python3/dist-packages/base_local_planner/msg/__init__.py"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/python3/dist-packages/base_local_planner/msg/_Position2DInt.py"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/python3/dist-packages/base_local_planner/msg/__init__.py"
   "CMakeFiles/base_local_planner_generate_messages_py"
 )
 

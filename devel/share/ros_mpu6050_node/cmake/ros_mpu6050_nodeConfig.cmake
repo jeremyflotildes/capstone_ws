@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/ros_mpu6050_node/share/ros_mpu6050_node/cmake/ros_mpu6050_nodeConfig.cmake
+/home/jeremy/capstone_ws/devel/.private/ros_mpu6050_node/share/ros_mpu6050_node/cmake/ros_mpu6050_nodeConfig.cmake

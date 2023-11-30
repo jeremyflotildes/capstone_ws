@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/usb_cam/lib/libusb_cam.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/usb_cam/lib/libusb_cam.so"
+  "/home/jeremy/capstone_ws/devel/.private/usb_cam/lib/libusb_cam.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/usb_cam/lib/libusb_cam.so"
   "CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o"
 )
 

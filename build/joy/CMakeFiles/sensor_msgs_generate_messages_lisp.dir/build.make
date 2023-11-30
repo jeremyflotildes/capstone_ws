@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/joystick_drivers/joy
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/joystick_drivers/joy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/joy
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/joy
 
 # Utility rule file for sensor_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/joystick_drivers/joy /home/ubuntu/capstone_ws/src/joystick_drivers/joy /home/ubuntu/capstone_ws/build/joy /home/ubuntu/capstone_ws/build/joy /home/ubuntu/capstone_ws/build/joy/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/joystick_drivers/joy /home/jeremy/capstone_ws/src/joystick_drivers/joy /home/jeremy/capstone_ws/build/joy /home/jeremy/capstone_ws/build/joy /home/jeremy/capstone_ws/build/joy/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 

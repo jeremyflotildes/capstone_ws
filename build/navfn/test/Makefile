@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/navfn
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/navfn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/navfn
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/navfn
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/capstone_ws/build/navfn && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/capstone_ws/build/navfn/CMakeFiles /home/ubuntu/capstone_ws/build/navfn/test/CMakeFiles/progress.marks
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/capstone_ws/build/navfn/CMakeFiles 0
+	cd /home/jeremy/capstone_ws/build/navfn && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeremy/capstone_ws/build/navfn/CMakeFiles /home/jeremy/capstone_ws/build/navfn/test/CMakeFiles/progress.marks
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeremy/capstone_ws/build/navfn/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeremy/capstone_ws/build/navfn && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/path_calc_test.dir/rule:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/path_calc_test.dir/rule
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/path_calc_test.dir/rule
 .PHONY : test/CMakeFiles/path_calc_test.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ path_calc_test: test/CMakeFiles/path_calc_test.dir/rule
 
 # fast build rule for target.
 path_calc_test/fast:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/build
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/build
 .PHONY : path_calc_test/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_navfn.dir/rule:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_navfn.dir/rule
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_navfn.dir/rule
 .PHONY : test/CMakeFiles/run_tests_navfn.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ run_tests_navfn: test/CMakeFiles/run_tests_navfn.dir/rule
 
 # fast build rule for target.
 run_tests_navfn/fast:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/run_tests_navfn.dir/build.make test/CMakeFiles/run_tests_navfn.dir/build
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/run_tests_navfn.dir/build.make test/CMakeFiles/run_tests_navfn.dir/build
 .PHONY : run_tests_navfn/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_navfn.dir/rule:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_navfn.dir/rule
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_navfn.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_navfn.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ _run_tests_navfn: test/CMakeFiles/_run_tests_navfn.dir/rule
 
 # fast build rule for target.
 _run_tests_navfn/fast:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/_run_tests_navfn.dir/build.make test/CMakeFiles/_run_tests_navfn.dir/build
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/_run_tests_navfn.dir/build.make test/CMakeFiles/_run_tests_navfn.dir/build
 .PHONY : _run_tests_navfn/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_navfn_gtest.dir/rule:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_navfn_gtest.dir/rule
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_navfn_gtest.dir/rule
 .PHONY : test/CMakeFiles/run_tests_navfn_gtest.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ run_tests_navfn_gtest: test/CMakeFiles/run_tests_navfn_gtest.dir/rule
 
 # fast build rule for target.
 run_tests_navfn_gtest/fast:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/run_tests_navfn_gtest.dir/build.make test/CMakeFiles/run_tests_navfn_gtest.dir/build
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/run_tests_navfn_gtest.dir/build.make test/CMakeFiles/run_tests_navfn_gtest.dir/build
 .PHONY : run_tests_navfn_gtest/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_navfn_gtest.dir/rule:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_navfn_gtest.dir/rule
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_navfn_gtest.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_navfn_gtest.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ _run_tests_navfn_gtest: test/CMakeFiles/_run_tests_navfn_gtest.dir/rule
 
 # fast build rule for target.
 _run_tests_navfn_gtest/fast:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/_run_tests_navfn_gtest.dir/build.make test/CMakeFiles/_run_tests_navfn_gtest.dir/build
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/_run_tests_navfn_gtest.dir/build.make test/CMakeFiles/_run_tests_navfn_gtest.dir/build
 .PHONY : _run_tests_navfn_gtest/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/rule:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/rule
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/rule
 .PHONY : test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ run_tests_navfn_gtest_path_calc_test: test/CMakeFiles/run_tests_navfn_gtest_path
 
 # fast build rule for target.
 run_tests_navfn_gtest_path_calc_test/fast:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/build.make test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/build
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/build.make test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/build
 .PHONY : run_tests_navfn_gtest_path_calc_test/fast
 
 # Convenience name for target.
 test/CMakeFiles/clean_test_results_navfn.dir/rule:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_navfn.dir/rule
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_navfn.dir/rule
 .PHONY : test/CMakeFiles/clean_test_results_navfn.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ clean_test_results_navfn: test/CMakeFiles/clean_test_results_navfn.dir/rule
 
 # fast build rule for target.
 clean_test_results_navfn/fast:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/clean_test_results_navfn.dir/build.make test/CMakeFiles/clean_test_results_navfn.dir/build
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/clean_test_results_navfn.dir/build.make test/CMakeFiles/clean_test_results_navfn.dir/build
 .PHONY : clean_test_results_navfn/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/rule:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/rule
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/rule
 
 # Convenience name for target.
@@ -284,7 +284,7 @@ _run_tests_navfn_gtest_path_calc_test: test/CMakeFiles/_run_tests_navfn_gtest_pa
 
 # fast build rule for target.
 _run_tests_navfn_gtest_path_calc_test/fast:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/build.make test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/build
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/build.make test/CMakeFiles/_run_tests_navfn_gtest_path_calc_test.dir/build
 .PHONY : _run_tests_navfn_gtest_path_calc_test/fast
 
 __/src/read_pgm_costmap.o: __/src/read_pgm_costmap.cpp.o
@@ -293,7 +293,7 @@ __/src/read_pgm_costmap.o: __/src/read_pgm_costmap.cpp.o
 
 # target to build an object file
 __/src/read_pgm_costmap.cpp.o:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o
 .PHONY : __/src/read_pgm_costmap.cpp.o
 
 __/src/read_pgm_costmap.i: __/src/read_pgm_costmap.cpp.i
@@ -302,7 +302,7 @@ __/src/read_pgm_costmap.i: __/src/read_pgm_costmap.cpp.i
 
 # target to preprocess a source file
 __/src/read_pgm_costmap.cpp.i:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i
 .PHONY : __/src/read_pgm_costmap.cpp.i
 
 __/src/read_pgm_costmap.s: __/src/read_pgm_costmap.cpp.s
@@ -311,7 +311,7 @@ __/src/read_pgm_costmap.s: __/src/read_pgm_costmap.cpp.s
 
 # target to generate assembly for a file
 __/src/read_pgm_costmap.cpp.s:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s
 .PHONY : __/src/read_pgm_costmap.cpp.s
 
 path_calc_test.o: path_calc_test.cpp.o
@@ -320,7 +320,7 @@ path_calc_test.o: path_calc_test.cpp.o
 
 # target to build an object file
 path_calc_test.cpp.o:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o
 .PHONY : path_calc_test.cpp.o
 
 path_calc_test.i: path_calc_test.cpp.i
@@ -329,7 +329,7 @@ path_calc_test.i: path_calc_test.cpp.i
 
 # target to preprocess a source file
 path_calc_test.cpp.i:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i
 .PHONY : path_calc_test.cpp.i
 
 path_calc_test.s: path_calc_test.cpp.s
@@ -338,7 +338,7 @@ path_calc_test.s: path_calc_test.cpp.s
 
 # target to generate assembly for a file
 path_calc_test.cpp.s:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s
+	cd /home/jeremy/capstone_ws/build/navfn && $(MAKE) -f test/CMakeFiles/path_calc_test.dir/build.make test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s
 .PHONY : path_calc_test.cpp.s
 
 # Help Target
@@ -379,6 +379,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeremy/capstone_ws/build/navfn && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/base_local_planner
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/base_local_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/base_local_planner
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/base_local_planner
 
 # Utility rule file for costmap_2d_gencfg.
 
@@ -67,6 +67,6 @@ CMakeFiles/costmap_2d_gencfg.dir/clean:
 .PHONY : CMakeFiles/costmap_2d_gencfg.dir/clean
 
 CMakeFiles/costmap_2d_gencfg.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/base_local_planner /home/ubuntu/capstone_ws/src/navigation/base_local_planner /home/ubuntu/capstone_ws/build/base_local_planner /home/ubuntu/capstone_ws/build/base_local_planner /home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles/costmap_2d_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/base_local_planner /home/jeremy/capstone_ws/src/navigation/base_local_planner /home/jeremy/capstone_ws/build/base_local_planner /home/jeremy/capstone_ws/build/base_local_planner /home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles/costmap_2d_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/costmap_2d_gencfg.dir/depend
 

@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/install
+prefix=/home/jeremy/capstone_ws/install
 
 Name: hector_trajectory_server
 Description: Description of hector_trajectory_server

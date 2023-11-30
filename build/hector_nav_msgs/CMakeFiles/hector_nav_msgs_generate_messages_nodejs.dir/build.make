@@ -43,78 +43,78 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/hector_nav_msgs
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/hector_nav_msgs
 
 # Utility rule file for hector_nav_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/progress.make
 
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
 
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from hector_nav_msgs/GetDistanceToObstacle.srv"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from hector_nav_msgs/GetDistanceToObstacle.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from hector_nav_msgs/GetRecoveryInfo.srv"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from hector_nav_msgs/GetRecoveryInfo.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from hector_nav_msgs/GetRobotTrajectory.srv"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from hector_nav_msgs/GetRobotTrajectory.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from hector_nav_msgs/GetSearchPosition.srv"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from hector_nav_msgs/GetSearchPosition.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from hector_nav_msgs/GetNormal.srv"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from hector_nav_msgs/GetNormal.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv
 
 hector_nav_msgs_generate_messages_nodejs: CMakeFiles/hector_nav_msgs_generate_messages_nodejs
-hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
-hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
-hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
-hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
-hector_nav_msgs_generate_messages_nodejs: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
+hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
+hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
+hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
+hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
+hector_nav_msgs_generate_messages_nodejs: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
 hector_nav_msgs_generate_messages_nodejs: CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : hector_nav_msgs_generate_messages_nodejs
@@ -129,6 +129,6 @@ CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs /home/ubuntu/capstone_ws/build/hector_nav_msgs /home/ubuntu/capstone_ws/build/hector_nav_msgs /home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs /home/jeremy/capstone_ws/build/hector_nav_msgs /home/jeremy/capstone_ws/build/hector_nav_msgs /home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/depend
 

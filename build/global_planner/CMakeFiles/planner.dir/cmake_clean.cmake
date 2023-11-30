@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/global_planner/lib/global_planner/planner"
-  "/home/ubuntu/capstone_ws/devel/.private/global_planner/lib/global_planner/planner.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/global_planner/lib/global_planner/planner"
+  "/home/jeremy/capstone_ws/devel/.private/global_planner/lib/global_planner/planner.pdb"
   "CMakeFiles/planner.dir/src/plan_node.cpp.o"
 )
 

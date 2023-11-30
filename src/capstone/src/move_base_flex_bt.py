@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 MBF BT Demo: Behavior tree implementing a really basic navigation strategy,

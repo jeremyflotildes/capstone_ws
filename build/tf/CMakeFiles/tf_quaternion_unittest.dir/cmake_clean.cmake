@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_quaternion_unittest"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_quaternion_unittest.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_quaternion_unittest"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_quaternion_unittest.pdb"
   "CMakeFiles/tf_quaternion_unittest.dir/test/quaternion.cpp.o"
 )
 

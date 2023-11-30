@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so"
   "CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o"
   "CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o"
   "CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o"

@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/devel/.private/localization_data_pub
+prefix=/home/jeremy/capstone_ws/devel/.private/localization_data_pub
 
 Name: localization_data_pub
 Description: Description of localization_data_pub

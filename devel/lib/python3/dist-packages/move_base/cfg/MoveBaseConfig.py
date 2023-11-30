@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/move_base/lib/python3/dist-packages/move_base/cfg/MoveBaseConfig.py
+/home/jeremy/capstone_ws/devel/.private/move_base/lib/python3/dist-packages/move_base/cfg/MoveBaseConfig.py

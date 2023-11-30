@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/coordinates_test"
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/coordinates_test.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/coordinates_test"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/coordinates_test.pdb"
   "CMakeFiles/coordinates_test.dir/test/coordinates_test.cpp.o"
 )
 

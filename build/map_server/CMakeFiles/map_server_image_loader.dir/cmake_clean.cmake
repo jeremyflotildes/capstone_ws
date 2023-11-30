@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/map_server/lib/libmap_server_image_loader.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/map_server/lib/libmap_server_image_loader.so"
+  "/home/jeremy/capstone_ws/devel/.private/map_server/lib/libmap_server_image_loader.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/map_server/lib/libmap_server_image_loader.so"
   "CMakeFiles/map_server_image_loader.dir/src/image_loader.cpp.o"
 )
 

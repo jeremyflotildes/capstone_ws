@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/joystick_drivers/joy
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/joystick_drivers/joy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/joy
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/joy
 
 # Utility rule file for clean_test_results_joy.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/joy
 include CMakeFiles/clean_test_results_joy.dir/progress.make
 
 CMakeFiles/clean_test_results_joy:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ubuntu/capstone_ws/build/joy/test_results/joy
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/jeremy/capstone_ws/build/joy/test_results/joy
 
 clean_test_results_joy: CMakeFiles/clean_test_results_joy
 clean_test_results_joy: CMakeFiles/clean_test_results_joy.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_joy.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_joy.dir/clean
 
 CMakeFiles/clean_test_results_joy.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/joystick_drivers/joy /home/ubuntu/capstone_ws/src/joystick_drivers/joy /home/ubuntu/capstone_ws/build/joy /home/ubuntu/capstone_ws/build/joy /home/ubuntu/capstone_ws/build/joy/CMakeFiles/clean_test_results_joy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/joystick_drivers/joy /home/jeremy/capstone_ws/src/joystick_drivers/joy /home/jeremy/capstone_ws/build/joy /home/jeremy/capstone_ws/build/joy /home/jeremy/capstone_ws/build/joy/CMakeFiles/clean_test_results_joy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_joy.dir/depend
 

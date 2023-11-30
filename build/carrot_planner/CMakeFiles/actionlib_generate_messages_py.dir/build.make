@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/carrot_planner
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/carrot_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/carrot_planner
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/carrot_planner
 
 # Utility rule file for actionlib_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/actionlib_generate_messages_py.dir/clean
 
 CMakeFiles/actionlib_generate_messages_py.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/carrot_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/carrot_planner /home/ubuntu/capstone_ws/src/navigation/carrot_planner /home/ubuntu/capstone_ws/build/carrot_planner /home/ubuntu/capstone_ws/build/carrot_planner /home/ubuntu/capstone_ws/build/carrot_planner/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/carrot_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/carrot_planner /home/jeremy/capstone_ws/src/navigation/carrot_planner /home/jeremy/capstone_ws/build/carrot_planner /home/jeremy/capstone_ws/build/carrot_planner /home/jeremy/capstone_ws/build/carrot_planner/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_generate_messages_py.dir/depend
 

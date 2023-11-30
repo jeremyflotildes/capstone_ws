@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp"
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/share/common-lisp/ros/navfn/srv/SetCostmap.lisp"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/share/common-lisp/ros/navfn/srv/SetCostmap.lisp"
   "CMakeFiles/navfn_generate_messages_lisp"
 )
 

@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/install
+prefix=/home/jeremy/capstone_ws/install
 
 Name: fake_localization
 Description: Description of fake_localization

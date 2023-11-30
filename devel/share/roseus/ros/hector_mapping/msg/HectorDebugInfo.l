@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/hector_mapping/share/roseus/ros/hector_mapping/msg/HectorDebugInfo.l
+/home/jeremy/capstone_ws/devel/.private/hector_mapping/share/roseus/ros/hector_mapping/msg/HectorDebugInfo.l

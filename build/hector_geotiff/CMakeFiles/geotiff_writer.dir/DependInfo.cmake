@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/capstone_ws/src/hector_slam/hector_geotiff/src/geotiff_writer/geotiff_writer.cpp" "/home/ubuntu/capstone_ws/build/hector_geotiff/CMakeFiles/geotiff_writer.dir/src/geotiff_writer/geotiff_writer.cpp.o"
+  "/home/jeremy/capstone_ws/src/hector_slam/hector_geotiff/src/geotiff_writer/geotiff_writer.cpp" "/home/jeremy/capstone_ws/build/hector_geotiff/CMakeFiles/geotiff_writer.dir/src/geotiff_writer/geotiff_writer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,17 +22,17 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ubuntu/capstone_ws/src/hector_slam/hector_geotiff/include"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include"
-  "/home/ubuntu/capstone_ws/src/hector_slam/hector_map_tools/include"
+  "/home/jeremy/capstone_ws/src/hector_slam/hector_geotiff/include"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include"
+  "/home/jeremy/capstone_ws/src/hector_slam/hector_map_tools/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
-  "/usr/include/aarch64-linux-gnu/qt5"
-  "/usr/include/aarch64-linux-gnu/qt5/QtWidgets"
-  "/usr/include/aarch64-linux-gnu/qt5/QtGui"
-  "/usr/include/aarch64-linux-gnu/qt5/QtCore"
-  "/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++"
+  "/usr/include/x86_64-linux-gnu/qt5"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
   )
 
 # Targets to which this target links.

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/move_base/lib/move_base/move_base"
-  "/home/ubuntu/capstone_ws/devel/.private/move_base/lib/move_base/move_base.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/move_base/lib/move_base/move_base"
+  "/home/jeremy/capstone_ws/devel/.private/move_base/lib/move_base/move_base.pdb"
   "CMakeFiles/move_base_node.dir/src/move_base_node.cpp.o"
 )
 

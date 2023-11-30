@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/navfn
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/navfn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/navfn
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/navfn
 
 # Utility rule file for run_tests_navfn_gtest_path_calc_test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/navfn
 include test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/progress.make
 
 test/CMakeFiles/run_tests_navfn_gtest_path_calc_test:
-	cd /home/ubuntu/capstone_ws/build/navfn/test && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/ubuntu/capstone_ws/build/navfn/test_results/navfn/gtest-path_calc_test.xml "/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test --gtest_output=xml:/home/ubuntu/capstone_ws/build/navfn/test_results/navfn/gtest-path_calc_test.xml"
+	cd /home/jeremy/capstone_ws/build/navfn/test && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/jeremy/capstone_ws/build/navfn/test_results/navfn/gtest-path_calc_test.xml "/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test --gtest_output=xml:/home/jeremy/capstone_ws/build/navfn/test_results/navfn/gtest-path_calc_test.xml"
 
 run_tests_navfn_gtest_path_calc_test: test/CMakeFiles/run_tests_navfn_gtest_path_calc_test
 run_tests_navfn_gtest_path_calc_test: test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/build: run_tests_navfn_
 .PHONY : test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/build
 
 test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/clean:
-	cd /home/ubuntu/capstone_ws/build/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/cmake_clean.cmake
+	cd /home/jeremy/capstone_ws/build/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/clean
 
 test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/navfn /home/ubuntu/capstone_ws/src/navigation/navfn/test /home/ubuntu/capstone_ws/build/navfn /home/ubuntu/capstone_ws/build/navfn/test /home/ubuntu/capstone_ws/build/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/navfn /home/jeremy/capstone_ws/src/navigation/navfn/test /home/jeremy/capstone_ws/build/navfn /home/jeremy/capstone_ws/build/navfn/test /home/jeremy/capstone_ws/build/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/depend
 

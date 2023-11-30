@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/costmap_2d/share/costmap_2d/cmake/costmap_2dConfig.cmake
+/home/jeremy/capstone_ws/devel/.private/costmap_2d/share/costmap_2d/cmake/costmap_2dConfig.cmake

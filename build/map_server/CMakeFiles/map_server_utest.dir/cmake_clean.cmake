@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/map_server/lib/map_server/map_server_utest"
-  "/home/ubuntu/capstone_ws/devel/.private/map_server/lib/map_server/map_server_utest.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/map_server/lib/map_server/map_server_utest"
+  "/home/jeremy/capstone_ws/devel/.private/map_server/lib/map_server/map_server_utest.pdb"
   "CMakeFiles/map_server_utest.dir/test/test_constants.cpp.o"
   "CMakeFiles/map_server_utest.dir/test/utest.cpp.o"
 )

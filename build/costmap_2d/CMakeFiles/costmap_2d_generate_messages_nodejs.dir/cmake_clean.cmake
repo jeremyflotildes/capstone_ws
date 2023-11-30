@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/share/gennodejs/ros/costmap_2d/msg/VoxelGrid.js"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/share/gennodejs/ros/costmap_2d/msg/VoxelGrid.js"
   "CMakeFiles/costmap_2d_generate_messages_nodejs"
 )
 

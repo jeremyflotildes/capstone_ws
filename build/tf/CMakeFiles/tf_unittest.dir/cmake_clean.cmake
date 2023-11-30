@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_unittest"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_unittest.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_unittest"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_unittest.pdb"
   "CMakeFiles/tf_unittest.dir/test/tf_unittest.cpp.o"
 )
 

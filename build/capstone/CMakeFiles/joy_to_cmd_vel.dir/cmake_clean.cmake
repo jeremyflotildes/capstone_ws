@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/capstone/lib/capstone/joy_to_cmd_vel"
-  "/home/ubuntu/capstone_ws/devel/.private/capstone/lib/capstone/joy_to_cmd_vel.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/capstone/lib/capstone/joy_to_cmd_vel"
+  "/home/jeremy/capstone_ws/devel/.private/capstone/lib/capstone/joy_to_cmd_vel.pdb"
   "CMakeFiles/joy_to_cmd_vel.dir/src/joy_to_cmd_vel.cpp.o"
 )
 

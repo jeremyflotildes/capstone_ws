@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/share/gennodejs/ros/hector_mapping/msg/HectorDebugInfo.js"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/share/gennodejs/ros/hector_mapping/msg/HectorIterData.js"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/share/gennodejs/ros/hector_mapping/srv/ResetMapping.js"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/share/gennodejs/ros/hector_mapping/msg/HectorDebugInfo.js"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/share/gennodejs/ros/hector_mapping/msg/HectorIterData.js"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/share/gennodejs/ros/hector_mapping/srv/ResetMapping.js"
   "CMakeFiles/hector_mapping_generate_messages_nodejs"
 )
 

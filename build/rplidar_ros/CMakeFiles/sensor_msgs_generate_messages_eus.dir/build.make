@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/rplidar_ros
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/rplidar_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/rplidar_ros
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/rplidar_ros
 
 # Utility rule file for sensor_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/rplidar_ros /home/ubuntu/capstone_ws/src/rplidar_ros /home/ubuntu/capstone_ws/build/rplidar_ros /home/ubuntu/capstone_ws/build/rplidar_ros /home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/rplidar_ros /home/jeremy/capstone_ws/src/rplidar_ros /home/jeremy/capstone_ws/build/rplidar_ros /home/jeremy/capstone_ws/build/rplidar_ros /home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 

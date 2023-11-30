@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/HectorDebugInfo.h"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/HectorIterData.h"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/ResetMapping.h"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/HectorDebugInfo.h"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/HectorIterData.h"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/include/hector_mapping/ResetMapping.h"
   "CMakeFiles/hector_mapping_generate_messages_cpp"
 )
 

@@ -1,14 +1,17 @@
 digraph G {
-"map" -> "scanmatch_odom"[label="Broadcaster: /amcl\nAverage rate: 7.414 Hz\nMost recent transform: 1699562447.057 ( 0.145 sec old)\nBuffer length: 4.856 sec\n"];
-"base_link" -> "laser"[label="Broadcaster: /base_to_laser_broadcaster\nAverage rate: 10.143 Hz\nMost recent transform: 1699562447.241 ( -0.039 sec old)\nBuffer length: 4.831 sec\n"];
-"scanmatch_odom" -> "base_link"[label="Broadcaster: /odomtransformer\nAverage rate: 7.769 Hz\nMost recent transform: 1699562447.088 ( 0.113 sec old)\nBuffer length: 4.763 sec\n"];
-"mapcurrent_frame" -> "scanmatcher_frame"[label="Broadcaster: /hector_mapping\nAverage rate: 7.607 Hz\nMost recent transform: 1699562446.829 ( 0.373 sec old)\nBuffer length: 4.864 sec\n"];
+"mapcurrent_frame" -> "scanmatcher_frame"[label="Broadcaster: /hector_mapping\nAverage rate: 7.011 Hz\nMost recent transform: 1701300480.568 ( 1.295 sec old)\nBuffer length: 4.850 sec\n"];
+"map" -> "base_link"[label="Broadcaster: /mcl\nAverage rate: 17.029 Hz\nMost recent transform: 1701300481.823 ( 0.040 sec old)\nBuffer length: 4.933 sec\n"];
+"base_link" -> "laser"[label="Broadcaster: /base_to_laser_broadcaster\nAverage rate: 10.132 Hz\nMost recent transform: 1701300481.913 ( -0.050 sec old)\nBuffer length: 4.836 sec\n"];
 edge [style=invis];
  subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1699562447.201"[ shape=plaintext ] ;
- }->"map";
-edge [style=invis];
- subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1699562447.201"[ shape=plaintext ] ;
+"Recorded at time: 1701300481.863"[ shape=plaintext ] ;
  }->"mapcurrent_frame";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1701300481.863"[ shape=plaintext ] ;
+ }->"scanmatch_odom";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1701300481.863"[ shape=plaintext ] ;
+ }->"map";
 }

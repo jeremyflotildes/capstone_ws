@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.so"
+  "/home/jeremy/capstone_ws/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.so"
   "CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o"
 )
 

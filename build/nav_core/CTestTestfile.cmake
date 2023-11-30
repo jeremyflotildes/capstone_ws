@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ubuntu/capstone_ws/src/navigation/nav_core
-# Build directory: /home/ubuntu/capstone_ws/build/nav_core
+# Source directory: /home/jeremy/capstone_ws/src/navigation/nav_core
+# Build directory: /home/jeremy/capstone_ws/build/nav_core
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

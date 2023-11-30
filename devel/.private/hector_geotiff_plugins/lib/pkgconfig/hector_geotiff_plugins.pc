@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/devel/.private/hector_geotiff_plugins
+prefix=/home/jeremy/capstone_ws/devel/.private/hector_geotiff_plugins
 
 Name: hector_geotiff_plugins
 Description: Description of hector_geotiff_plugins

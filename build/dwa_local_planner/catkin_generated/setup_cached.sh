@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner:$CMAKE_PREFIX_PATH"
-export PWD='/home/ubuntu/capstone_ws/build/dwa_local_planner'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ubuntu/capstone_ws/src/navigation/dwa_local_planner:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/jeremy/capstone_ws/devel/.private/dwa_local_planner:$CMAKE_PREFIX_PATH"
+export PWD='/home/jeremy/capstone_ws/build/dwa_local_planner'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/jeremy/capstone_ws/src/navigation/dwa_local_planner:$ROS_PACKAGE_PATH"

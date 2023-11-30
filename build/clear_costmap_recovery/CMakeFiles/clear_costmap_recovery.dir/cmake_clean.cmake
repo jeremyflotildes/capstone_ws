@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/clear_costmap_recovery/lib/libclear_costmap_recovery.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/clear_costmap_recovery/lib/libclear_costmap_recovery.so"
+  "/home/jeremy/capstone_ws/devel/.private/clear_costmap_recovery/lib/libclear_costmap_recovery.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/clear_costmap_recovery/lib/libclear_costmap_recovery.so"
   "CMakeFiles/clear_costmap_recovery.dir/src/clear_costmap_recovery.cpp.o"
 )
 

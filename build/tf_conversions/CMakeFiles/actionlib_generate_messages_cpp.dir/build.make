@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/hector_slam/geometry/tf_conversions
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/hector_slam/geometry/tf_conversions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/tf_conversions
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/tf_conversions
 
 # Utility rule file for actionlib_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/actionlib_generate_messages_cpp.dir/clean
 
 CMakeFiles/actionlib_generate_messages_cpp.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/tf_conversions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/hector_slam/geometry/tf_conversions /home/ubuntu/capstone_ws/src/hector_slam/geometry/tf_conversions /home/ubuntu/capstone_ws/build/tf_conversions /home/ubuntu/capstone_ws/build/tf_conversions /home/ubuntu/capstone_ws/build/tf_conversions/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/tf_conversions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/hector_slam/geometry/tf_conversions /home/jeremy/capstone_ws/src/hector_slam/geometry/tf_conversions /home/jeremy/capstone_ws/build/tf_conversions /home/jeremy/capstone_ws/build/tf_conversions /home/jeremy/capstone_ws/build/tf_conversions/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_generate_messages_cpp.dir/depend
 

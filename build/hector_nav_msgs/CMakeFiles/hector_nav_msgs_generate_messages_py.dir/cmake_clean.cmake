@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetNormal.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/lib/python3/dist-packages/hector_nav_msgs/srv/__init__.py"
   "CMakeFiles/hector_nav_msgs_generate_messages_py"
 )
 

@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js"
+  "/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js"
   "CMakeFiles/hector_nav_msgs_generate_messages_nodejs"
 )
 

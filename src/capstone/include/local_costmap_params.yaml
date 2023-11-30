@@ -25,17 +25,27 @@
   global_frame: map
   robot_base_frame: base_link
   
-  update_frequency: 2.5
+  update_frequency: 5.0
   publish_frequency: 1.0
   static_map: false
   rolling_window: true
   
-  transform_tolerance: 2.0
+  transform_tolerance: 1.0
   width: 6.0
   height: 6.0
   resolution: 0.05
   planner_frequency: 1.0
   planner_patiente: 5.0
-  
-  observation_sources: scan
-  scan: {sensor_frame: base_link,  observation_persistence: 0.0, max_obstacle_height: 0.4, min_obstacle_height: 0.0, data_type: LaserScan, topic: /scan, marking: true, clearing: true}
+
+  plugins:
+    - {name: obstacles,        type: "costmap_2d::VoxelLayer"}
+    - {name: inflation,        type: "costmap_2d::InflationLayer"}
+
+  obstacles:
+    observation_sources: scan
+    scan: {obstacle_range: 7.5, raytrace_range: 8.0, observation_persistence: 0.0, max_obstacle_height: 2.0, min_obstacle_height: 0.0, data_type: LaserScan, topic: /scan, marking: true, clearing: true}
+
+  inflation:
+    inflation_radius: 0.25
+  # raytrace_range must be greater than obstacle_range in order for obstacles to be cleared
+  # once they are no longer detectable by LIDAR!

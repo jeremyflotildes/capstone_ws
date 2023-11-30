@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/capstone_ws/devel/.private/costmap_2d/include/costmap_2d/Costmap2DConfig.h
+/home/jeremy/capstone_ws/devel/.private/costmap_2d/include/costmap_2d/Costmap2DConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ubuntu/capstone_ws/devel/.private/global_planner/include/global_planner/GlobalPlannerConfig.h
+/home/jeremy/capstone_ws/devel/.private/global_planner/include/global_planner/GlobalPlannerConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -42,9 +42,9 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/cost_values.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/cost_values.h
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d.h
 vector
 -
 queue
@@ -54,7 +54,7 @@ geometry_msgs/Point.h
 boost/thread.hpp
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
 ros/ros.h
 -
 costmap_2d/costmap_2d.h
@@ -64,7 +64,7 @@ nav_msgs/OccupancyGrid.h
 map_msgs/OccupancyGridUpdate.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d_ros.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d_ros.h
 costmap_2d/layered_costmap.h
 -
 costmap_2d/layer.h
@@ -88,7 +88,7 @@ pluginlib/class_loader.hpp
 tf2/LinearMath/Transform.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/footprint.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/footprint.h
 ros/ros.h
 -
 geometry_msgs/Polygon.h
@@ -100,7 +100,7 @@ geometry_msgs/Point.h
 geometry_msgs/Point32.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/layer.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/layer.h
 costmap_2d/costmap_2d.h
 -
 costmap_2d/layered_costmap.h
@@ -110,7 +110,7 @@ string
 tf2_ros/buffer.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/layered_costmap.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/layered_costmap.h
 costmap_2d/cost_values.h
 -
 costmap_2d/layer.h
@@ -122,7 +122,7 @@ vector
 string
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/astar.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/astar.h
 global_planner/planner_core.h
 -
 global_planner/expander.h
@@ -132,7 +132,7 @@ vector
 algorithm
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/dijkstra.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/dijkstra.h
 math.h
 -
 stdint.h
@@ -146,13 +146,13 @@ global_planner/planner_core.h
 global_planner/expander.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/expander.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/expander.h
 global_planner/potential_calculator.h
 -
 global_planner/planner_core.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/gradient_path.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/gradient_path.h
 global_planner/traceback.h
 -
 math.h
@@ -160,17 +160,17 @@ math.h
 algorithm
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/grid_path.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/grid_path.h
 vector
 -
 global_planner/traceback.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/orientation_filter.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/orientation_filter.h
 nav_msgs/Path.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/planner_core.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/planner_core.h
 ros/ros.h
 -
 costmap_2d/costmap_2d.h
@@ -200,35 +200,35 @@ global_planner/orientation_filter.h
 global_planner/GlobalPlannerConfig.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/potential_calculator.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/potential_calculator.h
 algorithm
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/quadratic_calculator.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/quadratic_calculator.h
 vector
 -
 global_planner/potential_calculator.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/include/global_planner/traceback.h
+/home/jeremy/capstone_ws/src/navigation/global_planner/include/global_planner/traceback.h
 vector
 -
 global_planner/potential_calculator.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/src/astar.cpp
+/home/jeremy/capstone_ws/src/navigation/global_planner/src/astar.cpp
 global_planner/astar.h
 -
 costmap_2d/cost_values.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/src/dijkstra.cpp
+/home/jeremy/capstone_ws/src/navigation/global_planner/src/dijkstra.cpp
 global_planner/dijkstra.h
 -
 algorithm
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/src/gradient_path.cpp
+/home/jeremy/capstone_ws/src/navigation/global_planner/src/gradient_path.cpp
 global_planner/gradient_path.h
 -
 algorithm
@@ -238,7 +238,7 @@ stdio.h
 global_planner/planner_core.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/src/grid_path.cpp
+/home/jeremy/capstone_ws/src/navigation/global_planner/src/grid_path.cpp
 global_planner/grid_path.h
 -
 algorithm
@@ -246,7 +246,7 @@ algorithm
 stdio.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/src/orientation_filter.cpp
+/home/jeremy/capstone_ws/src/navigation/global_planner/src/orientation_filter.cpp
 global_planner/orientation_filter.h
 -
 tf2/LinearMath/Matrix3x3.h
@@ -258,7 +258,7 @@ tf2_geometry_msgs/tf2_geometry_msgs.h
 angles/angles.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/src/planner_core.cpp
+/home/jeremy/capstone_ws/src/navigation/global_planner/src/planner_core.cpp
 global_planner/planner_core.h
 -
 pluginlib/class_list_macros.h
@@ -278,11 +278,11 @@ global_planner/gradient_path.h
 global_planner/quadratic_calculator.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/global_planner/src/quadratic_calculator.cpp
+/home/jeremy/capstone_ws/src/navigation/global_planner/src/quadratic_calculator.cpp
 global_planner/quadratic_calculator.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/nav_core/include/nav_core/base_global_planner.h
+/home/jeremy/capstone_ws/src/navigation/nav_core/include/nav_core/base_global_planner.h
 geometry_msgs/PoseStamped.h
 -
 costmap_2d/costmap_2d_ros.h

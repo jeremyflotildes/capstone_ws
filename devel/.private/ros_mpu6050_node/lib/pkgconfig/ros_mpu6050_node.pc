@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/devel/.private/ros_mpu6050_node
+prefix=/home/jeremy/capstone_ws/devel/.private/ros_mpu6050_node
 
 Name: ros_mpu6050_node
 Description: Description of ros_mpu6050_node

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/move_base
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/move_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/move_base
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/move_base
 
 # Utility rule file for tf_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/tf_generate_messages_cpp.dir/clean
 
 CMakeFiles/tf_generate_messages_cpp.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/move_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/move_base /home/ubuntu/capstone_ws/src/navigation/move_base /home/ubuntu/capstone_ws/build/move_base /home/ubuntu/capstone_ws/build/move_base /home/ubuntu/capstone_ws/build/move_base/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/move_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/move_base /home/jeremy/capstone_ws/src/navigation/move_base /home/jeremy/capstone_ws/build/move_base /home/jeremy/capstone_ws/build/move_base /home/jeremy/capstone_ws/build/move_base/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf_generate_messages_cpp.dir/depend
 

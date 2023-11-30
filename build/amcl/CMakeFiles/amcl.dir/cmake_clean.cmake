@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/amcl/lib/amcl/amcl"
-  "/home/ubuntu/capstone_ws/devel/.private/amcl/lib/amcl/amcl.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/amcl/lib/amcl/amcl"
+  "/home/jeremy/capstone_ws/devel/.private/amcl/lib/amcl/amcl.pdb"
   "CMakeFiles/amcl.dir/src/amcl_node.cpp.o"
 )
 

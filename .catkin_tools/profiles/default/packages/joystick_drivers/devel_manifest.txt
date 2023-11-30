@@ -1,2 +1,2 @@
 joystick_drivers/joystick_drivers
-/home/ubuntu/capstone_ws/devel/.private/joystick_drivers/cmake.lock /home/ubuntu/capstone_ws/devel/./cmake.lock
+/home/jeremy/capstone_ws/devel/.private/joystick_drivers/cmake.lock /home/jeremy/capstone_ws/devel/./cmake.lock

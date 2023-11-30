@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/voxel_grid
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/voxel_grid
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/voxel_grid
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/voxel_grid
 
 # Utility rule file for clean_test_results_voxel_grid.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/voxel_grid
 include CMakeFiles/clean_test_results_voxel_grid.dir/progress.make
 
 CMakeFiles/clean_test_results_voxel_grid:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ubuntu/capstone_ws/build/voxel_grid/test_results/voxel_grid
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/jeremy/capstone_ws/build/voxel_grid/test_results/voxel_grid
 
 clean_test_results_voxel_grid: CMakeFiles/clean_test_results_voxel_grid
 clean_test_results_voxel_grid: CMakeFiles/clean_test_results_voxel_grid.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_voxel_grid.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_voxel_grid.dir/clean
 
 CMakeFiles/clean_test_results_voxel_grid.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/voxel_grid && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/voxel_grid /home/ubuntu/capstone_ws/src/navigation/voxel_grid /home/ubuntu/capstone_ws/build/voxel_grid /home/ubuntu/capstone_ws/build/voxel_grid /home/ubuntu/capstone_ws/build/voxel_grid/CMakeFiles/clean_test_results_voxel_grid.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/voxel_grid && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/voxel_grid /home/jeremy/capstone_ws/src/navigation/voxel_grid /home/jeremy/capstone_ws/build/voxel_grid /home/jeremy/capstone_ws/build/voxel_grid /home/jeremy/capstone_ws/build/voxel_grid/CMakeFiles/clean_test_results_voxel_grid.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_voxel_grid.dir/depend
 

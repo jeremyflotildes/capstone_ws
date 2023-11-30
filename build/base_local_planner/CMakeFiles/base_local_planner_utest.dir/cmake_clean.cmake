@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest"
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest.pdb"
   "CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o"
   "CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o"
   "CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o"

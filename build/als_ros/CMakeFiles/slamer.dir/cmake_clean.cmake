@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "/home/jeremy/capstone_ws/devel/.private/als_ros/lib/als_ros/slamer"
+  "/home/jeremy/capstone_ws/devel/.private/als_ros/lib/als_ros/slamer.pdb"
+  "CMakeFiles/slamer.dir/src/slamer.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/slamer.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

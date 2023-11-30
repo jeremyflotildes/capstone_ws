@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/install
+prefix=/home/jeremy/capstone_ws/install
 
 Name: rplidar_ros
 Description: Description of rplidar_ros

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/point_grid"
-  "/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/point_grid.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/point_grid"
+  "/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/point_grid.pdb"
   "CMakeFiles/point_grid.dir/src/point_grid_node.cpp.o"
 )
 

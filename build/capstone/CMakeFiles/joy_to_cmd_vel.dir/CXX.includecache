@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/capstone_ws/src/capstone/src/joy_to_cmd_vel.cpp
+/home/jeremy/capstone_ws/src/capstone/src/joy_to_cmd_vel.cpp
 ros/ros.h
 -
 geometry_msgs/Twist.h

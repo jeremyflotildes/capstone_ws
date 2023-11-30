@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/hector_slam_launch/lib/pkgconfig/hector_slam_launch.pc
+/home/jeremy/capstone_ws/devel/.private/hector_slam_launch/lib/pkgconfig/hector_slam_launch.pc

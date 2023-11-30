@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/global_planner/share/global_planner/cmake/global_plannerConfig.cmake
+/home/jeremy/capstone_ws/devel/.private/global_planner/share/global_planner/cmake/global_plannerConfig.cmake

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test"
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/lib/navfn/path_calc_test.pdb"
   "CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o"
   "CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o"
 )

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/rplidar_ros
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/rplidar_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/rplidar_ros
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/rplidar_ros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rplidarNode.dir/depend.make
@@ -58,147 +58,147 @@ include CMakeFiles/rplidarNode.dir/progress.make
 include CMakeFiles/rplidarNode.dir/flags.make
 
 CMakeFiles/rplidarNode.dir/src/node.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/src/node.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/src/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/src/node.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/src/node.cpp
+CMakeFiles/rplidarNode.dir/src/node.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/src/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/src/node.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/src/node.cpp
 
 CMakeFiles/rplidarNode.dir/src/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/src/node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/src/node.cpp > CMakeFiles/rplidarNode.dir/src/node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/src/node.cpp > CMakeFiles/rplidarNode.dir/src/node.cpp.i
 
 CMakeFiles/rplidarNode.dir/src/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/src/node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/src/node.cpp -o CMakeFiles/rplidarNode.dir/src/node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/src/node.cpp -o CMakeFiles/rplidarNode.dir/src/node.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/hal/thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/hal/thread.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/hal/thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/hal/thread.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/hal/thread.cpp > CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/hal/thread.cpp > CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/hal/thread.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/hal/thread.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_crc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_crc.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_crc.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_crc.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_crc.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_crc.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_crc.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o: CMakeFiles/rplidarNode.dir/flags.make
-CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o: /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o -c /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp
+CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o: /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o -c /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp > CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i
 
 CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s
 
 # Object files for target rplidarNode
 rplidarNode_OBJECTS = \
@@ -217,41 +217,41 @@ rplidarNode_OBJECTS = \
 # External object files for target rplidarNode
 rplidarNode_EXTERNAL_OBJECTS =
 
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/src/node.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/build.make
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/libroscpp.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libpthread.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/librosconsole.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/librostime.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/libcpp_common.so
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable /home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode"
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/src/node.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/build.make
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/libroscpp.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/librosconsole.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/librostime.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /opt/ros/noetic/lib/libcpp_common.so
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode: CMakeFiles/rplidarNode.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable /home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/rplidarNode.dir/build: /home/ubuntu/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode
+CMakeFiles/rplidarNode.dir/build: /home/jeremy/capstone_ws/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode
 
 .PHONY : CMakeFiles/rplidarNode.dir/build
 
@@ -260,6 +260,6 @@ CMakeFiles/rplidarNode.dir/clean:
 .PHONY : CMakeFiles/rplidarNode.dir/clean
 
 CMakeFiles/rplidarNode.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/rplidar_ros /home/ubuntu/capstone_ws/src/rplidar_ros /home/ubuntu/capstone_ws/build/rplidar_ros /home/ubuntu/capstone_ws/build/rplidar_ros /home/ubuntu/capstone_ws/build/rplidar_ros/CMakeFiles/rplidarNode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/rplidar_ros /home/jeremy/capstone_ws/src/rplidar_ros /home/jeremy/capstone_ws/build/rplidar_ros /home/jeremy/capstone_ws/build/rplidar_ros /home/jeremy/capstone_ws/build/rplidar_ros/CMakeFiles/rplidarNode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rplidarNode.dir/depend
 

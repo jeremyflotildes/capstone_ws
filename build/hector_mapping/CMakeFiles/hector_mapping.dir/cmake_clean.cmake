@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/lib/hector_mapping/hector_mapping"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/lib/hector_mapping/hector_mapping.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/lib/hector_mapping/hector_mapping"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/lib/hector_mapping/hector_mapping.pdb"
   "CMakeFiles/hector_mapping.dir/src/HectorMappingRos.cpp.o"
   "CMakeFiles/hector_mapping.dir/src/PoseInfoContainer.cpp.o"
   "CMakeFiles/hector_mapping.dir/src/main.cpp.o"

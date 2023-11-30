@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/devel/.private/hector_imu_tools
+prefix=/home/jeremy/capstone_ws/devel/.private/hector_imu_tools
 
 Name: hector_imu_tools
 Description: Description of hector_imu_tools

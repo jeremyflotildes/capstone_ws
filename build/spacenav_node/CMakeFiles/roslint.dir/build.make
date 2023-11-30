@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/joystick_drivers/spacenav_node
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/joystick_drivers/spacenav_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/spacenav_node
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/spacenav_node
 
 # Utility rule file for roslint.
 
@@ -67,6 +67,6 @@ CMakeFiles/roslint.dir/clean:
 .PHONY : CMakeFiles/roslint.dir/clean
 
 CMakeFiles/roslint.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/spacenav_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/joystick_drivers/spacenav_node /home/ubuntu/capstone_ws/src/joystick_drivers/spacenav_node /home/ubuntu/capstone_ws/build/spacenav_node /home/ubuntu/capstone_ws/build/spacenav_node /home/ubuntu/capstone_ws/build/spacenav_node/CMakeFiles/roslint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/spacenav_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/joystick_drivers/spacenav_node /home/jeremy/capstone_ws/src/joystick_drivers/spacenav_node /home/jeremy/capstone_ws/build/spacenav_node /home/jeremy/capstone_ws/build/spacenav_node /home/jeremy/capstone_ws/build/spacenav_node/CMakeFiles/roslint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roslint.dir/depend
 

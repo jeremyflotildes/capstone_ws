@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu/capstone_ws/devel/.private/geometry:$CMAKE_PREFIX_PATH"
-export PWD='/home/ubuntu/capstone_ws/build/geometry'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/capstone_ws/devel/.private/geometry/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ubuntu/capstone_ws/src/hector_slam/geometry/geometry:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/jeremy/capstone_ws/devel/.private/geometry:$CMAKE_PREFIX_PATH"
+export PWD='/home/jeremy/capstone_ws/build/geometry'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jeremy/capstone_ws/devel/.private/geometry/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/jeremy/capstone_ws/src/hector_slam/geometry/geometry:$ROS_PACKAGE_PATH"

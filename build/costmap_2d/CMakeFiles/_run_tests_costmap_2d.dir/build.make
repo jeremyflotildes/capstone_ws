@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/costmap_2d
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/costmap_2d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/costmap_2d
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/costmap_2d
 
 # Utility rule file for _run_tests_costmap_2d.
 
@@ -67,6 +67,6 @@ CMakeFiles/_run_tests_costmap_2d.dir/clean:
 .PHONY : CMakeFiles/_run_tests_costmap_2d.dir/clean
 
 CMakeFiles/_run_tests_costmap_2d.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/costmap_2d && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/costmap_2d /home/ubuntu/capstone_ws/src/navigation/costmap_2d /home/ubuntu/capstone_ws/build/costmap_2d /home/ubuntu/capstone_ws/build/costmap_2d /home/ubuntu/capstone_ws/build/costmap_2d/CMakeFiles/_run_tests_costmap_2d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/costmap_2d && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/costmap_2d /home/jeremy/capstone_ws/src/navigation/costmap_2d /home/jeremy/capstone_ws/build/costmap_2d /home/jeremy/capstone_ws/build/costmap_2d /home/jeremy/capstone_ws/build/costmap_2d/CMakeFiles/_run_tests_costmap_2d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_costmap_2d.dir/depend
 

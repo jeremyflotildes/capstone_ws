@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/base_local_planner
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/base_local_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/base_local_planner
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/base_local_planner
 
 # Include any dependencies generated for this target.
 include CMakeFiles/base_local_planner.dir/depend.make
@@ -58,251 +58,251 @@ include CMakeFiles/base_local_planner.dir/progress.make
 include CMakeFiles/base_local_planner.dir/flags.make
 
 CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/footprint_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/footprint_helper.cpp
+CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/footprint_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/footprint_helper.cpp
 
 CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/footprint_helper.cpp > CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/footprint_helper.cpp > CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/footprint_helper.cpp -o CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/footprint_helper.cpp -o CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/goal_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/goal_functions.cpp
+CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/goal_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/goal_functions.cpp
 
 CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/goal_functions.cpp > CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/goal_functions.cpp > CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/goal_functions.cpp -o CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/goal_functions.cpp -o CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_cell.cpp
+CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_cell.cpp
 
 CMakeFiles/base_local_planner.dir/src/map_cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/map_cell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_cell.cpp > CMakeFiles/base_local_planner.dir/src/map_cell.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_cell.cpp > CMakeFiles/base_local_planner.dir/src/map_cell.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/map_cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/map_cell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_cell.cpp -o CMakeFiles/base_local_planner.dir/src/map_cell.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_cell.cpp -o CMakeFiles/base_local_planner.dir/src/map_cell.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid.cpp
+CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid.cpp
 
 CMakeFiles/base_local_planner.dir/src/map_grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/map_grid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid.cpp > CMakeFiles/base_local_planner.dir/src/map_grid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid.cpp > CMakeFiles/base_local_planner.dir/src/map_grid.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/map_grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/map_grid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid_visualizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid_visualizer.cpp
+CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid_visualizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid_visualizer.cpp
 
 CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid_visualizer.cpp > CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid_visualizer.cpp > CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid_visualizer.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid_visualizer.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid_cost_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid_cost_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/map_grid_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/map_grid_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp
+CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp
 
 CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp > CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp > CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp -o CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp -o CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/local_planner_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/local_planner_util.cpp
+CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/local_planner_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/local_planner_util.cpp
 
 CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/local_planner_util.cpp > CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/local_planner_util.cpp > CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/local_planner_util.cpp -o CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/local_planner_util.cpp -o CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/odometry_helper_ros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/odometry_helper_ros.cpp
+CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/odometry_helper_ros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/odometry_helper_ros.cpp
 
 CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/odometry_helper_ros.cpp > CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/odometry_helper_ros.cpp > CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/odometry_helper_ros.cpp -o CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/odometry_helper_ros.cpp -o CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/obstacle_cost_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/obstacle_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/obstacle_cost_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/obstacle_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/obstacle_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/obstacle_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/obstacle_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/obstacle_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/oscillation_cost_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/oscillation_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/oscillation_cost_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/oscillation_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/oscillation_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/oscillation_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/oscillation_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/oscillation_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/point_grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/point_grid.cpp
+CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/point_grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/point_grid.cpp
 
 CMakeFiles/base_local_planner.dir/src/point_grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/point_grid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/point_grid.cpp > CMakeFiles/base_local_planner.dir/src/point_grid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/point_grid.cpp > CMakeFiles/base_local_planner.dir/src/point_grid.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/point_grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/point_grid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/point_grid.cpp -o CMakeFiles/base_local_planner.dir/src/point_grid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/point_grid.cpp -o CMakeFiles/base_local_planner.dir/src/point_grid.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/costmap_model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/costmap_model.cpp
+CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/costmap_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/costmap_model.cpp
 
 CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/costmap_model.cpp > CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/costmap_model.cpp > CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/costmap_model.cpp -o CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/costmap_model.cpp -o CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp
+CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp
 
 CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp > CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp > CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp -o CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp -o CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp
+CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp
 
 CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp > CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp > CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp -o CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp -o CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/trajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/trajectory.cpp
+CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/trajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/trajectory.cpp
 
 CMakeFiles/base_local_planner.dir/src/trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/trajectory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/trajectory.cpp > CMakeFiles/base_local_planner.dir/src/trajectory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/trajectory.cpp > CMakeFiles/base_local_planner.dir/src/trajectory.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/trajectory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/trajectory.cpp -o CMakeFiles/base_local_planner.dir/src/trajectory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/trajectory.cpp -o CMakeFiles/base_local_planner.dir/src/trajectory.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/twirling_cost_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/twirling_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/twirling_cost_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/twirling_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/twirling_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/twirling_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/twirling_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/twirling_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/voxel_grid_model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/voxel_grid_model.cpp
+CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/voxel_grid_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/voxel_grid_model.cpp
 
 CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/voxel_grid_model.cpp > CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/voxel_grid_model.cpp > CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/src/voxel_grid_model.cpp -o CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/src/voxel_grid_model.cpp -o CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.s
 
 # Object files for target base_local_planner
 base_local_planner_OBJECTS = \
@@ -329,71 +329,71 @@ base_local_planner_OBJECTS = \
 # External object files for target base_local_planner
 base_local_planner_EXTERNAL_OBJECTS =
 
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/build.make
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/libcostmap_2d.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/liblaser_geometry.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/tf/lib/libtf.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libPocoFoundation.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libdl.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libroslib.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librospack.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libpython3.8.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/liborocos-kdl.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/liborocos-kdl.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libactionlib.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libtf2.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /home/ubuntu/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libroscpp.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libpthread.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librosconsole.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librostime.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX shared library /home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so"
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/build.make
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/libcostmap_2d.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/liblaser_geometry.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /home/jeremy/capstone_ws/devel/.private/tf/lib/libtf.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libroslib.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librospack.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/liborocos-kdl.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/liborocos-kdl.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libactionlib.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libtf2.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /home/jeremy/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libroscpp.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librosconsole.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/librostime.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so: CMakeFiles/base_local_planner.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX shared library /home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base_local_planner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/base_local_planner.dir/build: /home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so
+CMakeFiles/base_local_planner.dir/build: /home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so
 
 .PHONY : CMakeFiles/base_local_planner.dir/build
 
@@ -402,6 +402,6 @@ CMakeFiles/base_local_planner.dir/clean:
 .PHONY : CMakeFiles/base_local_planner.dir/clean
 
 CMakeFiles/base_local_planner.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/base_local_planner /home/ubuntu/capstone_ws/src/navigation/base_local_planner /home/ubuntu/capstone_ws/build/base_local_planner /home/ubuntu/capstone_ws/build/base_local_planner /home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles/base_local_planner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/base_local_planner /home/jeremy/capstone_ws/src/navigation/base_local_planner /home/jeremy/capstone_ws/build/base_local_planner /home/jeremy/capstone_ws/build/base_local_planner /home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles/base_local_planner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/base_local_planner.dir/depend
 

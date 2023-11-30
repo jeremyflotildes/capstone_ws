@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/hector_trajectory_server/lib/pkgconfig/hector_trajectory_server.pc
+/home/jeremy/capstone_ws/devel/.private/hector_trajectory_server/lib/pkgconfig/hector_trajectory_server.pc

@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/install
+prefix=/home/jeremy/capstone_ws/install
 
 Name: hector_nav_msgs
 Description: Description of hector_nav_msgs

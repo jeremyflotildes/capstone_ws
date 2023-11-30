@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/joy/lib/pkgconfig/joy.pc
+/home/jeremy/capstone_ws/devel/.private/joy/lib/pkgconfig/joy.pc

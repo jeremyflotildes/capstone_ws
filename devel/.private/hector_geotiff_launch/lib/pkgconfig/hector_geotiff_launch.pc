@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/devel/.private/hector_geotiff_launch
+prefix=/home/jeremy/capstone_ws/devel/.private/hector_geotiff_launch
 
 Name: hector_geotiff_launch
 Description: Description of hector_geotiff_launch

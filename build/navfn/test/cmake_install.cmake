@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/capstone_ws/src/navigation/navfn/test
+# Install script for directory: /home/jeremy/capstone_ws/src/navigation/navfn/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/capstone_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jeremy/capstone_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

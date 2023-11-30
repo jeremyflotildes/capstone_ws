@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/capstone_ws/src/razor_imu_9dof
+# Install script for directory: /home/jeremy/capstone_ws/src/razor_imu_9dof
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/capstone_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jeremy/capstone_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,147 +49,147 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/capstone_ws/install/_setup_util.py")
+   "/home/jeremy/capstone_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/capstone_ws/install" TYPE PROGRAM FILES "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/jeremy/capstone_ws/install" TYPE PROGRAM FILES "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/capstone_ws/install/env.sh")
+   "/home/jeremy/capstone_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/capstone_ws/install" TYPE PROGRAM FILES "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/jeremy/capstone_ws/install" TYPE PROGRAM FILES "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/capstone_ws/install/setup.bash;/home/ubuntu/capstone_ws/install/local_setup.bash")
+   "/home/jeremy/capstone_ws/install/setup.bash;/home/jeremy/capstone_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/capstone_ws/install" TYPE FILE FILES
-    "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/setup.bash"
-    "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/jeremy/capstone_ws/install" TYPE FILE FILES
+    "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/setup.bash"
+    "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/capstone_ws/install/setup.sh;/home/ubuntu/capstone_ws/install/local_setup.sh")
+   "/home/jeremy/capstone_ws/install/setup.sh;/home/jeremy/capstone_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/capstone_ws/install" TYPE FILE FILES
-    "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/setup.sh"
-    "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/jeremy/capstone_ws/install" TYPE FILE FILES
+    "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/setup.sh"
+    "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/capstone_ws/install/setup.zsh;/home/ubuntu/capstone_ws/install/local_setup.zsh")
+   "/home/jeremy/capstone_ws/install/setup.zsh;/home/jeremy/capstone_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/capstone_ws/install" TYPE FILE FILES
-    "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/setup.zsh"
-    "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/jeremy/capstone_ws/install" TYPE FILE FILES
+    "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/setup.zsh"
+    "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/capstone_ws/install/.rosinstall")
+   "/home/jeremy/capstone_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/capstone_ws/install" TYPE FILE FILES "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/jeremy/capstone_ws/install" TYPE FILE FILES "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/razor_imu_9dof" TYPE FILE FILES "/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/razor_imu_9dof" TYPE FILE FILES "/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/razor_imu_9dof" TYPE FILE FILES "/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/razor_imu_9dof" TYPE FILE FILES "/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/razor_imu_9dof" TYPE DIRECTORY FILES "/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/razor_imu_9dof" TYPE DIRECTORY FILES "/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/razor_imu_9dof.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/razor_imu_9dof.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof/cmake" TYPE FILE FILES
-    "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/razor_imu_9dofConfig.cmake"
-    "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/razor_imu_9dofConfig-version.cmake"
+    "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/razor_imu_9dofConfig.cmake"
+    "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/razor_imu_9dofConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE FILE FILES "/home/ubuntu/capstone_ws/src/razor_imu_9dof/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE FILE FILES "/home/jeremy/capstone_ws/src/razor_imu_9dof/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/ubuntu/capstone_ws/src/razor_imu_9dof/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/jeremy/capstone_ws/src/razor_imu_9dof/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/ubuntu/capstone_ws/src/razor_imu_9dof/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/jeremy/capstone_ws/src/razor_imu_9dof/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/ubuntu/capstone_ws/src/razor_imu_9dof/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/jeremy/capstone_ws/src/razor_imu_9dof/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/ubuntu/capstone_ws/src/razor_imu_9dof/src")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/jeremy/capstone_ws/src/razor_imu_9dof/src")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/ubuntu/capstone_ws/src/razor_imu_9dof/magnetometer_calibration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof" TYPE DIRECTORY FILES "/home/jeremy/capstone_ws/src/razor_imu_9dof/magnetometer_calibration")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof/nodes" TYPE PROGRAM FILES "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/imu_node.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof/nodes" TYPE PROGRAM FILES "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/imu_node.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof/nodes" TYPE PROGRAM FILES "/home/ubuntu/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/display_3D_visualization.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/razor_imu_9dof/nodes" TYPE PROGRAM FILES "/home/jeremy/capstone_ws/build/razor_imu_9dof/catkin_generated/installspace/display_3D_visualization.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/capstone_ws/build/razor_imu_9dof/gtest/cmake_install.cmake")
+  include("/home/jeremy/capstone_ws/build/razor_imu_9dof/gtest/cmake_install.cmake")
 
 endif()
 
@@ -201,5 +201,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/capstone_ws/build/razor_imu_9dof/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jeremy/capstone_ws/build/razor_imu_9dof/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

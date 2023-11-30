@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/kdl_conversions/include/kdl_conversions/kdl_msg.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/kdl_conversions/include/kdl_conversions/kdl_msg.h
 kdl/frames.hpp
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/kdl_conversions/include/kdl_conversions/kdl/frames.hpp
+/home/jeremy/capstone_ws/src/hector_slam/geometry/kdl_conversions/include/kdl_conversions/kdl/frames.hpp
 geometry_msgs/Point.h
 -
 geometry_msgs/Pose.h
@@ -26,9 +26,9 @@ geometry_msgs/Wrench.h
 ros/macros.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/kdl_conversions/src/kdl_msg.cpp
+/home/jeremy/capstone_ws/src/hector_slam/geometry/kdl_conversions/src/kdl_msg.cpp
 kdl_conversions/kdl_msg.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/kdl_conversions/src/kdl_conversions/kdl_msg.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/kdl_conversions/src/kdl_conversions/kdl_msg.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

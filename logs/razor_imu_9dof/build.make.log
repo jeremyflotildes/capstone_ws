@@ -1,5 +1,5 @@
 [35m[1mScanning dependencies of target razor_imu_9dof_gencfg[0m
-[100%] [34m[1mGenerating dynamic reconfigure files from cfg/imu.cfg: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py[0m
+[100%] [34m[1mGenerating dynamic reconfigure files from cfg/imu.cfg: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py[0m
 Generating reconfiguration files for imu in razor_imu_9dof
-Wrote header file in /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+Wrote header file in /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
 [100%] Built target razor_imu_9dof_gencfg

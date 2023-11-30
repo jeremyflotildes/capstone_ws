@@ -1,8 +1,8 @@
-prefix=/home/ubuntu/capstone_ws/devel/.private/tf_conversions
+prefix=/home/jeremy/capstone_ws/devel/.private/tf_conversions
 
 Name: tf_conversions
 Description: Description of tf_conversions
 Version: 1.13.2
-Cflags: -I/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf_conversions/include -I/usr/include/eigen3 -I/usr/share/orocos_kdl/cmake/../../../include
+Cflags: -I/home/jeremy/capstone_ws/src/hector_slam/geometry/tf_conversions/include -I/usr/include/eigen3 -I/usr/share/orocos_kdl/cmake/../../../include
 Libs: -L${prefix}/lib -ltf_conversions -lorocos-kdl
 Requires: geometry_msgs kdl_conversions tf

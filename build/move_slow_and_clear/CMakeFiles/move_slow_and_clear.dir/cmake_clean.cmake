@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/move_slow_and_clear/lib/libmove_slow_and_clear.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/move_slow_and_clear/lib/libmove_slow_and_clear.so"
+  "/home/jeremy/capstone_ws/devel/.private/move_slow_and_clear/lib/libmove_slow_and_clear.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/move_slow_and_clear/lib/libmove_slow_and_clear.so"
   "CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o"
 )
 

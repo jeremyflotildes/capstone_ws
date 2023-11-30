@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp
+Change Dir: /home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_843ac/fast && /usr/bin/make -f CMakeFiles/cmTC_843ac.dir/build.make CMakeFiles/cmTC_843ac.dir/build
-make[1]: Entering directory '/home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_843ac.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_843ac.dir/src.c.o   -c /home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_843ac
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_843ac.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_843ac.dir/src.c.o  -o cmTC_843ac 
-/usr/bin/ld: CMakeFiles/cmTC_843ac.dir/src.c.o: in function `main':
-src.c:(.text+0x48): undefined reference to `pthread_create'
-/usr/bin/ld: src.c:(.text+0x50): undefined reference to `pthread_detach'
-/usr/bin/ld: src.c:(.text+0x5c): undefined reference to `pthread_join'
+Run Build Command(s):/usr/bin/make cmTC_e37d8/fast && /usr/bin/make -f CMakeFiles/cmTC_e37d8.dir/build.make CMakeFiles/cmTC_e37d8.dir/build
+make[1]: Entering directory '/home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e37d8.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e37d8.dir/src.c.o   -c /home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e37d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e37d8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_e37d8.dir/src.c.o  -o cmTC_e37d8 
+/usr/bin/ld: CMakeFiles/cmTC_e37d8.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_843ac.dir/build.make:87: cmTC_843ac] Error 1
-make[1]: Leaving directory '/home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_843ac/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_e37d8.dir/build.make:87: cmTC_e37d8] Error 1
+make[1]: Leaving directory '/home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e37d8/fast] Error 2
 
 
 Source file was:
@@ -39,37 +39,37 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp
+Change Dir: /home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d33f4/fast && /usr/bin/make -f CMakeFiles/cmTC_d33f4.dir/build.make CMakeFiles/cmTC_d33f4.dir/build
-make[1]: Entering directory '/home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d33f4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d33f4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d33f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d33f4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d33f4.dir/CheckFunctionExists.c.o  -o cmTC_d33f4  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_0beed/fast && /usr/bin/make -f CMakeFiles/cmTC_0beed.dir/build.make CMakeFiles/cmTC_0beed.dir/build
+make[1]: Entering directory '/home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0beed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0beed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0beed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0beed.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0beed.dir/CheckFunctionExists.c.o  -o cmTC_0beed  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_d33f4.dir/build.make:87: cmTC_d33f4] Error 1
-make[1]: Leaving directory '/home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_d33f4/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_0beed.dir/build.make:87: cmTC_0beed] Error 1
+make[1]: Leaving directory '/home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0beed/fast] Error 2
 
 
 
 Determining if the include file pgm.h exists failed with the following output:
-Change Dir: /home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp
+Change Dir: /home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_236ee/fast && /usr/bin/make -f CMakeFiles/cmTC_236ee.dir/build.make CMakeFiles/cmTC_236ee.dir/build
-make[1]: Entering directory '/home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_236ee.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_236ee.dir/CheckIncludeFile.cxx.o -c /home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-/home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: pgm.h: No such file or directory
+Run Build Command(s):/usr/bin/make cmTC_d32e7/fast && /usr/bin/make -f CMakeFiles/cmTC_d32e7.dir/build.make CMakeFiles/cmTC_d32e7.dir/build
+make[1]: Entering directory '/home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d32e7.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d32e7.dir/CheckIncludeFile.cxx.o -c /home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: pgm.h: No such file or directory
     1 | #include <pgm.h>
       |          ^~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_236ee.dir/build.make:66: CMakeFiles/cmTC_236ee.dir/CheckIncludeFile.cxx.o] Error 1
-make[1]: Leaving directory '/home/ubuntu/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_236ee/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_d32e7.dir/build.make:66: CMakeFiles/cmTC_d32e7.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/capstone_ws/build/navfn/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d32e7/fast] Error 2
 
 
 

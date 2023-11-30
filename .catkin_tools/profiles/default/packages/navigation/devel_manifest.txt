@@ -1,2 +1,2 @@
 navigation/navigation
-/home/ubuntu/capstone_ws/devel/.private/navigation/cmake.lock /home/ubuntu/capstone_ws/devel/./cmake.lock
+/home/jeremy/capstone_ws/devel/.private/navigation/cmake.lock /home/jeremy/capstone_ws/devel/./cmake.lock

@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/msg/_HectorIterData.py"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/msg/__init__.py"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/srv/_ResetMapping.py"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/srv/__init__.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/msg/_HectorIterData.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/msg/__init__.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/srv/_ResetMapping.py"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/lib/python3/dist-packages/hector_mapping/srv/__init__.py"
   "CMakeFiles/hector_mapping_generate_messages_py"
 )
 

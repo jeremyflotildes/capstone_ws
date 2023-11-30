@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/base_local_planner
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/base_local_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/base_local_planner
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/base_local_planner
 
 # Include any dependencies generated for this target.
 include CMakeFiles/base_local_planner_utest.dir/depend.make
@@ -58,82 +58,82 @@ include CMakeFiles/base_local_planner_utest.dir/progress.make
 include CMakeFiles/base_local_planner_utest.dir/flags.make
 
 CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o: CMakeFiles/base_local_planner_utest.dir/flags.make
-CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/gtest_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/gtest_main.cpp
+CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/gtest_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/gtest_main.cpp
 
 CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/gtest_main.cpp > CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/gtest_main.cpp > CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.i
 
 CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/gtest_main.cpp -o CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/gtest_main.cpp -o CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.s
 
 CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o: CMakeFiles/base_local_planner_utest.dir/flags.make
-CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/utest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/utest.cpp
+CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/utest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/utest.cpp
 
 CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/utest.cpp > CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/utest.cpp > CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.i
 
 CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/utest.cpp -o CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/utest.cpp -o CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.s
 
 CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o: CMakeFiles/base_local_planner_utest.dir/flags.make
-CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/velocity_iterator_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/velocity_iterator_test.cpp
+CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/velocity_iterator_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/velocity_iterator_test.cpp
 
 CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/velocity_iterator_test.cpp > CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/velocity_iterator_test.cpp > CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.i
 
 CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/velocity_iterator_test.cpp -o CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/velocity_iterator_test.cpp -o CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.s
 
 CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o: CMakeFiles/base_local_planner_utest.dir/flags.make
-CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/footprint_helper_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/footprint_helper_test.cpp
+CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/footprint_helper_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/footprint_helper_test.cpp
 
 CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/footprint_helper_test.cpp > CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/footprint_helper_test.cpp > CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.i
 
 CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/footprint_helper_test.cpp -o CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/footprint_helper_test.cpp -o CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.s
 
 CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o: CMakeFiles/base_local_planner_utest.dir/flags.make
-CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/trajectory_generator_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/trajectory_generator_test.cpp
+CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/trajectory_generator_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/trajectory_generator_test.cpp
 
 CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/trajectory_generator_test.cpp > CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/trajectory_generator_test.cpp > CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.i
 
 CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/trajectory_generator_test.cpp -o CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/trajectory_generator_test.cpp -o CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.s
 
 CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o: CMakeFiles/base_local_planner_utest.dir/flags.make
-CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o: /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/map_grid_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o -c /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/map_grid_test.cpp
+CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o: /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/map_grid_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o -c /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/map_grid_test.cpp
 
 CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/map_grid_test.cpp > CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/map_grid_test.cpp > CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.i
 
 CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/capstone_ws/src/navigation/base_local_planner/test/map_grid_test.cpp -o CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/capstone_ws/src/navigation/base_local_planner/test/map_grid_test.cpp -o CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.s
 
 # Object files for target base_local_planner_utest
 base_local_planner_utest_OBJECTS = \
@@ -147,60 +147,60 @@ base_local_planner_utest_OBJECTS = \
 # External object files for target base_local_planner_utest
 base_local_planner_utest_EXTERNAL_OBJECTS =
 
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/build.make
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: gtest/lib/libgtest.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libtrajectory_planner_ros.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/libcostmap_2d.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/liblaser_geometry.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/ubuntu/capstone_ws/devel/.private/tf/lib/libtf.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libclass_loader.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libPocoFoundation.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libdl.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libroslib.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librospack.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libpython3.8.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/liborocos-kdl.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libactionlib.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libtf2.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/ubuntu/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libroscpp.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libpthread.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librosconsole.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librostime.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libcpp_common.so
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.71.0
-/home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest"
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/build.make
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: gtest/lib/libgtest.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libtrajectory_planner_ros.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/libbase_local_planner.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/libcostmap_2d.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/liblayers.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/liblaser_geometry.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/jeremy/capstone_ws/devel/.private/tf/lib/libtf.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libclass_loader.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libroslib.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librospack.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/liborocos-kdl.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libtf2_ros.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libactionlib.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libmessage_filters.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libtf2.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /home/jeremy/capstone_ws/devel/.private/voxel_grid/lib/libvoxel_grid.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libroscpp.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librosconsole.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/librostime.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /opt/ros/noetic/lib/libcpp_common.so
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
+/home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest: CMakeFiles/base_local_planner_utest.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base_local_planner_utest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/base_local_planner_utest.dir/build: /home/ubuntu/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest
+CMakeFiles/base_local_planner_utest.dir/build: /home/jeremy/capstone_ws/devel/.private/base_local_planner/lib/base_local_planner/base_local_planner_utest
 
 .PHONY : CMakeFiles/base_local_planner_utest.dir/build
 
@@ -209,6 +209,6 @@ CMakeFiles/base_local_planner_utest.dir/clean:
 .PHONY : CMakeFiles/base_local_planner_utest.dir/clean
 
 CMakeFiles/base_local_planner_utest.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/base_local_planner /home/ubuntu/capstone_ws/src/navigation/base_local_planner /home/ubuntu/capstone_ws/build/base_local_planner /home/ubuntu/capstone_ws/build/base_local_planner /home/ubuntu/capstone_ws/build/base_local_planner/CMakeFiles/base_local_planner_utest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/base_local_planner /home/jeremy/capstone_ws/src/navigation/base_local_planner /home/jeremy/capstone_ws/build/base_local_planner /home/jeremy/capstone_ws/build/base_local_planner /home/jeremy/capstone_ws/build/base_local_planner/CMakeFiles/base_local_planner_utest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/base_local_planner_utest.dir/depend
 

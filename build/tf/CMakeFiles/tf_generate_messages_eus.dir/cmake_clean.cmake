@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/tf/share/roseus/ros/tf/manifest.l"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/share/roseus/ros/tf/msg/tfMessage.l"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/share/roseus/ros/tf/srv/FrameGraph.l"
+  "/home/jeremy/capstone_ws/devel/.private/tf/share/roseus/ros/tf/manifest.l"
+  "/home/jeremy/capstone_ws/devel/.private/tf/share/roseus/ros/tf/msg/tfMessage.l"
+  "/home/jeremy/capstone_ws/devel/.private/tf/share/roseus/ros/tf/srv/FrameGraph.l"
   "CMakeFiles/tf_generate_messages_eus"
 )
 

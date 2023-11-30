@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/joystick_drivers/joystick_drivers
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/joystick_drivers/joystick_drivers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/joystick_drivers
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/joystick_drivers
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/joystick_drivers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/joystick_drivers/joystick_drivers /home/ubuntu/capstone_ws/src/joystick_drivers/joystick_drivers /home/ubuntu/capstone_ws/build/joystick_drivers /home/ubuntu/capstone_ws/build/joystick_drivers /home/ubuntu/capstone_ws/build/joystick_drivers/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/joystick_drivers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/joystick_drivers/joystick_drivers /home/jeremy/capstone_ws/src/joystick_drivers/joystick_drivers /home/jeremy/capstone_ws/build/joystick_drivers /home/jeremy/capstone_ws/build/joystick_drivers /home/jeremy/capstone_ws/build/joystick_drivers/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/navfn/share/navfn/cmake/navfnConfig-version.cmake
+/home/jeremy/capstone_ws/devel/.private/navfn/share/navfn/cmake/navfnConfig-version.cmake

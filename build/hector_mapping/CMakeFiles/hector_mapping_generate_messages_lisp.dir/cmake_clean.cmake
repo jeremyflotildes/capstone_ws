@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/msg/HectorDebugInfo.lisp"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/msg/HectorIterData.lisp"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/srv/ResetMapping.lisp"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/msg/HectorDebugInfo.lisp"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/msg/HectorIterData.lisp"
+  "/home/jeremy/capstone_ws/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/srv/ResetMapping.lisp"
   "CMakeFiles/hector_mapping_generate_messages_lisp"
 )
 

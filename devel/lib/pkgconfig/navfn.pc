@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/navfn/lib/pkgconfig/navfn.pc
+/home/jeremy/capstone_ws/devel/.private/navfn/lib/pkgconfig/navfn.pc

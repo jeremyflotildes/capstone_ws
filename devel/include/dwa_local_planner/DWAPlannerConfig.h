@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/dwa_local_planner/include/dwa_local_planner/DWAPlannerConfig.h
+/home/jeremy/capstone_ws/devel/.private/dwa_local_planner/include/dwa_local_planner/DWAPlannerConfig.h

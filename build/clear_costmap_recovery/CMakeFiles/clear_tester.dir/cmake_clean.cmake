@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/clear_costmap_recovery/lib/clear_costmap_recovery/clear_tester"
-  "/home/ubuntu/capstone_ws/devel/.private/clear_costmap_recovery/lib/clear_costmap_recovery/clear_tester.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/clear_costmap_recovery/lib/clear_costmap_recovery/clear_tester"
+  "/home/jeremy/capstone_ws/devel/.private/clear_costmap_recovery/lib/clear_costmap_recovery/clear_tester.pdb"
   "CMakeFiles/clear_tester.dir/test/clear_tester.cpp.o"
 )
 

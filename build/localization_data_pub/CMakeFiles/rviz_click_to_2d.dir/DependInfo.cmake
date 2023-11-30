@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/capstone_ws/src/localization_data_pub/src/rviz_click_to_2d.cpp" "/home/ubuntu/capstone_ws/build/localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o"
+  "/home/jeremy/capstone_ws/src/localization_data_pub/src/rviz_click_to_2d.cpp" "/home/jeremy/capstone_ws/build/localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ubuntu/capstone_ws/devel/.private/tf/include"
-  "/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include"
+  "/home/jeremy/capstone_ws/devel/.private/tf/include"
+  "/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/local/lib"

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ubuntu/capstone_ws/devel/.private/joystick_drivers/setup.sh
+    local-name: /home/jeremy/capstone_ws/devel/.private/joystick_drivers/setup.sh

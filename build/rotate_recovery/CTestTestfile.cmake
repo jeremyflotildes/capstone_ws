@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ubuntu/capstone_ws/src/navigation/rotate_recovery
-# Build directory: /home/ubuntu/capstone_ws/build/rotate_recovery
+# Source directory: /home/jeremy/capstone_ws/src/navigation/rotate_recovery
+# Build directory: /home/jeremy/capstone_ws/build/rotate_recovery
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/capstone_ws/devel/.private/py_trees_ros
+prefix=/home/jeremy/capstone_ws/devel/.private/py_trees_ros
 
 Name: py_trees_ros
 Description: Description of py_trees_ros

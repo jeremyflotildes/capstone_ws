@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h"
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/include/navfn/SetCostmap.h"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/include/navfn/MakeNavPlan.h"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/include/navfn/SetCostmap.h"
   "CMakeFiles/navfn_generate_messages_cpp"
 )
 

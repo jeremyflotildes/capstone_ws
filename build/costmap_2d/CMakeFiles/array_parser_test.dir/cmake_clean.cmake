@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/array_parser_test"
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/array_parser_test.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/array_parser_test"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/array_parser_test.pdb"
   "CMakeFiles/array_parser_test.dir/test/array_parser_test.cpp.o"
 )
 

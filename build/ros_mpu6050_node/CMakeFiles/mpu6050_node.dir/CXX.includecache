@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/capstone_ws/src/ros_mpu6050_node/src/mpu6050_node.cpp
+/home/jeremy/capstone_ws/src/ros_mpu6050_node/src/mpu6050_node.cpp
 stdio.h
 -
 stdlib.h
@@ -36,9 +36,9 @@ geometry_msgs/Vector3Stamped.h
 tf/transform_datatypes.h
 -
 I2Cdev.h
-/home/ubuntu/capstone_ws/src/ros_mpu6050_node/src/I2Cdev.h
+/home/jeremy/capstone_ws/src/ros_mpu6050_node/src/I2Cdev.h
 MPU6050_6Axis_MotionApps20.h
-/home/ubuntu/capstone_ws/src/ros_mpu6050_node/src/MPU6050_6Axis_MotionApps20.h
+/home/jeremy/capstone_ws/src/ros_mpu6050_node/src/MPU6050_6Axis_MotionApps20.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

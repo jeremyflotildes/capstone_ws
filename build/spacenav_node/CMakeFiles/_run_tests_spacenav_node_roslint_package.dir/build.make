@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/joystick_drivers/spacenav_node
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/joystick_drivers/spacenav_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/spacenav_node
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/spacenav_node
 
 # Utility rule file for _run_tests_spacenav_node_roslint_package.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/spacenav_node
 include CMakeFiles/_run_tests_spacenav_node_roslint_package.dir/progress.make
 
 CMakeFiles/_run_tests_spacenav_node_roslint_package:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/ubuntu/capstone_ws/build/spacenav_node/test_results/spacenav_node/roslint-spacenav_node.xml --working-dir /home/ubuntu/capstone_ws/build/spacenav_node "/opt/ros/noetic/share/roslint/cmake/../../../lib/roslint/test_wrapper /home/ubuntu/capstone_ws/build/spacenav_node/test_results/spacenav_node/roslint-spacenav_node.xml make roslint_spacenav_node"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/jeremy/capstone_ws/build/spacenav_node/test_results/spacenav_node/roslint-spacenav_node.xml --working-dir /home/jeremy/capstone_ws/build/spacenav_node "/opt/ros/noetic/share/roslint/cmake/../../../lib/roslint/test_wrapper /home/jeremy/capstone_ws/build/spacenav_node/test_results/spacenav_node/roslint-spacenav_node.xml make roslint_spacenav_node"
 
 _run_tests_spacenav_node_roslint_package: CMakeFiles/_run_tests_spacenav_node_roslint_package
 _run_tests_spacenav_node_roslint_package: CMakeFiles/_run_tests_spacenav_node_roslint_package.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_run_tests_spacenav_node_roslint_package.dir/clean:
 .PHONY : CMakeFiles/_run_tests_spacenav_node_roslint_package.dir/clean
 
 CMakeFiles/_run_tests_spacenav_node_roslint_package.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/spacenav_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/joystick_drivers/spacenav_node /home/ubuntu/capstone_ws/src/joystick_drivers/spacenav_node /home/ubuntu/capstone_ws/build/spacenav_node /home/ubuntu/capstone_ws/build/spacenav_node /home/ubuntu/capstone_ws/build/spacenav_node/CMakeFiles/_run_tests_spacenav_node_roslint_package.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/spacenav_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/joystick_drivers/spacenav_node /home/jeremy/capstone_ws/src/joystick_drivers/spacenav_node /home/jeremy/capstone_ws/build/spacenav_node /home/jeremy/capstone_ws/build/spacenav_node /home/jeremy/capstone_ws/build/spacenav_node/CMakeFiles/_run_tests_spacenav_node_roslint_package.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_spacenav_node_roslint_package.dir/depend
 

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;sensor_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "spacenav_node"
-PROJECT_SPACE_DIR = "/home/ubuntu/capstone_ws/devel/.private/spacenav_node"
+PROJECT_SPACE_DIR = "/home/jeremy/capstone_ws/devel/.private/spacenav_node"
 PROJECT_VERSION = "1.15.1"

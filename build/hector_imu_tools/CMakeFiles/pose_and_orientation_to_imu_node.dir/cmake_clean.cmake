@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_imu_tools/lib/hector_imu_tools/pose_and_orientation_to_imu_node"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_imu_tools/lib/hector_imu_tools/pose_and_orientation_to_imu_node.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/hector_imu_tools/lib/hector_imu_tools/pose_and_orientation_to_imu_node"
+  "/home/jeremy/capstone_ws/devel/.private/hector_imu_tools/lib/hector_imu_tools/pose_and_orientation_to_imu_node.pdb"
   "CMakeFiles/pose_and_orientation_to_imu_node.dir/src/pose_and_orientation_to_imu_node.cpp.o"
 )
 

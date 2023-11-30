@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/ubuntu/capstone_ws/devel/.private/kdl_conversions/lib;/home/ubuntu/capstone_ws/devel/.private/tf/lib;/opt/ros/noetic/lib")
+set(ORDERED_PATHS "/home/jeremy/capstone_ws/devel/.private/kdl_conversions/lib;/home/jeremy/capstone_ws/devel/.private/tf/lib;/opt/ros/noetic/lib")

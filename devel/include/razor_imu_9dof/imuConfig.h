@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h

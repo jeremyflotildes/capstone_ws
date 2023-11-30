@@ -43,88 +43,88 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/hector_nav_msgs
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/hector_nav_msgs
 
 # Utility rule file for hector_nav_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/progress.make
 
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h
 
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hector_nav_msgs/GetDistanceToObstacle.srv"
-	cd /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs && /home/ubuntu/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hector_nav_msgs/GetDistanceToObstacle.srv"
+	cd /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs && /home/jeremy/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hector_nav_msgs/GetRecoveryInfo.srv"
-	cd /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs && /home/ubuntu/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hector_nav_msgs/GetRecoveryInfo.srv"
+	cd /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs && /home/jeremy/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hector_nav_msgs/GetRobotTrajectory.srv"
-	cd /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs && /home/ubuntu/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hector_nav_msgs/GetRobotTrajectory.srv"
+	cd /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs && /home/jeremy/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hector_nav_msgs/GetSearchPosition.srv"
-	cd /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs && /home/ubuntu/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hector_nav_msgs/GetSearchPosition.srv"
+	cd /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs && /home/jeremy/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hector_nav_msgs/GetNormal.srv"
-	cd /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs && /home/ubuntu/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hector_nav_msgs/GetNormal.srv"
+	cd /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs && /home/jeremy/capstone_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 hector_nav_msgs_generate_messages_cpp: CMakeFiles/hector_nav_msgs_generate_messages_cpp
-hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h
-hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h
-hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h
-hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h
-hector_nav_msgs_generate_messages_cpp: /home/ubuntu/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h
+hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h
+hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h
+hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h
+hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h
+hector_nav_msgs_generate_messages_cpp: /home/jeremy/capstone_ws/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h
 hector_nav_msgs_generate_messages_cpp: CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : hector_nav_msgs_generate_messages_cpp
@@ -139,6 +139,6 @@ CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs /home/ubuntu/capstone_ws/src/hector_slam/hector_nav_msgs /home/ubuntu/capstone_ws/build/hector_nav_msgs /home/ubuntu/capstone_ws/build/hector_nav_msgs /home/ubuntu/capstone_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs /home/jeremy/capstone_ws/src/hector_slam/hector_nav_msgs /home/jeremy/capstone_ws/build/hector_nav_msgs /home/jeremy/capstone_ws/build/hector_nav_msgs /home/jeremy/capstone_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/depend
 

@@ -1,4 +1,4 @@
-Symlinking /home/ubuntu/capstone_ws/devel/share/ros_mpu6050_node/cmake/ros_mpu6050_nodeConfig-version.cmake
-Symlinking /home/ubuntu/capstone_ws/devel/share/ros_mpu6050_node/cmake/ros_mpu6050_nodeConfig.cmake
-Symlinking /home/ubuntu/capstone_ws/devel/lib/pkgconfig/ros_mpu6050_node.pc
-Symlinking /home/ubuntu/capstone_ws/devel/lib/ros_mpu6050_node/mpu6050_node
+Symlinking /home/jeremy/capstone_ws/devel/lib/pkgconfig/ros_mpu6050_node.pc
+Symlinking /home/jeremy/capstone_ws/devel/lib/ros_mpu6050_node/mpu6050_node
+Symlinking /home/jeremy/capstone_ws/devel/share/ros_mpu6050_node/cmake/ros_mpu6050_nodeConfig-version.cmake
+Symlinking /home/jeremy/capstone_ws/devel/share/ros_mpu6050_node/cmake/ros_mpu6050_nodeConfig.cmake

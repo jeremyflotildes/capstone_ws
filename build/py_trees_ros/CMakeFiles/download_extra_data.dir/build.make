@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/py_trees_ros
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/py_trees_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/py_trees_ros
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/py_trees_ros
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/py_trees_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/py_trees_ros /home/ubuntu/capstone_ws/src/py_trees_ros /home/ubuntu/capstone_ws/build/py_trees_ros /home/ubuntu/capstone_ws/build/py_trees_ros /home/ubuntu/capstone_ws/build/py_trees_ros/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/py_trees_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/py_trees_ros /home/jeremy/capstone_ws/src/py_trees_ros /home/jeremy/capstone_ws/build/py_trees_ros /home/jeremy/capstone_ws/build/py_trees_ros /home/jeremy/capstone_ws/build/py_trees_ros/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

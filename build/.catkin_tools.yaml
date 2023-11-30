@@ -1,6 +1,6 @@
-devel_space: /home/ubuntu/capstone_ws/devel
+devel_space: /home/jeremy/capstone_ws/devel
 install: false
-install_space: /home/ubuntu/capstone_ws/install
+install_space: /home/jeremy/capstone_ws/install
 profile: default
-source_space: /home/ubuntu/capstone_ws/src
-workspace: /home/ubuntu/capstone_ws
+source_space: /home/jeremy/capstone_ws/src
+workspace: /home/jeremy/capstone_ws

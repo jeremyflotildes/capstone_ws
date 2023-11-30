@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/tf/share/gennodejs/ros/tf/msg/tfMessage.js"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/share/gennodejs/ros/tf/srv/FrameGraph.js"
+  "/home/jeremy/capstone_ws/devel/.private/tf/share/gennodejs/ros/tf/msg/tfMessage.js"
+  "/home/jeremy/capstone_ws/devel/.private/tf/share/gennodejs/ros/tf/srv/FrameGraph.js"
   "CMakeFiles/tf_generate_messages_nodejs"
 )
 

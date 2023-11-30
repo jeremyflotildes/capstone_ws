@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/share/roseus/ros/navfn/manifest.l"
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/share/roseus/ros/navfn/srv/MakeNavPlan.l"
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/share/roseus/ros/navfn/srv/SetCostmap.l"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/share/roseus/ros/navfn/manifest.l"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/share/roseus/ros/navfn/srv/MakeNavPlan.l"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/share/roseus/ros/navfn/srv/SetCostmap.l"
   "CMakeFiles/navfn_generate_messages_eus"
 )
 

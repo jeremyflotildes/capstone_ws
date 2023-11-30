@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/capstone_ws/devel/.private/costmap_2d/include/costmap_2d/Costmap2DConfig.h
+/home/jeremy/capstone_ws/devel/.private/costmap_2d/include/costmap_2d/Costmap2DConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ubuntu/capstone_ws/devel/.private/costmap_2d/include/costmap_2d/ObstaclePluginConfig.h
+/home/jeremy/capstone_ws/devel/.private/costmap_2d/include/costmap_2d/ObstaclePluginConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -42,17 +42,17 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Transform.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Transform.h
 Matrix3x3.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Matrix3x3.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/LinearMath/Matrix3x3.h
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/exceptions.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/exceptions.h
 stdexcept
 -
 tf2/exceptions.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf.h
 iostream
 -
 iomanip
@@ -70,55 +70,55 @@ memory
 tf/exceptions.h
 -
 tf/time_cache.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/time_cache.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/time_cache.h
 boost/unordered_map.hpp
 -
 boost/signals2.hpp
 -
 geometry_msgs/TwistStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/TwistStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/TwistStamped.h
 tf2_ros/buffer.h
 -
 ros/macros.h
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/time_cache.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/time_cache.h
 set
 -
 boost/thread/mutex.hpp
 -
 tf/transform_datatypes.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/transform_datatypes.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/transform_datatypes.h
 tf/exceptions.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/exceptions.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/exceptions.h
 tf/LinearMath/Transform.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/LinearMath/Transform.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/LinearMath/Transform.h
 sstream
 -
 
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/transform_datatypes.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/transform_datatypes.h
 string
 -
 geometry_msgs/PointStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/PointStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/PointStamped.h
 geometry_msgs/Vector3Stamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/Vector3Stamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/Vector3Stamped.h
 geometry_msgs/QuaternionStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/QuaternionStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/QuaternionStamped.h
 geometry_msgs/TransformStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/TransformStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/TransformStamped.h
 geometry_msgs/PoseStamped.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/PoseStamped.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/geometry_msgs/PoseStamped.h
 tf/LinearMath/Transform.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/LinearMath/Transform.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/tf/LinearMath/Transform.h
 ros/time.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/time.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/time.h
 ros/console.h
-/home/ubuntu/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/console.h
+/home/jeremy/capstone_ws/src/hector_slam/geometry/tf/include/tf/ros/console.h
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/cost_values.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/cost_values.h
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d.h
 vector
 -
 queue
@@ -128,7 +128,7 @@ geometry_msgs/Point.h
 boost/thread.hpp
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
 ros/ros.h
 -
 costmap_2d/costmap_2d.h
@@ -138,7 +138,7 @@ nav_msgs/OccupancyGrid.h
 map_msgs/OccupancyGridUpdate.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d_ros.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_2d_ros.h
 costmap_2d/layered_costmap.h
 -
 costmap_2d/layer.h
@@ -162,7 +162,7 @@ pluginlib/class_loader.hpp
 tf2/LinearMath/Transform.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_layer.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/costmap_layer.h
 ros/ros.h
 -
 costmap_2d/layer.h
@@ -170,7 +170,7 @@ costmap_2d/layer.h
 costmap_2d/layered_costmap.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/footprint.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/footprint.h
 ros/ros.h
 -
 geometry_msgs/Polygon.h
@@ -182,7 +182,7 @@ geometry_msgs/Point.h
 geometry_msgs/Point32.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/layer.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/layer.h
 costmap_2d/costmap_2d.h
 -
 costmap_2d/layered_costmap.h
@@ -192,7 +192,7 @@ string
 tf2_ros/buffer.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/layered_costmap.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/layered_costmap.h
 costmap_2d/cost_values.h
 -
 costmap_2d/layer.h
@@ -204,13 +204,13 @@ vector
 string
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/observation.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/observation.h
 geometry_msgs/Point.h
 -
 sensor_msgs/PointCloud2.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/observation_buffer.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/observation_buffer.h
 vector
 -
 list
@@ -228,7 +228,7 @@ sensor_msgs/PointCloud2.h
 boost/thread.hpp
 -
 
-/home/ubuntu/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/obstacle_layer.h
+/home/jeremy/capstone_ws/src/navigation/costmap_2d/include/costmap_2d/obstacle_layer.h
 ros/ros.h
 -
 costmap_2d/costmap_layer.h
@@ -260,7 +260,7 @@ costmap_2d/ObstaclePluginConfig.h
 costmap_2d/footprint.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/move_slow_and_clear/include/move_slow_and_clear/move_slow_and_clear.h
+/home/jeremy/capstone_ws/src/navigation/move_slow_and_clear/include/move_slow_and_clear/move_slow_and_clear.h
 ros/ros.h
 -
 nav_core/recovery_behavior.h
@@ -272,7 +272,7 @@ boost/thread.hpp
 dynamic_reconfigure/Reconfigure.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/move_slow_and_clear/src/move_slow_and_clear.cpp
+/home/jeremy/capstone_ws/src/navigation/move_slow_and_clear/src/move_slow_and_clear.cpp
 move_slow_and_clear/move_slow_and_clear.h
 -
 pluginlib/class_list_macros.h
@@ -280,7 +280,7 @@ pluginlib/class_list_macros.h
 costmap_2d/obstacle_layer.h
 -
 
-/home/ubuntu/capstone_ws/src/navigation/nav_core/include/nav_core/recovery_behavior.h
+/home/jeremy/capstone_ws/src/navigation/nav_core/include/nav_core/recovery_behavior.h
 costmap_2d/costmap_2d_ros.h
 -
 tf2_ros/buffer.h

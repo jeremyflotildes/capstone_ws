@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/libtf.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/libtf.so"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/libtf.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/libtf.so"
   "CMakeFiles/tf.dir/src/cache.cpp.o"
   "CMakeFiles/tf.dir/src/tf.cpp.o"
   "CMakeFiles/tf.dir/src/transform_broadcaster.cpp.o"

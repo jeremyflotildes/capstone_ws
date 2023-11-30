@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ros_mpu6050_node\"
 
-CXX_INCLUDES = -I/home/ubuntu/capstone_ws/src/ros_mpu6050_node/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/share/arduino/libraries/i2cdevlib/RaspberryPi_bcm2835/I2Cdev -I/usr/share/arduino/libraries/i2cdevlib/Arduino/MPU6050 
+CXX_INCLUDES = -I/home/jeremy/capstone_ws/src/ros_mpu6050_node/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/share/arduino/libraries/i2cdevlib/RaspberryPi_bcm2835/I2Cdev -I/usr/share/arduino/libraries/i2cdevlib/Arduino/MPU6050 
 

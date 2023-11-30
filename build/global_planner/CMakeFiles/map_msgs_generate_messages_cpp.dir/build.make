@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/global_planner
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/global_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/global_planner
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/global_planner
 
 # Utility rule file for map_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/map_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/map_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/map_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/global_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/global_planner /home/ubuntu/capstone_ws/src/navigation/global_planner /home/ubuntu/capstone_ws/build/global_planner /home/ubuntu/capstone_ws/build/global_planner /home/ubuntu/capstone_ws/build/global_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/global_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/global_planner /home/jeremy/capstone_ws/src/navigation/global_planner /home/jeremy/capstone_ws/build/global_planner /home/jeremy/capstone_ws/build/global_planner /home/jeremy/capstone_ws/build/global_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/map_msgs_generate_messages_cpp.dir/depend
 

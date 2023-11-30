@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/nav_core
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/nav_core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/nav_core
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/nav_core
 
 # Utility rule file for actionlib_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/nav_core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/nav_core /home/ubuntu/capstone_ws/src/navigation/nav_core /home/ubuntu/capstone_ws/build/nav_core /home/ubuntu/capstone_ws/build/nav_core /home/ubuntu/capstone_ws/build/nav_core/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/nav_core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/nav_core /home/jeremy/capstone_ws/src/navigation/nav_core /home/jeremy/capstone_ws/build/nav_core /home/jeremy/capstone_ws/build/nav_core /home/jeremy/capstone_ws/build/nav_core/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 

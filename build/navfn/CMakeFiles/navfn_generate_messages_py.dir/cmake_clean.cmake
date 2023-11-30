@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/lib/python3/dist-packages/navfn/srv/_MakeNavPlan.py"
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/lib/python3/dist-packages/navfn/srv/_SetCostmap.py"
-  "/home/ubuntu/capstone_ws/devel/.private/navfn/lib/python3/dist-packages/navfn/srv/__init__.py"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/lib/python3/dist-packages/navfn/srv/_MakeNavPlan.py"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/lib/python3/dist-packages/navfn/srv/_SetCostmap.py"
+  "/home/jeremy/capstone_ws/devel/.private/navfn/lib/python3/dist-packages/navfn/srv/__init__.py"
   "CMakeFiles/navfn_generate_messages_py"
 )
 

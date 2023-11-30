@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/navigation/map_server
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/navigation/map_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/map_server
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/map_server
 
 # Utility rule file for _run_tests_map_server_gtest.
 
@@ -67,6 +67,6 @@ CMakeFiles/_run_tests_map_server_gtest.dir/clean:
 .PHONY : CMakeFiles/_run_tests_map_server_gtest.dir/clean
 
 CMakeFiles/_run_tests_map_server_gtest.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/navigation/map_server /home/ubuntu/capstone_ws/src/navigation/map_server /home/ubuntu/capstone_ws/build/map_server /home/ubuntu/capstone_ws/build/map_server /home/ubuntu/capstone_ws/build/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/navigation/map_server /home/jeremy/capstone_ws/src/navigation/map_server /home/jeremy/capstone_ws/build/map_server /home/jeremy/capstone_ws/build/map_server /home/jeremy/capstone_ws/build/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_map_server_gtest.dir/depend
 

@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/capstone/lib/pkgconfig/capstone.pc
+/home/jeremy/capstone_ws/devel/.private/capstone/lib/pkgconfig/capstone.pc

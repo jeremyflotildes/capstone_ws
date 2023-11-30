@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/hector_geotiff/lib/libgeotiff_writer.pdb"
-  "/home/ubuntu/capstone_ws/devel/.private/hector_geotiff/lib/libgeotiff_writer.so"
+  "/home/jeremy/capstone_ws/devel/.private/hector_geotiff/lib/libgeotiff_writer.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/hector_geotiff/lib/libgeotiff_writer.so"
   "CMakeFiles/geotiff_writer.dir/src/geotiff_writer/geotiff_writer.cpp.o"
 )
 

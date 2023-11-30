@@ -43,44 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/razor_imu_9dof
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/razor_imu_9dof
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/razor_imu_9dof
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/razor_imu_9dof
 
 # Utility rule file for razor_imu_9dof_gencfg.
 
 # Include the progress variables for this target.
 include CMakeFiles/razor_imu_9dof_gencfg.dir/progress.make
 
-CMakeFiles/razor_imu_9dof_gencfg: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
-CMakeFiles/razor_imu_9dof_gencfg: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py
+CMakeFiles/razor_imu_9dof_gencfg: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+CMakeFiles/razor_imu_9dof_gencfg: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py
 
 
-/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h: /home/ubuntu/capstone_ws/src/razor_imu_9dof/cfg/imu.cfg
-/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/capstone_ws/build/razor_imu_9dof/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/imu.cfg: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py"
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/ubuntu/capstone_ws/src/razor_imu_9dof/cfg/imu.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof
+/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h: /home/jeremy/capstone_ws/src/razor_imu_9dof/cfg/imu.cfg
+/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jeremy/capstone_ws/build/razor_imu_9dof/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/imu.cfg: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py"
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/jeremy/capstone_ws/src/razor_imu_9dof/cfg/imu.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof
 
-/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.dox: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.dox
+/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.dox: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.dox
 
-/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig-usage.dox: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig-usage.dox
+/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig-usage.dox: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig-usage.dox
 
-/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py
+/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py
 
-/home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.wikidoc: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.wikidoc
+/home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.wikidoc: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.wikidoc
 
 razor_imu_9dof_gencfg: CMakeFiles/razor_imu_9dof_gencfg
-razor_imu_9dof_gencfg: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
-razor_imu_9dof_gencfg: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.dox
-razor_imu_9dof_gencfg: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig-usage.dox
-razor_imu_9dof_gencfg: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py
-razor_imu_9dof_gencfg: /home/ubuntu/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.wikidoc
+razor_imu_9dof_gencfg: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+razor_imu_9dof_gencfg: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.dox
+razor_imu_9dof_gencfg: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig-usage.dox
+razor_imu_9dof_gencfg: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/lib/python3/dist-packages/razor_imu_9dof/cfg/imuConfig.py
+razor_imu_9dof_gencfg: /home/jeremy/capstone_ws/devel/.private/razor_imu_9dof/share/razor_imu_9dof/docs/imuConfig.wikidoc
 razor_imu_9dof_gencfg: CMakeFiles/razor_imu_9dof_gencfg.dir/build.make
 
 .PHONY : razor_imu_9dof_gencfg
@@ -95,6 +95,6 @@ CMakeFiles/razor_imu_9dof_gencfg.dir/clean:
 .PHONY : CMakeFiles/razor_imu_9dof_gencfg.dir/clean
 
 CMakeFiles/razor_imu_9dof_gencfg.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/razor_imu_9dof && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/razor_imu_9dof /home/ubuntu/capstone_ws/src/razor_imu_9dof /home/ubuntu/capstone_ws/build/razor_imu_9dof /home/ubuntu/capstone_ws/build/razor_imu_9dof /home/ubuntu/capstone_ws/build/razor_imu_9dof/CMakeFiles/razor_imu_9dof_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/razor_imu_9dof && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/razor_imu_9dof /home/jeremy/capstone_ws/src/razor_imu_9dof /home/jeremy/capstone_ws/build/razor_imu_9dof /home/jeremy/capstone_ws/build/razor_imu_9dof /home/jeremy/capstone_ws/build/razor_imu_9dof/CMakeFiles/razor_imu_9dof_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/razor_imu_9dof_gencfg.dir/depend
 

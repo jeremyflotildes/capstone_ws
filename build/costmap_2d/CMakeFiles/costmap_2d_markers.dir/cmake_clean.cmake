@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_markers"
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_markers.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_markers"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_markers.pdb"
   "CMakeFiles/costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o"
 )
 

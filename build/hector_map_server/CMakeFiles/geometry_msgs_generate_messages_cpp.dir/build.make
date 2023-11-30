@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/hector_slam/hector_map_server
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/hector_slam/hector_map_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/hector_map_server
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/hector_map_server
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/hector_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/hector_slam/hector_map_server /home/ubuntu/capstone_ws/src/hector_slam/hector_map_server /home/ubuntu/capstone_ws/build/hector_map_server /home/ubuntu/capstone_ws/build/hector_map_server /home/ubuntu/capstone_ws/build/hector_map_server/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/hector_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/hector_slam/hector_map_server /home/jeremy/capstone_ws/src/hector_slam/hector_map_server /home/jeremy/capstone_ws/build/hector_map_server /home/jeremy/capstone_ws/build/hector_map_server /home/jeremy/capstone_ws/build/hector_map_server/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 

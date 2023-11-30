@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/capstone_ws/src/hector_slam/hector_mapping
+CMAKE_SOURCE_DIR = /home/jeremy/capstone_ws/src/hector_slam/hector_mapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/hector_mapping
+CMAKE_BINARY_DIR = /home/jeremy/capstone_ws/build/hector_mapping
 
 # Utility rule file for _hector_mapping_generate_messages_check_deps_ResetMapping.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/capstone_ws/build/hector_mapping
 include CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping.dir/progress.make
 
 CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_mapping /home/ubuntu/capstone_ws/src/hector_slam/hector_mapping/srv/ResetMapping.srv geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_mapping /home/jeremy/capstone_ws/src/hector_slam/hector_mapping/srv/ResetMapping.srv geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion
 
 _hector_mapping_generate_messages_check_deps_ResetMapping: CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping
 _hector_mapping_generate_messages_check_deps_ResetMapping: CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping.dir/clean:
 .PHONY : CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping.dir/clean
 
 CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping.dir/depend:
-	cd /home/ubuntu/capstone_ws/build/hector_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/capstone_ws/src/hector_slam/hector_mapping /home/ubuntu/capstone_ws/src/hector_slam/hector_mapping /home/ubuntu/capstone_ws/build/hector_mapping /home/ubuntu/capstone_ws/build/hector_mapping /home/ubuntu/capstone_ws/build/hector_mapping/CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeremy/capstone_ws/build/hector_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremy/capstone_ws/src/hector_slam/hector_mapping /home/jeremy/capstone_ws/src/hector_slam/hector_mapping /home/jeremy/capstone_ws/build/hector_mapping /home/jeremy/capstone_ws/build/hector_mapping /home/jeremy/capstone_ws/build/hector_mapping/CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_hector_mapping_generate_messages_check_deps_ResetMapping.dir/depend
 

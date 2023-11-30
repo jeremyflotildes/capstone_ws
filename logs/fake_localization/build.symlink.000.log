@@ -1,4 +1,4 @@
-Symlinking /home/ubuntu/capstone_ws/devel/share/fake_localization/cmake/fake_localizationConfig-version.cmake
-Symlinking /home/ubuntu/capstone_ws/devel/share/fake_localization/cmake/fake_localizationConfig.cmake
-Symlinking /home/ubuntu/capstone_ws/devel/lib/fake_localization/fake_localization
-Symlinking /home/ubuntu/capstone_ws/devel/lib/pkgconfig/fake_localization.pc
+Symlinking /home/jeremy/capstone_ws/devel/lib/fake_localization/fake_localization
+Symlinking /home/jeremy/capstone_ws/devel/lib/pkgconfig/fake_localization.pc
+Symlinking /home/jeremy/capstone_ws/devel/share/fake_localization/cmake/fake_localizationConfig-version.cmake
+Symlinking /home/jeremy/capstone_ws/devel/share/fake_localization/cmake/fake_localizationConfig.cmake

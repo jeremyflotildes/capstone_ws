@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_cloud"
-  "/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_cloud.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_cloud"
+  "/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/costmap_2d/costmap_2d_cloud.pdb"
   "CMakeFiles/costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o"
 )
 

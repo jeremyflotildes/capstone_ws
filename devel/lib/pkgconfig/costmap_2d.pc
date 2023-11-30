@@ -1,1 +1,1 @@
-/home/ubuntu/capstone_ws/devel/.private/costmap_2d/lib/pkgconfig/costmap_2d.pc
+/home/jeremy/capstone_ws/devel/.private/costmap_2d/lib/pkgconfig/costmap_2d.pc

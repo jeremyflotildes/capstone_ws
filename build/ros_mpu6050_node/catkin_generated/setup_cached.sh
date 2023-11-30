@@ -7,9 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu/capstone_ws/devel/.private/ros_mpu6050_node:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/ubuntu/capstone_ws/devel/.private/ros_mpu6050_node/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/ubuntu/capstone_ws/devel/.private/ros_mpu6050_node/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/ubuntu/capstone_ws/build/ros_mpu6050_node'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/capstone_ws/devel/.private/ros_mpu6050_node/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ubuntu/capstone_ws/src/ros_mpu6050_node:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/jeremy/capstone_ws/devel/.private/ros_mpu6050_node:$CMAKE_PREFIX_PATH"
+export PWD='/home/jeremy/capstone_ws/build/ros_mpu6050_node'
+export PYTHONPATH="/home/jeremy/capstone_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jeremy/capstone_ws/devel/.private/ros_mpu6050_node/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/jeremy/capstone_ws/src/ros_mpu6050_node:$ROS_PACKAGE_PATH"

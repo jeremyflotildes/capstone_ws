@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/usb_cam/lib/usb_cam/usb_cam_node"
-  "/home/ubuntu/capstone_ws/devel/.private/usb_cam/lib/usb_cam/usb_cam_node.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/usb_cam/lib/usb_cam/usb_cam_node"
+  "/home/jeremy/capstone_ws/devel/.private/usb_cam/lib/usb_cam/usb_cam_node.pdb"
   "CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.o"
 )
 

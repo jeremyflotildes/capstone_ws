@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/capstone_ws/src/py_trees_ros/tests
+# Install script for directory: /home/jeremy/capstone_ws/src/py_trees_ros/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/capstone_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jeremy/capstone_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/capstone_ws/build/py_trees_ros/tests/rostests/cmake_install.cmake")
+  include("/home/jeremy/capstone_ws/build/py_trees_ros/tests/rostests/cmake_install.cmake")
 
 endif()
 

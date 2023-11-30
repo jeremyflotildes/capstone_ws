@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_change_notifier"
-  "/home/ubuntu/capstone_ws/devel/.private/tf/lib/tf/tf_change_notifier.pdb"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_change_notifier"
+  "/home/jeremy/capstone_ws/devel/.private/tf/lib/tf/tf_change_notifier.pdb"
   "CMakeFiles/tf_change_notifier.dir/src/change_notifier.cpp.o"
 )
 

@@ -1,14 +1,14 @@
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/share/py_trees_ros/cmake/py_trees_rosConfig.cmake, /home/ubuntu/capstone_ws/devel/share/py_trees_ros/cmake/py_trees_rosConfig.cmake)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/share/py_trees_ros/cmake/py_trees_rosConfig-version.cmake, /home/ubuntu/capstone_ws/devel/share/py_trees_ros/cmake/py_trees_rosConfig-version.cmake)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/bin/cmake.lock, /home/ubuntu/capstone_ws/devel/bin/cmake.lock)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/bin/py-trees-tree-watcher, /home/ubuntu/capstone_ws/devel/bin/py-trees-tree-watcher)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/bin/py-trees-blackboard-watcher, /home/ubuntu/capstone_ws/devel/bin/py-trees-blackboard-watcher)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/lib/pkgconfig/py_trees_ros.pc, /home/ubuntu/capstone_ws/devel/lib/pkgconfig/py_trees_ros.pc)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/lib/py_trees_ros/tutorial_dashboard, /home/ubuntu/capstone_ws/devel/lib/py_trees_ros/tutorial_dashboard)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/lib/py_trees_ros/mock_component, /home/ubuntu/capstone_ws/devel/lib/py_trees_ros/mock_component)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/lib/py_trees_ros/tutorial_tree, /home/ubuntu/capstone_ws/devel/lib/py_trees_ros/tutorial_tree)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/lib/py_trees_ros/cmake.lock, /home/ubuntu/capstone_ws/devel/lib/py_trees_ros/cmake.lock)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/lib/py_trees_ros/mock_safety_sensors, /home/ubuntu/capstone_ws/devel/lib/py_trees_ros/mock_safety_sensors)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/lib/py_trees_ros/mock_battery, /home/ubuntu/capstone_ws/devel/lib/py_trees_ros/mock_battery)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/lib/py_trees_ros/mock_led_strip, /home/ubuntu/capstone_ws/devel/lib/py_trees_ros/mock_led_strip)
-Linked: (/home/ubuntu/capstone_ws/devel/.private/py_trees_ros/lib/python3/dist-packages/py_trees_ros/__init__.py, /home/ubuntu/capstone_ws/devel/lib/python3/dist-packages/py_trees_ros/__init__.py)
+Symlinking /home/jeremy/capstone_ws/devel/bin/cmake.lock
+Symlinking /home/jeremy/capstone_ws/devel/bin/py-trees-blackboard-watcher
+Symlinking /home/jeremy/capstone_ws/devel/bin/py-trees-tree-watcher
+Symlinking /home/jeremy/capstone_ws/devel/lib/pkgconfig/py_trees_ros.pc
+Symlinking /home/jeremy/capstone_ws/devel/lib/python3/dist-packages/py_trees_ros/__init__.py
+Symlinking /home/jeremy/capstone_ws/devel/lib/py_trees_ros/cmake.lock
+Symlinking /home/jeremy/capstone_ws/devel/lib/py_trees_ros/mock_battery
+Symlinking /home/jeremy/capstone_ws/devel/lib/py_trees_ros/mock_component
+Symlinking /home/jeremy/capstone_ws/devel/lib/py_trees_ros/mock_led_strip
+Symlinking /home/jeremy/capstone_ws/devel/lib/py_trees_ros/mock_safety_sensors
+Symlinking /home/jeremy/capstone_ws/devel/lib/py_trees_ros/tutorial_dashboard
+Symlinking /home/jeremy/capstone_ws/devel/lib/py_trees_ros/tutorial_tree
+Symlinking /home/jeremy/capstone_ws/devel/share/py_trees_ros/cmake/py_trees_rosConfig-version.cmake
+Symlinking /home/jeremy/capstone_ws/devel/share/py_trees_ros/cmake/py_trees_rosConfig.cmake
