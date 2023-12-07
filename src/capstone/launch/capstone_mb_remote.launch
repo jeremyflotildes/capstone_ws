@@ -12,7 +12,8 @@
 
 		<!-- Run the map server --> 
 
- <node name="map_server" pkg="map_server" type="map_server" args="$(find capstone)/full_map_edited.yaml"/>
+  <!-- <node name="map_server" pkg="map_server" type="map_server" args="$(find capstone)/ball_hallway.yaml"/> -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find capstone)/full_map_edited.yaml"/>
 
 
 		<!-- Add base to laser position transform. -->
@@ -116,12 +117,30 @@
 
 		<!-- MOVEMENT -->
 
-	 <!--<node pkg="capstone" type="second_goal.py" respawn="false" name="behavior_tree" output="screen">
+	<node pkg="capstone" type="second_goal.py" respawn="false" name="second_goal" output="screen">
   </node>
 
-     <node pkg="capstone" type="mb_waypoints.py" respawn="false" name="mb_waypoints" output="screen">
-  </node>-->
+  <remap from="move_base_simple/goal" to="first_goal" />
+  <!-- remap so we can use the action server that we make for the first goal and access the status of the goal.
+  if we don't remap, then the first goal is fed through the navigation stack and we can't follow its status -->
 
+  <node pkg="capstone" type="mb_waypoints.py" respawn="false" name="mb_waypoints" output="screen">
+  </node>
+
+  <node pkg="capstone" type="third_goal.py" respawn="false" name="third_goal" output="screen">
+  </node>
+
+  <node pkg="capstone" type="fourth_goal.py" respawn="false" name="fourth_goal" output="screen">
+  </node>
+
+    <node pkg="capstone" type="fifth_goal.py" respawn="false" name="fifth_goal" output="screen">
+  </node>
+
+    <node pkg="capstone" type="sixth_goal.py" respawn="false" name="sixth_goal" output="screen">
+  </node>
+
+  <node pkg="capstone" type="laser_subscriber.py" respawn="false" name="laser_subscriber" output="screen">
+  </node>
 
 		<!-- Run odom transformer -->
 		

@@ -1,0 +1,4 @@
+<launch>
+	<!-- RVIZ -->
+	<node name="rviz" pkg="rviz" type="rviz"  args="-d $(find capstone)/rviz/capstone_move.rviz" />
+</launch>

@@ -1,7 +1,5 @@
-obstacle_range: 0.5
-raytrace_range: 0.5
-footprint: [ [0.45,0.26], [-0.27,0.26], [-0.27,-0.23], [0.45,-0.23] ]
-# footprint: [ [0.33,0.23], [-0.33,0.23], [-0.33,-0.23],[0.33,-0.23] ]
+# footprint: [ [0.45,0.26], [-0.27,0.26], [-0.27,-0.23], [0.45,-0.23] ]
+footprint: [ [0.33,0.23], [-0.33,0.23], [-0.33,-0.23],[0.33,-0.23] ]
 # global_frame: map
 # does this global_frame overwrite other global_frames in other.yamls?
 robot_base_frame: base_link
@@ -24,5 +22,4 @@ robot_base_frame: base_link
 static_map:
   map_topic: map
 
-inflation_radius: 0.4
 

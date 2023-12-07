@@ -57,7 +57,7 @@
 
     <!-- Numbers of particles
          In this MCL package, the numbers of the particles are constant. -->
-    <arg name="particle_num" default="1000" />
+    <arg name="particle_num" default="10000" />
 
     <!-- If use_augmented_mcl is true, augmented MCL is used.
          Augmented MCL adds random particles when doing resampling if MCL might fail localization.
