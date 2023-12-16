@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
-# IF RUNNING THIS ON ROBOT -- CHANGE python3 TO python
-# IF RUNNING FROM REMOTE -- NEED python3
-# difference in python distributions on the two systems?
 
-import actionlib
 import rospy
-import mbf_msgs.msg as mbf_msgs
 import geometry_msgs.msg as geometry_msgs
+import std_msgs.msg as std_msgs
 import tf
 from tf.transformations import *
 
 from math import cos, sin
 
+# --- gets the distance to sweep on the opposite wall ---
+def distance_subscriber():
+    distance = std_msgs.Float32()
+    distance = rospy.wait_for_message("laser_distance", std_msgs.Float32, timeout = None)
+    return distance.data
 
 # --- waits for a user-defined goal and returns it. ---
 def goal_subscriber():
@@ -22,13 +23,8 @@ def goal_subscriber():
     return goal_pose
 
 def sixth_goal(goal_pose):
-    # https://stackoverflow.com/questions/70960130/given-a-position-and-rotation-how-can-i-find-a-point-that-extends-x-distance-fr
-
-       # --- quaternion mulitplier 45 degrees (pi/4) ---
-    #quaternion_rot = tf.transformations.quaternion_from_euler(0, 0, 1.5707)
+    # --- quaternion mulitplier 45 degrees (pi/4) ---
     quaternion_rot = tf.transformations.quaternion_from_euler(0, 0, 0.78539816)
-
-    distance = 1
 
     # --- create quaternion from initial point's orientation ---
     initQuaternionX = goal_pose.pose.orientation.x
@@ -46,10 +42,8 @@ def sixth_goal(goal_pose):
     initY = goal_pose.pose.position.y
     initZ = goal_pose.pose.position.z
 
-    # --- calculate the new point ---
-    # y = -2.25 usually put the arrow a nice distance within the wall
-    # x = distance_msg.data
-    x = 2
+    # --- calculate the new point along the new orientation, where variable x is the distance from the along this orientaion ---
+    x = distance_subscriber()
     y = 0
     z = 0
 
@@ -62,9 +56,9 @@ def sixth_goal(goal_pose):
     y = iy * q_new[3] + iw * - q_new[1] + iz * - q_new[0] - ix * - q_new[2]
     z = iz * q_new[3] + iw * - q_new[2] + ix * - q_new[1] - iy * - q_new[0]
 
-    x = x * distance + initX
-    y = y * distance + initY
-    z = z * distance + initZ
+    x = x + initX
+    y = y + initY
+    z = z + initZ
 
     # --- pass new pose orientation data to the goal to be published ---
     goal_pose.pose.orientation.x = q_new[0]
@@ -97,5 +91,5 @@ if __name__ == '__main__':
 
     rospy.sleep(5)
 
-    # --- pass the user-defined goal to second_goal() to calculate the second goal ---
+    # --- pass the user-defined goal to sixth_goal() to calculate the sixth goal ---
     sixth_goal(goal_pose)

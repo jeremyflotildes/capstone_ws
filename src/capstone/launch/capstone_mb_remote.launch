@@ -13,7 +13,7 @@
 		<!-- Run the map server --> 
 
   <!-- <node name="map_server" pkg="map_server" type="map_server" args="$(find capstone)/ball_hallway.yaml"/> -->
-  <node name="map_server" pkg="map_server" type="map_server" args="$(find capstone)/full_map_edited.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find capstone)/ball_hallway.yaml"/>
 
 
 		<!-- Add base to laser position transform. -->

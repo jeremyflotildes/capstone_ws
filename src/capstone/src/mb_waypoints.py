@@ -2,15 +2,12 @@
 
 import rospy
 import actionlib
-import mbf_msgs.msg as mbf_msgs
 import geometry_msgs.msg as geometry_msgs
-import sensor_msgs.msg as sensor_msgs
-import tf
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from tf.transformations import *
 
 # -- converts geometry_msgs.PoseStamped, a message that allows us to visualize goals on RViz, to MoveBaseGoal(),
-# -- a message that can be sent to the ActionServer for the robot to act upon
+# a message that can be sent to the ActionServer for the robot to act upon --
 def pose_to_goal(pose, goal):
     goal.target_pose.header.frame_id = "map"
     goal.target_pose.header.stamp = rospy.Time.now()

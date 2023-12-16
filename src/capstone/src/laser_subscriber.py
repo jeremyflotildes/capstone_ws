@@ -19,11 +19,11 @@ def laser_subscriber():
         avg = sum / 50
         sum = 0
         sum_of_avg += avg
-        rospy.loginfo(avg)
     avg_of_avg = sum_of_avg / 100
+    rospy.loginfo("Done averaging laser distances!")
 
     # need to make distance smaller as the robot will turn towards and will need to cover less distance
-    avg_of_avg -= 0.58
+    avg_of_avg -= 0.68
     rospy.loginfo(avg_of_avg)
 
     # create Int32 msg to publish the average distance of the wall away

@@ -1,15 +1,9 @@
 #!/usr/bin/env python3
-# IF RUNNING THIS ON ROBOT -- CHANGE python3 TO python
-# IF RUNNING FROM REMOTE -- NEED python3
-# difference in python distributions on the two systems?
 
-import actionlib
 import rospy
-import mbf_msgs.msg as mbf_msgs
 import geometry_msgs.msg as geometry_msgs
 import tf
 from tf.transformations import *
-
 
 # --- waits for a user-defined goal and returns it. ---
 def goal_subscriber():
@@ -48,8 +42,6 @@ def second_goal(goal_pose):
         # rospy.loginfo(goal_pose)
         pub.publish(goal_pose)
         rate.sleep()
-
-    # if not runnign ..._return_to_start, want the while loop commented out!
 
 if __name__ == '__main__':
     rospy.init_node('second_goal', anonymous = True)

@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
-# IF RUNNING THIS ON ROBOT -- CHANGE python3 TO python
-# IF RUNNING FROM REMOTE -- NEED python3
-# difference in python distributions on the two systems?
 
-import actionlib
 import rospy
-import mbf_msgs.msg as mbf_msgs
 import geometry_msgs.msg as geometry_msgs
 import tf
 from tf.transformations import *
@@ -20,8 +15,6 @@ def goal_subscriber():
     return goal_pose
 
 def fifth_goal(goal_pose):
-       # https://stackoverflow.com/questions/70960130/given-a-position-and-rotation-how-can-i-find-a-point-that-extends-x-distance-fr
-
     # --- quaternion mulitplier 45 degrees (pi/4) ---
     #quaternion_rot = tf.transformations.quaternion_from_euler(0, 0, 1.5707)
     quaternion_rot = tf.transformations.quaternion_from_euler(0, 0, 0.78539816)
@@ -81,7 +74,6 @@ def fifth_goal(goal_pose):
         pub.publish(goal_pose)
         rate.sleep()
 
-    # if not runnign ..._return_to_start, want the while loop commented out!
 if __name__ == '__main__':
     rospy.init_node('fifth_goal', anonymous = True)
     pub = rospy.Publisher('/fifth_goal', geometry_msgs.PoseStamped, queue_size=10)
@@ -95,5 +87,5 @@ if __name__ == '__main__':
 
     rospy.sleep(5)
 
-    # --- pass the user-defined goal to second_goal() to calculate the second goal ---
+    # --- pass the user-defined goal to fifth_goal() to calculate the fifth goal ---
     fifth_goal(goal_pose)
